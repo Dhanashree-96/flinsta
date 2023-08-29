@@ -1,0 +1,1452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+/* Header  */
+.headerDiv {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    padding: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    flex-wrap: wrap;
+    /* background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(15px); */
+}
+
+.headerLogoDiv,
+.headerBtnDiv {
+    width: 50%;
+}
+
+.headerBtnDiv {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
+
+.headerLogo {
+    width: 150px;
+    height: 35px;
+    object-fit:contain;
+    align-items: center;
+}
+
+/* .headerBtnIcon {
+    width: 27px;
+    height: 23px;
+    color: black;
+    margin: 0 15px;
+} */
+
+.headerBtnText {
+    /* color: rgb(248, 248, 248);
+     */
+     color: #FFF;
+    font-size: 20px;
+    /* font-family: Jost; */
+}
+
+.headerBtn {
+    /* width: 170px; */
+    /* height: 50px; */
+    padding: 0 15px;
+    /* background-color: #eeb4c4; */
+    background-color: #ef5d85;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------- */
+/* footer */
+.footer{
+    width: 100%;
+}
+
+.Footer_sec {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+background: #191919;
+padding: 36px 0px 28px 0px;
+}
+
+.Footer_part1 {
+width: 22%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+/* align-items: center; */
+/* background: rgb(128, 125, 122); */
+}
+
+.Footer_Fac {
+width: 10%;
+flex-shrink: 0;
+}
+
+.Footer_Fac_desc p {
+width: 100%;
+flex-shrink: 0;
+color: #FAFAFA;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.Social_logo {
+width: 51px;
+height: 59px;
+flex-shrink: 0;
+}
+
+.Social_ions_circle {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border-radius: 50%;
+border-radius: 50%;
+background: #797878;
+}
+
+.Fb {
+color: #eeeeee;
+}
+
+.Footer_Fac_Socialions {
+display: flex;
+gap: 15px;
+}
+
+.Footer_part2 {
+width: 20%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+justify-content: flex-start;
+justify-content: flex-start;
+align-items: center;
+/* background: chocolate; */
+}
+
+.Footer_part3 {
+width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+align-items: center;
+align-items: center;
+/* background: #efece9; */
+}
+
+.Footer_WorkingHours p{
+width: 100%;
+flex-shrink: 0;
+color: #FAFAFA;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+.Footer_part4 {
+width: 20%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+justify-content: flex-start;
+justify-content: flex-start;
+align-items: center;
+/* background: #B58152; */
+}
+
+.Footer_Contactus {
+width: 100%;
+}
+
+.Footer_Contactus p{
+width: 100%;
+flex-shrink: 0;
+color: #FAFAFA;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height:30px;
+}
+
+.Footer_sec h1 {
+color: #FAFAFA;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Copyright {
+width: 100%;
+display: flex;
+justify-content: space-between;
+background: #2D2D2D;
+}
+
+.Copyright_inn{
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+
+.Copyright span{
+padding: 0px 20px 0px 30px;
+}
+
+.Copyright h2 {
+padding-left:20px ;
+color: #FFF;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+/* ------------------------------------------------------------ */
+/* Home Page search and book div */
+.homeDiv {
+    background-color: #B3254C;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(297deg, #B3254C 2.59%, rgba(179, 37, 76, 0.37) 6.79%, #D25678 80.81%);
+}
+
+.homeText h2 {
+    font-size: 51px;
+    color: #040404;
+    max-width: 1600px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homeText {
+    /* padding-top: 80px; */
+    width: 640px;
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* appoinment booked text and count */
+.appointment p {
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* scan section */
+.scanDiv {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    /* margin: 15px; */
+}
+
+.partnerBtn {
+    text-decoration: none;
+}
+
+.partnerText {
+    background: #000;
+    /* background: rgba(255, 255, 255, .2);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px); 
+    border: solid 1px #eeb4c4; */
+    border-radius: 60px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.partnerDiv,
+.phnScan,
+.downloadDiv {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33.33%;
+    justify-content: center;
+}
+
+.partnerH2,
+.partnerLink,
+.barCodeImg,
+.barCodeText,
+.downloadText,
+.downloadImg {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* phone barcode scaner */
+.scanBg {
+    /* background-color: #FFFFFF; */
+    background: rgba(255, 255, 255, .5);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border: solid 1px #eeb4c4;
+    border-radius: 52px;
+}
+
+.barCodeImg,
+.barCodeText,
+.downloadText,
+.downloadImg {
+    padding: 15px 20px;
+}
+
+/* search bar */
+.Search_Section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Search_bar {
+    width: 60%;
+    padding: 9px;
+    margin: 35px;
+    border-radius: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: 0;
+}
+
+.searchBarColor1 {
+    background: #ffffff;
+}
+
+.searchBarColor2{
+background-color: #F0EFEF;
+}
+
+.Search_sec1_outer {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Search_sec1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.TreatorVenue {
+    color: #020202;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search_ions {
+    width: 16px;
+    flex-shrink: 0;
+}
+
+.Search_sec2 {
+    width: 1%;
+}
+
+.Search_line {
+    width: 1px;
+    height: 37px;
+}
+
+.Search_sec3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search_sec3_outer {
+    display: flex;
+    width: 280px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.Search_map {
+    margin: 0 15px;
+    width: 19px;
+    height: 19px;
+}
+
+.location {
+    color: #020202;
+    text-align: start;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* .search_button Link {
+    border-radius: 15px;
+    padding: 7px 0 7px 0;
+    margin: 0 5px;
+    background: #000;
+    color: #FFFFFF;
+} */
+
+.search_button{
+    width:24%;
+    padding: 7px;
+    border-radius: 20px;
+    background: #000;
+    text-align: center;
+}
+.sear_buton{
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* ------------------------------------------------------------ */
+
+/* recomended salon card*/
+
+.textCard {
+    font-size: 29px;
+    /* padding-left: 123px; */
+    padding: 15px;
+    color: #000000;
+}
+
+
+/* ------------------------------------------------------------ */
+
+/* salon card */
+.SaloonCard_body {
+    /* background: #bd0707; */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.SaloonCards-Section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25%;
+    /* width: 100%; */
+    /* height: 316.476px; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: #7f4545; */
+}
+
+.S_Card {
+    width: 274.494px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #7c7979;
+    /* background: url('../images/service-3-370x277.webp'), lightgray 50% / cover no-repeat; */
+}
+
+.S_logo {
+    width: 274.494px;
+    height: 316.476px;
+    object-fit: cover;
+    /* margin: 25px; */
+}
+
+.S_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 8px;
+    width: 191.17706298828125px;
+    height: 73.6290054321289px;
+    border-radius: 16px 16px 0px 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.S_info .heading1 {
+    color: #B58152;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.S_info .heading2 {
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.heading2 span {
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.S_info .heading3 {
+    color: #5A5A5A;
+    font-family: Old Standard TT;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ------------------------------------------------------------ */
+
+/* Review card */
+
+.reviewCard {
+    /* background: #bd0707; */
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+    flex-flow: row;
+}
+
+.glass-card {
+    width: 23%;
+    /* height: 289px; */
+    padding: 20px;
+    border-radius: 27px;
+    background: #F2F2F2;
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: start;
+    margin: 15px;
+}
+
+.glasscard_heading {
+    padding: 15px 0px;
+    font-size: 20px;
+    /* font-weight: 700; */
+    font-family: sans-serif;
+}
+
+.glasscard_para {
+    color: #000;
+    font-family: 'sans-se';
+    font-size: 15px;
+    padding-bottom: 80px;
+}
+
+
+.glass_circle {
+    width: 100%;
+    /* padding: 90px 0px 15px 0px; */
+    /* padding:20px 0; */
+    display: flex;
+    align-items: center;
+    /* justify-content:first baseline; */
+    /* align-content:first baseline; */
+}
+
+.circle_img .c_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle_text {
+    padding: 10px;
+    color: #7c7979;
+    font-size: 15px;
+}
+
+.circle_text span {
+    color: #000;
+}
+
+/* -------------------------------------------------------- */
+/* home page appoinment section */
+.Appoint_book {
+    width: 1347px;
+    display: flex;
+    padding: 70px 0px 30px 10px;
+    flex-direction: column;
+    align-items: center;
+    /* background: #b9e2eb; */
+}
+
+.Appo_book1 {
+    color: #020202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Appo_book2 {
+    padding: 10px;
+    color: #1a1818;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Appo_book3 {
+    padding: 70px 0px 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    background: linear-gradient(to right, #0C1485 0%, #3528F7 23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Appo_book4 {
+    color: #020202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Appo_book5 {
+    width: 62%;
+    /* background: #B58152; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book_1,
+.book_2,
+.book_3 {
+    width: 30%;
+    padding: 90px 0px 50px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* background: #f3eded; */
+}
+
+.Appo_book5 span {
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 8px;
+}
+/* --------------------------------- */
+
+  /*Decadence Hair & Beauty */
+.Decades_img_box {
+    width: 100%;
+    flex-shrink: 0;
+    padding: 30px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.Decades_top_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Decades_title {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Decades_title span {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.Decades_logos {
+    /* width: 90px; */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background: blueviolet; */
+}
+
+.Decades_circle_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 50%;
+    border: 1px solid rgb(183, 185, 208);
+    background: #ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.shareIcon, .heartIon{
+    width: 30px;
+    height: 30px;
+    margin:  10px;
+}
+
+.Dec_Saloon_imges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #7c7979; */
+}
+
+.Dec-container1 {
+    width: 90%;
+}
+
+.DSaloon_img1 {
+    width: 98%;
+    height: 380px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.Dec-container2 {
+    width: 50%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: #F0EFEF; */
+}
+
+.container_img {
+    width: 100%;
+    height: 182px;
+}
+
+.DSaloon_img2 {
+    width: 100%;
+    height: 182px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* -------------------------------------------------- */
+/* Services */
+.Decades_bottom_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Decades_bottom_left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid rgb(209, 204, 204); */
+    border-radius: 10px;
+    /* background: #eeeeee; */
+}
+.service{
+padding-right: 20px;
+}
+
+.service_headline h2 {
+    font-size: 37px;
+    font-weight: 700;
+
+}
+
+.Dec_Service_Secone {
+    width:100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px;
+}
+
+.Color_cons {
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.consultation {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation h4 {
+    font-size: 15px;
+    font-weight: 480;
+}
+
+.consultation span {
+    color: gray;
+}
+
+.Add_Button {
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.SBtn {
+    text-align: center;
+    text-decoration: none;
+    background: #d8d8d8;
+    border: 1px solid rgb(201, 195, 195);
+    border-radius: 10px;
+    padding: 4px 3px 0px 4px ;
+}
+
+.plusicon {
+    font-size: 20px; 
+    font-weight: 500; 
+    color: #000;
+}
+
+.Decades_bottom_right {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dec_bottom_section1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.DecadesLeft_title h1 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.DecadesLeft_content {
+    padding-top: 5px;
+}
+
+.DecadesLeft_content span {
+    /* font-size: 15px; */
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.DecService_color {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Dec_Service_Sec {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.DecadesLeft_title text {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+
+.Service_Btn {
+    width: 25%;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background: #000;
+}
+
+.ColoulightsBtn {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Service_head1 text {
+
+    padding: 5px;
+    color: #000;
+    text-align: center;
+    /* font-family: Jost; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* team member picture */
+.Teams_section {
+    display: flex;
+    flex-direction: column;
+    flex-flow:  row wrap;
+    width: 100%;
+    padding: 15px;
+    /* gap: 15px; */
+}
+
+.Teams_section text {
+    padding: 45px 0px 0px 0px;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.images_sec_1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 30px;
+}
+
+.Teams_images {
+    width: 25%;
+    height: 230px;
+    /* padding-bottom: 25px; */
+    padding: 25px 10px;
+    /* background: #0C1485; */
+}
+
+.teamImg{
+    width: 70%;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+
+.teamPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   border-radius: 50%;
+}
+
+.team_smallbox {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    padding-bottom: 15px ;
+    /* background: #1f8946; */
+}
+
+.box-body {
+    width: 60px;
+    position: absolute;
+    top: -20px;
+    right: 45px;
+    padding: 3px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    background: rgba(255, 255, 255, 28);
+}
+
+
+.team_smallbox text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    
+}
+
+.text_Name {
+    /* width: 100%; */
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    /* background: #0C1485; */
+}
+.teamTxt{
+    padding-bottom: 10px;
+    /* background-color: #ef5d85; */
+}
+
+.teamPara text{
+    width: 200px;
+    font-size: 14px;
+    color: #797878;
+    line-height: 0px;
+    /* background-color: blueviolet; */
+    
+}
+
+.text_Name h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text_Name p {
+    width: 200px;
+    font-size: 14px;
+    color: #797878;
+    line-height: 0px;
+}
+
+
+/* Review */
+.Review_section {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AllSection_review{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.Review_sec_1 text {
+    /* padding: 20px; */
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.Review_sec_1 {
+    width: 100%;
+    display: flex;
+}
+
+.Star_review {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Star_review text {
+    font-size: 30px;
+}
+
+.Star_review span {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.Review_content_sec {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.Review_images {
+    width: 50%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Rev_image {
+    width: 100%;
+    display: flex;
+}
+
+.review_image1 {
+    width: 15%;
+    border-radius: 50%;
+   
+}
+
+.review_textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review_textbox text {
+    font-size: 20px;
+    font-weight: 500;
+     padding: 0px 15px;
+}
+
+.review_textbox span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #797878;
+}
+
+.reviewstar_rating {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewstar_rating p {
+    font-size: 15px;
+}
+
+.reviewstar_rating span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* ......................... */
+
+.SeeAll_btn{
+    width:100%;
+    
+}
+.seeAllbtn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 1px solid rgb(95, 94, 94);
+}
+.seeall_buton{
+    /* width:30%; */
+    font-size: 20px;
+    /* color: #fff ; */
+    color: #000;
+}
+/* ------------------------------------------- */
+/* Map */
+.MapAdd_Section {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Map_paragraph {
+    padding-top: 100px; 
+    width: 90%;
+    color: #000;
+    text-align: justify;
+
+}
+
+.Map_iframe {
+    width: 100%;
+    display: flex;
+}
+
+.iframe_section {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+iframe {
+    width: 90%;
+    height: 300px;
+}
+
+.MapAdd_Section text {
+    width: 100%;
+    font-size: 20px;
+}
+/* -------------------------------------------------- */
+/* left section of 30% */
+
+.Decades_bottom_right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* background: #7c7979; */
+    display: flex;
+  
+}
+
+.Dec_bottom_allsection {
+    width: 100%;
+    position:sticky;
+    top: 35px;
+    flex-direction: column;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px;
+}
+
+.Dec_bottom_section1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+
+.DecadesLeft_title text {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.DecadesLeft_content {
+    padding-top: 5px;
+}
+
+.DecadesLeft_content span {
+    font-size: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.DecadesLeft_title text {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Service_head1 text {
+
+    padding: 8px;
+    color: #000;
+    text-align: center;
+    /* font-family: Jost; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.SerFeatured_Buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.Feature_Btn {
+    display: flex;
+}
+
+.fea_Btn {
+    border: 1px solid rgb(120 148 214 / 19%);
+    background: rgb(120 148 214 / 19%);
+}
+
+.fea_Btn, .dea_Btn {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.featureBtn {
+    padding: 5px;
+    color: #3528F7;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Deals_Btn {
+    display: flex;
+}
+
+.dea_Btn {
+    border: 1px solid rgb(26 125 18 / 19%);
+    background: rgb(135 233 95 / 44%);
+}
+
+.dealsBtn {
+    padding: 5px;
+    color: #1f8946;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Book_NowBtn {
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgba(4, 4, 4, 0.19);
+    background: #000;
+}
+
+.boo_Btn {
+    text-decoration: none;
+}
+
+.bookBtn {
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.Decades_bottom_section2 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(209, 204, 204);
+
+}
+.dec-bottomsec{
+    width:100%;
+    padding: 20px;
+}
+
+.OPEN_UNTIL,
+.dec_Addres {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.acesstimelogo, .Mapinlogo {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+
+.Decades_bottom_section3 {
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Dec_memberships {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Membership {
+    width: 70%;
+}
+
+.Decades_bottom_section3 text {
+    color: #000;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.Decades_bottom_section3 p {
+    color: #797878;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.BtnMembership {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.membership {
+    display: flex;
+}
+
+.buy_buton {
+    text-align: center;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Buy_buton {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
