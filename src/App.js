@@ -21,7 +21,7 @@ function App() {
      <Route path="/newFlinsta" element={<NewFlinsta />}></Route>
      <Route path="/review" element={<Review />}></Route>
      <Route path="/appointmentHome" element={<AppointmentHome />}></Route>
-     <Route path="/" element={<Decadence />}></Route>
+     <Route path="/flinsta" element={<Decadence />}></Route>
      
      </Routes>
     </BrowserRouter>
