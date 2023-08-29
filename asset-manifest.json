@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/flinsta/static/css/main.79c4aa99.css",
+    "main.js": "/flinsta/static/js/main.abb94da1.js",
+    "static/js/787.248e113f.chunk.js": "/flinsta/static/js/787.248e113f.chunk.js",
+    "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
+    "static/media/sallon image.jpg": "/flinsta/static/media/sallon image.c5040d51235458d91769.jpg",
+    "static/media/best-hair-salons-singapore.jpg": "/flinsta/static/media/best-hair-salons-singapore.0245241fcbb744a5ccf1.jpg",
+    "static/media/depositphotos_68471257-stock-photo-interior-of-empty-modern-hair.jpg": "/flinsta/static/media/depositphotos_68471257-stock-photo-interior-of-empty-modern-hair.7378bc583b48efabdc25.jpg",
+    "static/media/man square  img.jpg": "/flinsta/static/media/man square  img.dd6ae7dc4eaa08561aef.jpg",
+    "static/media/download.png": "/flinsta/static/media/download.977dcf6cfe7d7cc9f405.png",
+    "static/media/NewFlinstaImg.png": "/flinsta/static/media/NewFlinstaImg.fac85078d21626347f8a.png",
+    "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/flinsta/index.html",
+    "main.79c4aa99.css.map": "/flinsta/static/css/main.79c4aa99.css.map",
+    "main.abb94da1.js.map": "/flinsta/static/js/main.abb94da1.js.map",
+    "787.248e113f.chunk.js.map": "/flinsta/static/js/787.248e113f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c4aa99.css",
+    "static/js/main.abb94da1.js"
+  ]
+}
