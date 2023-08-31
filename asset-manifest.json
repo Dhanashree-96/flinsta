@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flinsta/static/css/main.5fc90e7b.css",
-    "main.js": "/flinsta/static/js/main.863b685e.js",
+    "main.js": "/flinsta/static/js/main.3b73de55.js",
     "static/js/787.248e113f.chunk.js": "/flinsta/static/js/787.248e113f.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/sallon image.jpg": "/flinsta/static/media/sallon image.c5040d51235458d91769.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flinsta/index.html",
     "main.5fc90e7b.css.map": "/flinsta/static/css/main.5fc90e7b.css.map",
-    "main.863b685e.js.map": "/flinsta/static/js/main.863b685e.js.map",
+    "main.3b73de55.js.map": "/flinsta/static/js/main.3b73de55.js.map",
     "787.248e113f.chunk.js.map": "/flinsta/static/js/787.248e113f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc90e7b.css",
-    "static/js/main.863b685e.js"
+    "static/js/main.3b73de55.js"
   ]
 }
