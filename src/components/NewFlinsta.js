@@ -1,6 +1,14 @@
 import React from 'react'
+import Carousel from "react-elastic-carousel";
 import "../assets/css/Style.css";
 import NewFlinstaImg from "../assets/images/NewFlinstaImg.png";
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 4 },
+];
 
 export default function NewFlinsta() {
   return (
@@ -11,6 +19,7 @@ export default function NewFlinsta() {
       </div>
 
       <div className="SaloonCard_body ">
+      <Carousel breakPoints={breakPoints}>
 
         <div className="SaloonCards-Section ">
           <div className="S_Card">
@@ -63,6 +72,7 @@ export default function NewFlinsta() {
             </div>
           </div>
         </div>
+        </Carousel>
 
       </div>
 

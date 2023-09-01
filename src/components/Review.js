@@ -1,16 +1,28 @@
 import React from "react";
+import Carousel from "react-elastic-carousel";
 import "../assets/css/Style.css";
 import { LuStar } from "react-icons/lu";
 import reviewImg from "../assets/images/reviewImg.png";
+
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 2 },
+  { width: 1200, itemsToShow: 1},
+];
 
 export default function Review() {
   return (
     <div>
       <div className="wrapper recomendedDiv">
-        <text className="textCard">New to Flinsta</text>
+        <text className="textCard">Review</text>
       </div>
 
       <div className="reviewCard ">
+
+      {/* <Carousel breakPoints={breakPoints}> */}
+
        
         <div className="glass-card">
           <div className="5_Star">
@@ -123,6 +135,9 @@ export default function Review() {
               </div>
             </div>
         </div>
+
+        {/* </Carousel> */}
+
       </div>
     </div>
   );

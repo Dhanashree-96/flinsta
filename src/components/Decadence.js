@@ -10,6 +10,8 @@ import { GoShare } from "react-icons/go";
 import { GoPlus } from "react-icons/go";
 import { FiHeart } from "react-icons/fi";
 import { MdAccessTime } from "react-icons/md";
+import { BsCheck2 } from "react-icons/bs";
+import { CgBox } from "react-icons/cg";
 import { LuMapPin } from "react-icons/lu";
 import sallon1 from "../assets/images/sallon image.jpg";
 import sallon2 from "../assets/images/best-hair-salons-singapore.jpg";
@@ -94,9 +96,8 @@ export default function Decadence() {
           </div>
         </div>
 
-        
         {/* 100% div */}
-        <div className="Decades_bottom_section"> 
+        <div className="Decades_bottom_section">
           {/* 60% section */}
           <div className="Decades_bottom_left">
             {/* Services */}
@@ -482,6 +483,49 @@ export default function Decadence() {
               </div>
               <text>36 store st,London ,England Get directions</text>
             </div>
+            {/* opening time */}
+            <div className="Opening_Section">
+              <div className="opening_times">
+                <div className="days_head">
+                  <h4>Opening Times</h4>
+                </div>
+                <div className="opening_times_parts">
+                  <div className="open_days">
+                    <p>Monday</p>
+                    <p>Tuesday</p>
+                    <p> Wednesday</p>
+                    <p> Thursday</p>
+                    <p> Friday</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                  </div>
+                  <div className="open_timing">
+                    <p>9.00am to 8pm</p>
+                    <p>9.00am to 8pm</p>
+                    <p> 9.00am to 8pm</p>
+                    <p> 9.00am to 8pm</p>
+                    <p> 9.00am to 8pm</p>
+                    <p>9.00am to 8pm</p>
+                    <p>closed</p>
+                  </div>
+                </div>
+              </div>
+              <div className="Additional_information">
+                <div className="days_head">
+                  <h4>Additional information</h4>
+                </div>
+                <div className="add_info">
+                  <p>
+                    <BsCheck2 className="instant_infologo" />
+                    Instant Confirmation
+                  </p>
+                  <p>
+                    <CgBox className="payby_applogo" />
+                    Pay by app
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           {/* ------------------------------------- */}
           {/* 30% section of the page */}
@@ -511,7 +555,7 @@ export default function Decadence() {
                   </div>
                 </div>
                 <div className="Book_NowBtn">
-                  <Link to="" className="boo_Btn">
+                  <Link to="/selectService" className="boo_Btn">
                     <div className="bookBtn">Book Now</div>
                   </Link>
                 </div>

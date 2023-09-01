@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+
 .wrapper {
     margin: 0 auto;
     max-width: 1400px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.Cardwrapper {
+    margin: 0 auto;
+    max-width: 1200px;
     padding-top: 45px;
     padding-bottom: 15px;
     width: 100%;
@@ -471,38 +480,46 @@ background-color: #F0EFEF;
     color: #000000;
 }
 
+.recomendedButton{
+    text-decoration: none;
+    border: 1px solid rgb(239, 225, 198);
+    font-size: 15px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: #454444;
+    background-color:rgb(247, 246, 245) ;
+    border-radius: 15px;
+}
 
-/* ------------------------------------------------------------ */
 
 /* salon card */
 .SaloonCard_body {
     /* background: #bd0707; */
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1350px;
     width: 100%;
     display: flex;
-    padding-bottom: 50px;
+    /* padding-bottom: 15px; */
 }
 
 .SaloonCards-Section {
     display: flex;
     flex-flow: row wrap;
     width: 25%;
-    /* width: 100%; */
-    /* height: 316.476px; */
     justify-content: space-evenly;
     align-items: center;
     /* background: #7f4545; */
+        /* width: 100%; */
+    /* height: 316.476px; */
 }
 
 .S_Card {
-    width: 274.494px;
+    width: 100%;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: #7c7979;
-    /* background: url('../images/service-3-370x277.webp'), lightgray 50% / cover no-repeat; */
+    /* background: #7c7979; */
 }
 
 .S_logo {
@@ -518,9 +535,10 @@ background-color: #F0EFEF;
     justify-content: center;
     align-items: center;
     position: absolute;
-    gap: 8px;
+    /* gap: 8px; */
+    padding: 10px 0 0 0;
     width: 191.17706298828125px;
-    height: 73.6290054321289px;
+    /* height: 73.6290054321289px; */
     border-radius: 16px 16px 0px 0px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, .7);
@@ -558,7 +576,7 @@ background-color: #F0EFEF;
 .S_info .heading3 {
     color: #5A5A5A;
     font-family: Old Standard TT;
-    font-size: 7px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -571,22 +589,32 @@ background-color: #F0EFEF;
 .reviewCard {
     /* background: #bd0707; */
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    max-width: 1350px;
     width: 100%;
     display: flex;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px;     */
     flex-flow: row;
+    justify-content: space-evenly;
+    
 }
 
 .glass-card {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+
     width: 23%;
     /* height: 289px; */
-    padding: 20px;
+    padding: 15px;
     border-radius: 27px;
     background: #F2F2F2;
     box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: start;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 .glasscard_heading {
@@ -634,7 +662,8 @@ background-color: #F0EFEF;
 /* -------------------------------------------------------- */
 /* home page appoinment section */
 .Appoint_book {
-    width: 1347px;
+    max-width: 1400px;
+    width: 100%;
     display: flex;
     padding: 70px 0px 30px 10px;
     flex-direction: column;
@@ -1000,7 +1029,7 @@ padding-right: 20px;
     width: 25%;
     height: 230px;
     /* padding-bottom: 25px; */
-    padding: 25px 10px;
+    padding: 25px 20px;
     /* background: #0C1485; */
 }
 
@@ -1042,12 +1071,10 @@ padding-right: 20px;
     background: rgba(255, 255, 255, 28);
 }
 
-
 .team_smallbox text {
     font-size: 15px;
     font-weight: 500;
-    color: #000000;
-    
+    color: #000000;    
 }
 
 .text_Name {
@@ -1449,4 +1476,347 @@ iframe {
     font-size: 15px;
     font-weight: 600;
     color: #000000;
+}
+
+/* open timings div css ----------------------------------*/
+.Opening_Section {
+    width: 100%;
+    display: flex;
+}
+
+.opening_times {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.days_head {
+    width: 100%;
+    display: flex;
+    
+}
+
+.days_head h4{
+    font-size: 20px;
+}
+
+.opening_times_parts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Additional_information {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.add_info {
+    width: 100%;
+}
+
+.add_info p {
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.instant_infologo,
+.payby_applogo {
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* product slider ---------------------------*/
+
+
+  .rec-dot{
+    visibility: hidden;
+  }
+
+  .rec.rec-arrow {
+    border-radius: 25%;
+}
+
+.rec.rec-arrow, .rec.rec-arrow:hover , .rec-dot_active{
+    color:#000;
+    background-color:white;
+    border: 1px solid  rgb(242, 209, 214);
+}
+
+  .rec.rec-arrow:hover , .rec-dot_active {
+    border-radius: 50%;
+}
+
+.rec-arrow{
+    /* background-color: var(--blue) !important; */
+    /* transition: all 0.3s ease; */
+    font-size: 1.1rem !important; 
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    min-width: 2.5rem !important;
+    line-height: 2.5rem !important;
+}
+
+/* ------Select service----------------------- */
+.Page1_wrapper,
+.arrow .ColorHighlight_text,
+.Color_section1 ,.Con_heading2, .Page1_sections{
+    width: 100%;
+}
+
+.Page1_sections {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.Page1_Leftsection {
+    width: 40%;
+}
+
+.Page1_Left,.Page1_bottomsec,.Con_heading2 span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.All_Leftsection {
+    padding: 0px 40px;
+}
+
+.biarrowicon {
+    font-size: 40px;
+}
+
+.Page1_colorSection {
+    padding: 20px;
+    display: flex;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px;
+}
+
+.ColoulightsBtn2 {
+    background: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.text_colorbtn {
+    color: white;
+}
+
+.CuttingStyling {
+    display: flex;
+    align-items: center;
+}
+
+.CuttingStyling text {
+    padding: 0px 10px;
+}
+
+.ArrowRight {
+    font-size: 30px;
+}
+
+.Color_section1,
+.Con_heading3,.Con_heading2 {
+    display: flex;
+}
+
+.Page1_bottomsec {
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 10px;
+}
+
+.Color_parts,
+.Color_parts1,
+.Color_Consultation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Color_parts {
+    border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+.Con_heading1 {
+    width: 10%;
+}
+
+.Con_heading2 {
+    justify-content: space-between;
+}
+
+.Con_heading2 text {
+    line-height: 0%;
+    color: #797878;
+}
+
+
+.Con_paragraph p {
+    padding: 10px 0px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+.Con_heading3 text,
+.Round {
+    padding: 30px 10px;
+}
+
+
+/* ---------- */
+
+
+.Page1_Right {
+    width: 20%;
+    padding: 65px 0px;
+}
+
+.closeicon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Close {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.Page1_RightSection {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 204, 204);
+}
+
+.Page1_Image {
+    display: flex;
+    justify-content: center;
+}
+
+.page1_img {
+    width: 6%;
+    height: 90px;
+    position: absolute;
+    top: 9.50%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.Page1_part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 30px;
+    border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+.Page1_part2 {
+    padding: 40px;
+    border-bottom: 1px solid rgb(209, 204, 204);
+}
+
+.sec1_part2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part2sec2,.Page1_Right {
+    display: flex;
+    flex-direction: column;
+}
+
+.part2sec2 span {
+    color: #797878;
+}
+
+.part2sec2 text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Page1_part3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Page1_part3 {
+    padding: 20px 30px;
+}
+
+.More_Offers {
+    padding-top: 30px;
+}
+
+.Boxmoreoffers {
+    width: 100%;
+    border-radius: 10px;
+    border: rgb(209, 204, 204);
+    border: 1px solid rgb(209, 204, 204);
+}
+
+.BUY_voucher {
+    border-radius: 10px;
+    border: rgb(209, 204, 204);
+    border: 1px solid rgb(209, 204, 204);
+    margin: 10px;
+}
+
+.BUY_membership {
+
+    margin: 10px;
+    border-radius: 10px;
+    border: rgb(209, 204, 204);
+    border: 1px solid rgb(209, 204, 204);
+}
+
+.More_Offers p {
+    padding: 0px 20px;
+}
+
+.BOOK_page1 {
+    width: 100%;
+    margin: 20px 50px;
+}
+
+.page1BookBtn {
+    text-decoration: none;
+    text-align: center;
+}
+
+.book {
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #000;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.checkbox-round {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
 }
