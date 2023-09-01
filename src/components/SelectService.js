@@ -8,7 +8,7 @@ import salooncolor from "../assets/images/best-hair-salons-singapore.jpg";
 export default function SelectService() {
   return (
     <>
-      <div className="Page1_wrapper wrapper">
+      <div className="Page1_wrapper">
         <div className="Page1_sections">
           <div className="Page1_Leftsection">
             <div className="arrow">
