@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.87d78006.css",
-    "main.js": "/flinsta/static/js/main.cc5fb564.js",
+    "main.css": "/flinsta/static/css/main.5c9ff024.css",
+    "main.js": "/flinsta/static/js/main.64fc00ad.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/Balance Massage Wellness.jpg": "/flinsta/static/media/Balance Massage Wellness.07deb135e3647e8d351f.jpg",
@@ -37,18 +37,19 @@
     "static/media/Huckle The Barber Lambs Conduit.avif": "/flinsta/static/media/Huckle The Barber Lambs Conduit.80da675d2e5ba651ce83.avif",
     "static/media/ELP Barbershop.avif": "/flinsta/static/media/ELP Barbershop.62d3f61316a2dd0740e8.avif",
     "static/media/download.png": "/flinsta/static/media/download.977dcf6cfe7d7cc9f405.png",
+    "static/media/istockphoto-1304547222-612x612.jpg": "/flinsta/static/media/istockphoto-1304547222-612x612.fa1df539efa9d58bb78f.jpg",
     "static/media/NewFlinstaImg.png": "/flinsta/static/media/NewFlinstaImg.fac85078d21626347f8a.png",
     "static/media/Thai Studio High St Kensington.avif": "/flinsta/static/media/Thai Studio High St Kensington.82c347950fbc56f9e4b8.avif",
     "static/media/Google Play logo.png": "/flinsta/static/media/Google Play logo.73750c3a923126c546d5.png",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flinsta/index.html",
-    "main.87d78006.css.map": "/flinsta/static/css/main.87d78006.css.map",
-    "main.cc5fb564.js.map": "/flinsta/static/js/main.cc5fb564.js.map",
+    "main.5c9ff024.css.map": "/flinsta/static/css/main.5c9ff024.css.map",
+    "main.64fc00ad.js.map": "/flinsta/static/js/main.64fc00ad.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87d78006.css",
-    "static/js/main.cc5fb564.js"
+    "static/css/main.5c9ff024.css",
+    "static/js/main.64fc00ad.js"
   ]
 }
