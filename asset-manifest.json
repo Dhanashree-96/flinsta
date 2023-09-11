@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.2a69083c.css",
-    "main.js": "/flinsta/static/js/main.f5085401.js",
+    "main.css": "/flinsta/static/css/main.aeb0f152.css",
+    "main.js": "/flinsta/static/js/main.b2c98048.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/Balance Massage Wellness.jpg": "/flinsta/static/media/Balance Massage Wellness.07deb135e3647e8d351f.jpg",
@@ -44,12 +44,12 @@
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flinsta/index.html",
-    "main.2a69083c.css.map": "/flinsta/static/css/main.2a69083c.css.map",
-    "main.f5085401.js.map": "/flinsta/static/js/main.f5085401.js.map",
+    "main.aeb0f152.css.map": "/flinsta/static/css/main.aeb0f152.css.map",
+    "main.b2c98048.js.map": "/flinsta/static/js/main.b2c98048.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a69083c.css",
-    "static/js/main.f5085401.js"
+    "static/css/main.aeb0f152.css",
+    "static/js/main.b2c98048.js"
   ]
 }
