@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.e6f77405.css",
-    "main.js": "/flinsta/static/js/main.c3e25a2b.js",
+    "main.css": "/flinsta/static/css/main.59d88b68.css",
+    "main.js": "/flinsta/static/js/main.86b08a30.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/Balance Massage Wellness.jpg": "/flinsta/static/media/Balance Massage Wellness.07deb135e3647e8d351f.jpg",
@@ -43,15 +43,16 @@
     "static/media/App Store logo.png": "/flinsta/static/media/App Store logo.dd53efd79d32f428c553.png",
     "static/media/Thai Studio High St Kensington.avif": "/flinsta/static/media/Thai Studio High St Kensington.82c347950fbc56f9e4b8.avif",
     "static/media/Google Play logo.png": "/flinsta/static/media/Google Play logo.73750c3a923126c546d5.png",
+    "static/media/sessiontime out.jpg": "/flinsta/static/media/sessiontime out.35ca6149b1c8ce4a488d.jpg",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flinsta/index.html",
-    "main.e6f77405.css.map": "/flinsta/static/css/main.e6f77405.css.map",
-    "main.c3e25a2b.js.map": "/flinsta/static/js/main.c3e25a2b.js.map",
+    "main.59d88b68.css.map": "/flinsta/static/css/main.59d88b68.css.map",
+    "main.86b08a30.js.map": "/flinsta/static/js/main.86b08a30.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f77405.css",
-    "static/js/main.c3e25a2b.js"
+    "static/css/main.59d88b68.css",
+    "static/js/main.86b08a30.js"
   ]
 }
