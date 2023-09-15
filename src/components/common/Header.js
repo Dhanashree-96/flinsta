@@ -11,15 +11,39 @@ export default function Header() {
         <div className="headerLogoDiv">
           <img src={logo} className="headerLogo" alt="Brand logo" />
         </div>
-
         <div className="headerBtnDiv">
-        <Link to="" className="headerBtn">
-          {/* <SlArrowDown className="headerBtnIcon" /> */}
-          <text className="headerBtnText">Menu</text>
-        </Link>
+          <input type="checkbox" className="menuCheckBox" id="dropdown" />
+          <label for="dropdown" class="dropdown-btn">
+            <span>Menu</span>
+            {/* <span><SlArrowDown  className="droplogo"/></span> */}
+          </label>
+          <ul className="dropdown-content" role="menu">
+            <div className="dropdown-backg">
+              <li>
+                <Link to="/allLogin" className="menu_label">
+                  <text className="menucontent">Log in</text>
+                </Link>
+              </li>
+              <li>
+                <Link to="" className="menu_label">
+                  <text className="menucontent">Download the app</text>
+                </Link>
+              </li>
+              <li>
+                <Link to="" className="menu_label">
+                  <text className="menucontent">Language</text>
+                </Link>
+              </li>
+              <li>
+                <Link to="/partnerForm" className="menu_label">
+                  <text className="menucontent">For Business</text>
+                </Link>
+              </li>
+            </div>
+          </ul>
         </div>
-       
       </div>
+
     </>
   );
 }

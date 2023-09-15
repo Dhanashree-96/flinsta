@@ -6,13 +6,15 @@ import NewFlinsta from "./NewFlinsta";
 import { Link } from "react-router-dom";
 import barCode from "../assets/images/barCode.png";
 import download from "../assets/images/download.png";
+import GooglePlay from "../assets/images/Google Play logo.png";
+import AppSrore from "../assets/images/App Store logo.png";
 import { IoSearch } from "react-icons/io5";
 import { IoLocationSharp } from "react-icons/io5";
 import line from "../assets/images/Line.png";
 import Review from "./Review";
-import AppointmentHome from "./AppointmentHome";
+// import AppointmentHome from "./AppointmentHome";
 import Footer from "./common/Footer";
-import "../components/common/Links"
+import GoToTop from "./common/GoToTop";
 
 export default function Home() {
   return (
@@ -23,11 +25,13 @@ export default function Home() {
         <div className="wrapper">
           {/* text book local and wellness */}
           <div className="homeText wrapper">
-            <h2>Book local beauty and wellness service.</h2>
+            <h2>
+              Beauty and grooming at your fingertips.
+            </h2>
           </div>
 
           {/* search bar */}
-          <div className="Search_Section">
+          <div className="Search_Section ">
             <div className="Search_bar searchBarColor1 ">
               <div className="Search_sec1">
                 <div className="Search_sec1_outer">
@@ -43,30 +47,30 @@ export default function Home() {
                   <IoLocationSharp className="Search_map" />
                   <div className="location">Current Location</div>
                 </div>
-                <div className='search_button'>
-                                <Link to="" className="sear_buton">
-                                    <text className="sear_buton">Search</text>
-                                </Link>
-                            </div>
+                <div className="search_button">
+                  <Link to="" className="sear_buton">
+                    <text className="sear_buton">Search</text>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
 
           {/* appointments booked for today */}
-          <div className="appointment wrapper">
+          {/* <div className="appointment wrapper">
             <p>425,221 Appointments Booked Today</p>
-          </div>
+          </div> */}
 
           {/* scanner */}
           <div className="scanDiv ">
             {/* partner with us */}
-            <div className="partnerDiv wrapper ">
+            <div className="partnerDiv  ">
               <div className="partnerH2">
                 <h2>Are you a salon or beautician?</h2>
               </div>
 
               <div className="partnerLink">
-                <Link to="" className="partnerBtn">
+                <Link to="/partnerForm" className="partnerBtn">
                   <text className="partnerText">Partner with us</text>
                 </Link>
               </div>
@@ -85,23 +89,27 @@ export default function Home() {
             </div>
 
             {/* Download google playstore */}
-            <div className="downloadDiv wrapper">
+            <div className="downloadDiv ">
               <div className="downloadText">
                 <h2>Download Now</h2>
               </div>
               <div className="downloadImg">
-                <img src={download} className="barCode" alt="bar Code" />
+                <img src={GooglePlay} className="downloadLogo" alt="bar Code" />
+                <img src={AppSrore} className="downloadLogo" alt="bar Code" />
               </div>
             </div>
           </div>
         </div>
       </div>
 
+
+
       <Recomended />
       <NewFlinsta />
       <Review />
-      <AppointmentHome />
+      {/* <AppointmentHome /> */}
       <Footer />
+      <GoToTop />
     </>
   );
 }

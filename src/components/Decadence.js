@@ -2,14 +2,21 @@ import React from "react";
 import Header from "./common/Header";
 import "../assets/css/Style.css";
 import line from "../assets/images/Line.png";
-import { Link } from "react-router-dom";
+import {
+  Link,
+  Outlet,
+  Routes,
+  Route,
+  ScrollRestoration,
+  NavLink,
+} from "react-router-dom";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { LuStar } from "react-icons/lu";
 import { GoShare } from "react-icons/go";
 import { GoPlus } from "react-icons/go";
 import { FiHeart } from "react-icons/fi";
-import { MdAccessTime } from "react-icons/md";
+import { MdSchedule } from "react-icons/md";
 import { BsCheck2 } from "react-icons/bs";
 import { CgBox } from "react-icons/cg";
 import { LuMapPin } from "react-icons/lu";
@@ -19,8 +26,21 @@ import sallon3 from "../assets/images/depositphotos_68471257-stock-photo-interio
 import demo from "../assets/images/man square  img.jpg";
 import demo2 from "../assets/images/square women.jpg";
 import Footer from "./common/Footer";
+// import GoToTop from "../components/common/GoToTop";
+import { useLocation } from "react-router-dom";
+import ServiceMenuSlider from "./common/ServiceMenuSlider";
+
 
 export default function Decadence() {
+  //assigning location variable
+  const location = useLocation();
+
+  //destructuring pathname from location
+  const { pathname } = location;
+
+  //Javascript split method to get the name of the path in array
+  const splitLocation = pathname.split("/");
+
   return (
     <>
       <Header />
@@ -45,7 +65,7 @@ export default function Decadence() {
               </div>
               <div className="search_button">
                 <Link to="" className="sear_buton">
-                  <text className="">Search</text>
+                  <text className="sear_buton">Search</text>
                 </Link>
               </div>
             </div>
@@ -88,9 +108,12 @@ export default function Decadence() {
               <div className="container_img">
                 <img
                   src={sallon3}
-                  className="DSaloon_img2"
+                  className="DSaloon_img2 "
                   alt="DSaloon_img2"
                 />
+                <Link to="" className="seeAllImg">
+                  See all images
+                </Link>
               </div>
             </div>
           </div>
@@ -107,27 +130,20 @@ export default function Decadence() {
               </div>
               <div className="DecService_color">
                 <div className="Dec_Service_Sec">
-                  <div className="Service_Btn">
-                    <Link to="" className="ColoulightsBtn">
-                      <text className="ColoulightsBtn">
-                        Colours + Highlights
-                      </text>
-                    </Link>
-                  </div>
                   <div className="Service_head1">
-                    <text>Cutting + Styling</text>{" "}
-                    <text>Cutting + Styling</text>
-                    <text>Cutting + Styling</text>
-                    <text>Cutting + Styling</text>
+                    <ServiceMenuSlider/>
+                   
                   </div>
                 </div>
 
-                <div className="Dec_Service_Secone">
+                <Outlet />
+
+                {/* <div className="Dec_Service_Secone">
                   <div className="Color_cons">
                     <div className="consultation">
                       <h4> Color Consultation</h4>
                       <span>15 min</span>
-                      <p> $225</p>
+                      <text> $225</text>
                     </div>
                   </div>
                   <div className="Add_Button">
@@ -135,14 +151,14 @@ export default function Decadence() {
                       <GoPlus className="plusicon" alt=" plusicon" />
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="Dec_Service_Secone">
+                {/* <div className="Dec_Service_Secone">
                   <div className="Color_cons">
                     <div className="consultation">
                       <h4> Color Consultation</h4>
                       <span>15 min</span>
-                      <p> $225</p>
+                      <text> $225</text>
                     </div>
                   </div>
                   <div className="Add_Button">
@@ -150,14 +166,14 @@ export default function Decadence() {
                       <GoPlus className="plusicon" alt=" plusicon" />
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="Dec_Service_Secone">
+                {/* <div className="Dec_Service_Secone">
                   <div className="Color_cons">
                     <div className="consultation">
                       <h4> Color Consultation</h4>
                       <span>15 min</span>
-                      <p> $225</p>
+                      <text> $225</text>
                     </div>
                   </div>
                   <div className="Add_Button">
@@ -165,14 +181,14 @@ export default function Decadence() {
                       <GoPlus className="plusicon" alt=" plusicon" />
                     </Link>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="Dec_Service_Secone">
+                {/* <div className="Dec_Service_Secone">
                   <div className="Color_cons">
                     <div className="consultation">
                       <h4> Color Consultation</h4>
                       <span>15 min</span>
-                      <p> $225</p>
+                      <text> $225</text>
                     </div>
                   </div>
                   <div className="Add_Button">
@@ -180,8 +196,13 @@ export default function Decadence() {
                       <GoPlus className="plusicon" alt=" plusicon" />
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
+              {/* <div className="SeeAll_btn">
+                <Link to="" className="seeAllbtn">
+                  <text className="seeall_buton"> See all</text>
+                </Link>
+              </div> */}
             </div>
 
             {/* Team */}
@@ -452,7 +473,7 @@ export default function Decadence() {
 
               <div className="SeeAll_btn">
                 <Link to="" className="seeAllbtn">
-                  <text className="seeall_buton"> See All</text>
+                  <text className="seeall_buton"> See all</text>
                 </Link>
               </div>
             </div>
@@ -555,7 +576,7 @@ export default function Decadence() {
                   </div>
                 </div>
                 <div className="Book_NowBtn">
-                  <Link to="/selectService" className="boo_Btn">
+                  <Link to="/selectServiceMain" className="boo_Btn">
                     <div className="bookBtn">Book Now</div>
                   </Link>
                 </div>
@@ -563,15 +584,10 @@ export default function Decadence() {
               <div className="Decades_bottom_section2">
                 <div className="dec-bottomsec">
                   <p className="OPEN_UNTIL">
-                    {" "}
-                    <MdAccessTime
-                      className="acesstimelogo"
-                      alt="time_img"
-                    />{" "}
+                    <MdSchedule className="acesstimelogo" alt="time_img" />
                     Open until 8:00pm
                   </p>
                   <p className="dec_Addres">
-                    {" "}
                     <LuMapPin className="Mapinlogo" alt="map_img" /> 36 store
                     st,London ,England Get directions
                   </p>
@@ -612,6 +628,7 @@ export default function Decadence() {
       </div>
 
       <Footer />
+      {/* <GoToTop /> */}
     </>
   );
 }
