@@ -2,6 +2,8 @@ import React from "react";
 import { Link, ScrollRestoration, NavLink } from "react-router-dom";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Carousel from "react-elastic-carousel";
+import ServicemenuData from "../../assets/Data/ServiceMenuData";
+
 
 const breakPoints = [
   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
@@ -37,61 +39,18 @@ export default function ServiceMenuSlider() {
           transitionMs={300}
           renderArrow={MyArrow}
         >
-          <li>
-            <NavLink activeClassName="active" to="colorHighlights">
-              Colours + Highlights
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="cuttingStyling">
-              Cutting + Styling
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="hairTreatments">
-              Hair Treatments
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="hairExtension">
-              Hair Extension
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="massage">
-              Massage
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="face">
-              Face
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="hands">
-              Hands
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="feet">
-              Feet
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="lashesBrows">
-              Lashes + Brows
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="hairRemoval">
-              Hair Removal
-            </NavLink>
-          </li>
-          <li>
-            <NavLink activeClassName="active" to="packagesOffers">
-              Packages/Offers
-            </NavLink>
-          </li>
+          {ServicemenuData.map((serviceMenu, index) => (
+            <li key={index}>
+              <NavLink
+                activeClassName="active"
+                to={serviceMenu.servicemenulink}
+              >
+                {serviceMenu.servicemenuname}
+              </NavLink>
+            </li>
+          ))}
+
+ 
         </Carousel>
       </ul>
     </>

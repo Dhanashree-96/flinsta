@@ -20,9 +20,6 @@ export default function SelectServiceContent() {
     }
   };
 
-
-
-
   return (
     <>
       <div className="contentHeading">
@@ -61,7 +58,6 @@ export default function SelectServiceContent() {
                   </div>
                   <div className="Con_paragraph">
                     <p>
-                      {" "}
                       A free consultation for advice and planning before you
                       choose your colour service. All new clients are required
                       to have a patch test at least 48 hours prior to a

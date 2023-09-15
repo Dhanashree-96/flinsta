@@ -138,71 +138,7 @@ export default function Decadence() {
 
                 <Outlet />
 
-                {/* <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Consultation</h4>
-                      <span>15 min</span>
-                      <text> $225</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div> */}
-
-                {/* <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Consultation</h4>
-                      <span>15 min</span>
-                      <text> $225</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div> */}
-
-                {/* <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Consultation</h4>
-                      <span>15 min</span>
-                      <text> $225</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div> */}
-
-                {/* <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Consultation</h4>
-                      <span>15 min</span>
-                      <text> $225</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div> */}
               </div>
-              {/* <div className="SeeAll_btn">
-                <Link to="" className="seeAllbtn">
-                  <text className="seeall_buton"> See all</text>
-                </Link>
-              </div> */}
             </div>
 
             {/* Team */}

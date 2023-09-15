@@ -6,6 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import { LuStar } from "react-icons/lu";
 import RightSidepage from "./RightSidepage";
 import { BsArrowUpSquare } from "react-icons/bs";
+import SelectStafData from "../assets/Data/SelectStafData";
+
 
 
 export default function SelectStaf() {
@@ -55,19 +57,20 @@ export default function SelectStaf() {
                 <h2>Select Staff</h2>
               </div>
 
-              <div className="staff-section">
-                
-                <Link to="/artistCalendar" className="stafLink">
+              <div className="staff-section">  
+              {SelectStafData.map((selectstaf, index) => (
+
+                <Link to={selectstaf.selectStaflink} className="stafLink" key={index}>
                   <div className="staff_othersec">
                     <div className="imgsecpage2">
                       <img
-                        src={staff_img}
+                        src={selectstaf.selectStafimg}
                         className="staff_image1"
                         alt="staff_image1"
                       />
                       <div className="staff_textbox">
-                        <text>Anne K</text>
-                        <span>11 Aug 2023 10:40pm</span>
+                        <text>{selectstaf.selectStafname}</text>
+                        <span>{selectstaf.selectStafdate}</span>
                       </div>
                     </div>
                     <div className="staff_rating">
@@ -77,92 +80,7 @@ export default function SelectStaf() {
                     </div>
                   </div>
                 </Link>
-
-                <Link to="/artistCalendar" className="stafLink">
-                  <div className="staff_othersec">
-                    <div className="imgsecpage2">
-                      <img
-                        src={staff_img}
-                        className="staff_image1"
-                        alt="staff_image1"
-                      />
-                      <div className="staff_textbox">
-                        <text>Anne K</text>
-                        <span>11 Aug 2023 10:40pm</span>
-                      </div>
-                    </div>
-                    <div className="staff_rating">
-                      <LuStar className="page2lustar" />
-                      <h4>5.0</h4>
-                      <IoIosArrowForward className="forwardarrow" />
-                    </div>
-                  </div>
-                </Link>
-
-                <Link to="/artistCalendar" className="stafLink">
-                  <div className="staff_othersec">
-                    <div className="imgsecpage2">
-                      <img
-                        src={staff_img}
-                        className="staff_image1"
-                        alt="staff_image1"
-                      />
-                      <div className="staff_textbox">
-                        <text>Anne K</text>
-                        <span>11 Aug 2023 10:40pm</span>
-                      </div>
-                    </div>
-                    <div className="staff_rating">
-                      <LuStar className="page2lustar" />
-                      <h4>5.0</h4>
-                      <IoIosArrowForward className="forwardarrow" />
-                    </div>
-                  </div>
-                </Link>
-
-
-                <Link to="/artistCalendar" className="stafLink">
-                  <div className="staff_othersec">
-                    <div className="imgsecpage2">
-                      <img
-                        src={staff_img}
-                        className="staff_image1"
-                        alt="staff_image1"
-                      />
-                      <div className="staff_textbox">
-                        <text>Anne K</text>
-                        <span>11 Aug 2023 10:40pm</span>
-                      </div>
-                    </div>
-                    <div className="staff_rating">
-                      <LuStar className="page2lustar" />
-                      <h4>5.0</h4>
-                      <IoIosArrowForward className="forwardarrow" />
-                    </div>
-                  </div>
-                </Link>
-
-                <Link to="/artistCalendar" className="stafLink">
-                  <div className="staff_othersec">
-                    <div className="imgsecpage2">
-                      <img
-                        src={staff_img}
-                        className="staff_image1"
-                        alt="staff_image1"
-                      />
-                      <div className="staff_textbox">
-                        <text>Anne K</text>
-                        <span>11 Aug 2023 10:40pm</span>
-                      </div>
-                    </div>
-                    <div className="staff_rating">
-                      <LuStar className="page2lustar" />
-                      <h4>5.0</h4>
-                      <IoIosArrowForward className="forwardarrow" />
-                    </div>
-                  </div>
-                </Link>
-
+                 ))}
               </div>
             </div>
           </div>
