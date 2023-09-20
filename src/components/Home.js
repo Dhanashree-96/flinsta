@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../assets/css/Style.css";
 import Header from "./common/Header";
 import Recomended from "./Recomended";
 import NewFlinsta from "./NewFlinsta";
 import { Link } from "react-router-dom";
 import barCode from "../assets/images/barCode.png";
-import download from "../assets/images/download.png";
 import GooglePlay from "../assets/images/Google Play logo.png";
 import AppSrore from "../assets/images/App Store logo.png";
 import { IoSearch } from "react-icons/io5";
@@ -17,6 +16,7 @@ import Footer from "./common/Footer";
 import GoToTop from "./common/GoToTop";
 
 export default function Home() {
+  
   return (
     <>
       <Header />

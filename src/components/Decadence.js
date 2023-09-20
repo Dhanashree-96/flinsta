@@ -85,10 +85,12 @@ export default function Decadence() {
             </div>
             <div className="Decades_logos">
               <div className="Decades_circle_icon">
-                <GoShare className="shareIcon" />
+              <span class="tooltipText tw">Share</span>
+                <GoShare className="shareIcon" data-tooltip="Like this" />
               </div>
-              <div className="Decades_circle_icon">
-                <FiHeart className="heartIon" />
+              <div class="Decades_circle_icon">
+              <span class="tooltipText tw">Like</span>
+                <FiHeart className="heartIon" data-tooltip="Like this" />
               </div>
             </div>
           </div>
@@ -110,7 +112,7 @@ export default function Decadence() {
                   className="DSaloon_img2 "
                   alt="DSaloon_img2"
                 />
-                <Link to="" className="seeAllImg">
+                <Link to="/seeallImagesGrid" className="seeAllImg">
                   See all images
                 </Link>
               </div>
@@ -515,7 +517,7 @@ export default function Decadence() {
                   </div>
                 </div>
                 <div className="Book_NowBtn">
-                  <Link to="/selectServiceMain" className="boo_Btn">
+                  <Link to="/bookingMainPage" className="boo_Btn">
                     <div className="bookBtn">Book Now</div>
                   </Link>
                 </div>

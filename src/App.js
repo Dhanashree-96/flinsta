@@ -8,7 +8,7 @@ import Home from "./components/Home";
 import Recomended from "./components/Recomended";
 import NewFlinsta from "./components/NewFlinsta";
 import Review from "./components/Review";
-import AppointmentHome from "./components/AppointmentHome";                                                                                                                                                                                                                                                                                                                                                                                                            
+import AppointmentHome from "./components/AppointmentHome";
 import Footer from "./components/common/Footer";
 import Decadence from "./components/Decadence";
 import CardSlider from "./components/common/CardSlider";
@@ -44,57 +44,104 @@ import SelectStaf from "./components/SelectStaf";
 import ArtistCalendar from "./components/ArtistCalendar";
 import Reviewconfirm from "./components/ReviewConfirm";
 import ReviewInconfirmation from "./components/ReviewInconfirmation";
-
-
+import Splash from "./components/Splash";
+import { useEffect, useState } from "react";
+import BookingMainPage from "./components/BookingMainPage";
+import ScrollAllImages from "./components/Scrollall_Images";
+import SeeallImagesGrid from "./components/SeeallImages";
 
 function App() {
+  // splash screen
+  const [loading, setLoading] = useState(true);
+
+  // Simulate a delay to represent the app loading process
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Adjust the delay time as needed
+  }, []);
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/demo" element={<Demo />}></Route>
-        <Route path="/header" element={<Header />}></Route>
-        <Route path="/footer" element={<Footer />}></Route>
-        <Route path="/flinsta" element={<Home />}></Route>
-        <Route path="/recomended" element={<Recomended />}></Route>
-        <Route path="/newFlinsta" element={<NewFlinsta />}></Route>
-        <Route path="/review" element={<Review />}></Route>
-        <Route path="/appointmentHome" element={<AppointmentHome />}></Route>
-        <Route path="/decadence" element={<Decadence />}>
-          <Route path="" element={<ColorHighlights />}></Route>
-          <Route path="colorHighlights" element={<ColorHighlights />}></Route>
-          <Route path="cuttingStyling" element={<CuttingStyling />}></Route>
-          <Route path="face" element={<Face />}></Route>
-          <Route path="feet" element={<Feet />}></Route>
-          <Route path="hairExtension" element={<HairExtension />}></Route>
-          <Route path="hairRemoval" element={<HairRemoval />}></Route>
-          <Route path="hairTreatments" element={<HairTreatments />}></Route>
-          <Route path="hands" element={<Hands />}></Route>
-          <Route path="lashesBrows" element={<LashesBrows />}></Route>
-          <Route path="massage" element={<Massage />}></Route>
-          <Route path="packagesOffers" element={<PackagesOffers />}></Route>
-        </Route>
-        <Route path="/partnerForm" element={<PartnerForm />}></Route>
-        <Route path="/allLogin" element={<All_Login />}></Route>
-        <Route path="/login" element={<LoginForm />}></Route>
-        <Route path="/signUp" element={<Signup />}></Route>
-        <Route path="/forgetPage" element={<ForgetPage />}></Route>
-        <Route path="/forgetPassword" element={<ForgetPassword />}></Route>
-        <Route path="/otp" element={<Otp />}></Route>
-        <Route path="/resetPassword" element={<ResetPassword />}></Route>
-        <Route path="/forBusiness" element={<For_Business />}></Route>
-        <Route path="/serviceDisplayRightSection" element={<ServiceDisplayRightSection />}></Route>
-        <Route path="/selectServicePage" element={<SelectServicePage />}></Route>
-        <Route path="/servicesPage2" element={<ServicesPage2 />}></Route>
-        <Route path="/serviceMenuSlider" element={<ServiceMenuSlider />}></Route>
-        <Route path="/selectServiceContent" element={<SelectServiceContent />}></Route>
-        <Route path="/selectServiceMain" element={<SelectServiceMain />}></Route>
-        <Route path="/rightSidepage" element={<RightSidepage />}></Route>
-        <Route path="/selectStaf" element={<SelectStaf />}></Route>
-        <Route path="/artistCalendar" element={<ArtistCalendar />}></Route>
-        <Route path="/reviewconfirm" element={<Reviewconfirm />}></Route>
-        <Route path="/reviewInconfirmation" element={<ReviewInconfirmation />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      {loading ? (
+        <Splash />
+      ) : (
+        <BrowserRouter>
+          <Routes>
+            <Route path="/demo" element={<Demo />}></Route>
+            <Route path="/header" element={<Header />}></Route>
+            <Route path="/footer" element={<Footer />}></Route>
+            <Route path="/flinsta" element={<Home />}></Route>
+            <Route path="/recomended" element={<Recomended />}></Route>
+            <Route path="/newFlinsta" element={<NewFlinsta />}></Route>
+            <Route path="/review" element={<Review />}></Route>
+            <Route
+              path="/appointmentHome"
+              element={<AppointmentHome />}
+            ></Route>
+            <Route path="/decadence" element={<Decadence />}>
+              <Route path="" element={<ColorHighlights />}></Route>
+              <Route
+                path="colorHighlights"
+                element={<ColorHighlights />}
+              ></Route>
+              <Route path="cuttingStyling" element={<CuttingStyling />}></Route>
+              <Route path="face" element={<Face />}></Route>
+              <Route path="feet" element={<Feet />}></Route>
+              <Route path="hairExtension" element={<HairExtension />}></Route>
+              <Route path="hairRemoval" element={<HairRemoval />}></Route>
+              <Route path="hairTreatments" element={<HairTreatments />}></Route>
+              <Route path="hands" element={<Hands />}></Route>
+              <Route path="lashesBrows" element={<LashesBrows />}></Route>
+              <Route path="massage" element={<Massage />}></Route>
+              <Route path="packagesOffers" element={<PackagesOffers />}></Route>
+            </Route>
+            <Route path="/partnerForm" element={<PartnerForm />}></Route>
+            <Route path="/allLogin" element={<All_Login />}></Route>
+            <Route path="/login" element={<LoginForm />}></Route>
+            <Route path="/signUp" element={<Signup />}></Route>
+            <Route path="/forgetPage" element={<ForgetPage />}></Route>
+            <Route path="/forgetPassword" element={<ForgetPassword />}></Route>
+            <Route path="/otp" element={<Otp />}></Route>
+            <Route path="/resetPassword" element={<ResetPassword />}></Route>
+            <Route path="/forBusiness" element={<For_Business />}></Route>
+            <Route
+              path="/serviceDisplayRightSection"
+              element={<ServiceDisplayRightSection />}
+            ></Route>
+            <Route
+              path="/selectServicePage"
+              element={<SelectServicePage />}
+            ></Route>
+            <Route path="/servicesPage2" element={<ServicesPage2 />}></Route>
+            <Route
+              path="/serviceMenuSlider"
+              element={<ServiceMenuSlider />}
+            ></Route>
+            <Route
+              path="/selectServiceContent"
+              element={<SelectServiceContent />}
+            ></Route>
+            <Route
+              path="/selectServiceMain"
+              element={<SelectServiceMain />}
+            ></Route>
+            <Route path="/rightSidepage" element={<RightSidepage />}></Route>
+            <Route path="/selectStaf" element={<SelectStaf />}></Route>
+            <Route path="/artistCalendar" element={<ArtistCalendar />}></Route>
+            <Route path="/reviewconfirm" element={<Reviewconfirm />}></Route>
+            <Route
+              path="/reviewInconfirmation"
+              element={<ReviewInconfirmation />}
+            ></Route>
+            <Route path="/splash" element={<Splash />}></Route>
+            <Route path="/bookingMainPage" element={<BookingMainPage />}></Route>
+            <Route path="/scrollAllImages" element={<ScrollAllImages />}></Route>
+            <Route path="/seeallImagesGrid" element={<SeeallImagesGrid />}></Route>
+          </Routes>
+        </BrowserRouter>
+      )}
+    </>
   );
 }
 
