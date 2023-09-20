@@ -903,25 +903,19 @@
     justify-content: space-evenly;
 }
 
-.seeAllReview {
-    display: flex;
-    justify-content: end;
-}
 
-.seeAllReview:hover {
-    color: rgb(9, 27, 190);
-}
 
 .glass-card {
 
     display: flex;
     flex-flow: row wrap;
-    width: 23%;
-    padding: 20px;
+    width: 100%;
+    padding: 15px;
     border-radius: 27px;
     background: #F2F2F2;
     box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
     text-align: start;
+    margin: 10px ;
 }
 
 .glass-card:hover {
@@ -1336,7 +1330,8 @@ s .glasscard_heading {
 
 .Service_head1 {
     width: 100%;
-    padding: 0 10px;
+    /* padding: 0 10px; */
+    padding-right: 10px;
 }
 
 .serviceListDecadence {
@@ -1584,7 +1579,7 @@ s .glasscard_heading {
 }
 
 .seeAllbtn:hover {
-    background-color: whitesmoke;
+    background-color: whitesmoke;    
 }
 
 .seeAllbtn {
@@ -1593,6 +1588,7 @@ s .glasscard_heading {
     text-decoration: none;
     background: #FFFFFF;
     border: 1px solid rgb(176, 176, 176);
+    
 }
 
 .seeall_buton {

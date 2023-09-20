@@ -50,8 +50,7 @@ export default function ServiceMenuSlider() {
             </li>
           ))}
 
- 
-        </Carousel>
+        </Carousel >
       </ul>
     </>
   );

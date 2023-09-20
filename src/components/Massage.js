@@ -86,11 +86,7 @@ export default function Massage() {
               </div>
               
             </div>
-            <div className="SeeAll_btn">
-              <Link to="" className="seeAllbtn">
-                <text className="seeall_buton"> See all</text>
-              </Link>
-            </div>
+    
           </div>
 </>
   )

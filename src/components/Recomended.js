@@ -5,6 +5,7 @@ import Carousel from "react-elastic-carousel";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import RecomendedData from "../assets/Data/RecomendedData";
 
+// carousel breakpoints
 const breakPoints = [
   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
@@ -12,6 +13,7 @@ const breakPoints = [
   { width: 1200, itemsToShow: 4, itemsToScroll: 4 },
 ];
 
+//  carousel prev next arrows
 const MyArrow = ({ type, onClick, isEdge }) => {
   const pointer =
     type === "PREV" ? (
@@ -65,7 +67,7 @@ export default function Recomended() {
                       <div className="heading3">{recomended.recomendedcity}</div>
                     </div>
                   </div>
-                </Link>
+                </Link>  
               </div>
             ))}
             

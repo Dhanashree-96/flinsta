@@ -1,201 +1,108 @@
-import React from 'react'
+import React from "react";
 import { GoPlus } from "react-icons/go";
 import { Link } from "react-router-dom";
 
+const ColorHighlightsData = [
+  {
+    colorHighlightsName: "Color Consultation",
+    colorHighlightsTime: "15 min",
+    colorHighlightsRate: "free",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "AirTouch/Babylights",
+    colorHighlightsTime: "2h 45min",
+    colorHighlightsRate: "£225",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Color Correction",
+    colorHighlightsTime: "2h 45min",
+    colorHighlightsRate: "from £180",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Freehand / Balayage",
+    colorHighlightsTime: "1h 30min - 2h 45min",
+    colorHighlightsRate: "from £165",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Full Head Highlights",
+    colorHighlightsTime: "2h 15min-3h",
+    colorHighlightsRate: "from £175",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Half Head Highlights",
+    colorHighlightsTime: "1h 30min - 2h 30min",
+    colorHighlightsRate: "from £125",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Tint + Lights",
+    colorHighlightsTime: "1h 45min - 2h",
+    colorHighlightsRate: "from £96",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Full Head Tint",
+    colorHighlightsTime: "1h 15min - 1h 35min",
+    colorHighlightsRate: "from £80",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "T-section Highlights",
+    colorHighlightsTime: "1h 15min - 1h 30min",
+    colorHighlightsRate: "from £86",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Re-growth Lightener",
+    colorHighlightsTime: "1h 30min - 1h 35min",
+    colorHighlightsRate: "from £60",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "RE-growth Tint",
+    colorHighlightsTime: "1h 15min - 1h 35min",
+    colorHighlightsRate: "from £60",
+    colorHighlightsLink: "",
+  },
+  {
+    colorHighlightsName: "Toner",
+    colorHighlightsTime: "15min - 30min",
+    colorHighlightsRate: "from £40",
+    colorHighlightsLink: "",
+  },
+];
 
 export default function ColorHighlights() {
   return (
     <>
-    <div className="service">
-            
-              <div className="DecService_color">
-                
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Consultation</h4>
-                      <span>15 min</span>
-                      <text>free</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
+      <div className="service">
+        <div className="DecService_color">
 
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>AirTouch/Babylights</h4>
-                      <span>2h 45min</span>
-                      <text> £225</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Color Correction</h4>
-                      <span>2h 45min</span>
-                      <text>from £180 </text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4> Freehand / Balayage</h4>
-                      <span>1h 30min - 2h 45min</span>
-                      <text>from £165</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Full Head Highlights</h4>
-                      <span>2h 15min-3h</span>
-                      <text>from £175</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Half Head Highlights</h4>
-                      <span>1h 30min - 2h 30min</span>
-                      <text>from £125</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Tint + Lights</h4>
-                      <span>1h 45min - 2h</span>
-                      <text>from £96</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Full Head Tint</h4>
-                      <span>1h 15min - 1h 35min</span>
-                      <text>from £80</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>T-section Highlights</h4>
-                      <span>1h 15min - 1h 30min</span>
-                      <text>from £86</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Re-growth Lightener</h4>
-                      <span>1h 30min - 1h 35min</span>
-                      <text>from £60</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>RE-growth Tint</h4>
-                      <span>1h 15min - 1h 35min</span>
-                      <text>from £60</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-
-                <div className="Dec_Service_Secone">
-                  <div className="Color_cons">
-                    <div className="consultation">
-                      <h4>Toner</h4>
-                      <span>15min - 30min</span>
-                      <text>from £40</text>
-                    </div>
-                  </div>
-                  <div className="Add_Button">
-                    <Link to="" className="SBtn">
-                      <GoPlus className="plusicon" alt=" plusicon" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="SeeAll_btn">
-                <Link to="" className="seeAllbtn">
-                  <text className="seeall_buton"> See all</text>
-                </Link>
+{ColorHighlightsData.map((colorhighlight, index) => (
+          <div className="Dec_Service_Secone" key ={index}>
+            <div className="Color_cons">
+              <div className="consultation">
+                <h4>{colorhighlight.colorHighlightsName}</h4>
+                <span>{colorhighlight.colorHighlightsTime}</span>
+                <text>{colorhighlight.colorHighlightsRate}</text>
               </div>
             </div>
+            <div className="Add_Button">
+              <Link to={colorhighlight.colorHighlightsLink} className="SBtn">
+                <GoPlus className="plusicon" alt=" plusicon" />
+              </Link>
+            </div>
+          </div>
+))}
+
+        </div>
+    
+      </div>
     </>
-  )
+  );
 }

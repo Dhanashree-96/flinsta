@@ -30,7 +30,6 @@ import Footer from "./common/Footer";
 import { useLocation } from "react-router-dom";
 import ServiceMenuSlider from "./common/ServiceMenuSlider";
 
-
 export default function Decadence() {
   //assigning location variable
   const location = useLocation();
@@ -131,13 +130,17 @@ export default function Decadence() {
               <div className="DecService_color">
                 <div className="Dec_Service_Sec">
                   <div className="Service_head1">
-                    <ServiceMenuSlider/>
-                   
+                    <ServiceMenuSlider />
                   </div>
                 </div>
 
                 <Outlet />
-
+              </div>
+              <div className="SeeAll_btn">
+                {/* see all service button */}
+                <Link to="/selectServiceMain" className="seeAllbtn">
+                  <text className="seeall_buton"> See all</text>
+                </Link>
               </div>
             </div>
 
