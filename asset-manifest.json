@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.c56fec95.css",
-    "main.js": "/flinsta/static/js/main.25a16442.js",
+    "main.css": "/flinsta/static/css/main.905214d5.css",
+    "main.js": "/flinsta/static/js/main.3a5df8cb.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/Balance Massage Wellness.jpg": "/flinsta/static/media/Balance Massage Wellness.07deb135e3647e8d351f.jpg",
@@ -9,7 +9,7 @@
     "static/media/Decadence Hair & Beauty.jpg": "/flinsta/static/media/Decadence Hair & Beauty.3210b2423808f42284f9.jpg",
     "static/media/Notice Hair Salon.avif": "/flinsta/static/media/Notice Hair Salon.25b126b68652dd69b534.avif",
     "static/media/MASAJ Marylebone.jpg": "/flinsta/static/media/MASAJ Marylebone.34ff74b411e5b4ccba86.jpg",
-    "static/media/flinsta gif.gif": "/flinsta/static/media/flinsta gif.1a1ca20ba3d4e90a3b34.gif",
+    "static/media/Splash_gif.gif": "/flinsta/static/media/Splash_gif.1bf82718284ec5c0113a.gif",
     "static/media/Diamond Studio Holborn.webp": "/flinsta/static/media/Diamond Studio Holborn.d9403895f562c13e867c.webp",
     "static/media/Selfish Spitalfields.avif": "/flinsta/static/media/Selfish Spitalfields.b3d0cf0aa58e40685b8d.avif",
     "static/media/best-hair-salons-singapore.jpg": "/flinsta/static/media/best-hair-salons-singapore.0245241fcbb744a5ccf1.jpg",
@@ -44,14 +44,13 @@
     "static/media/Google Play logo.png": "/flinsta/static/media/Google Play logo.73750c3a923126c546d5.png",
     "static/media/sessiontime out.jpg": "/flinsta/static/media/sessiontime out.35ca6149b1c8ce4a488d.jpg",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
-    "static/media/logo.svg": "/flinsta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/flinsta/index.html",
-    "main.c56fec95.css.map": "/flinsta/static/css/main.c56fec95.css.map",
-    "main.25a16442.js.map": "/flinsta/static/js/main.25a16442.js.map",
+    "main.905214d5.css.map": "/flinsta/static/css/main.905214d5.css.map",
+    "main.3a5df8cb.js.map": "/flinsta/static/js/main.3a5df8cb.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c56fec95.css",
-    "static/js/main.25a16442.js"
+    "static/css/main.905214d5.css",
+    "static/js/main.3a5df8cb.js"
   ]
 }
