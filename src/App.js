@@ -1,54 +1,64 @@
-import logo from "./logo.svg";
+import { useEffect, useState } from "react";
 import "./App.css";
+import "./assets/css/Style.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "react-bootstrap";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Header from "./components/common/Header";
-import Home from "./components/Home";
-import Recomended from "./components/Recomended";
-import NewFlinsta from "./components/NewFlinsta";
-import Review from "./components/Review";
-import AppointmentHome from "./components/AppointmentHome";
+import Home from "./components/Customer Flow/Home";
+import Recomended from "./components/Customer Flow/Recomended";
+import NewFlinsta from "./components/Customer Flow/NewFlinsta";
+import Review from "./components/Customer Flow/Review";
+import AppointmentHome from "./components/Customer Flow/AppointmentHome";
 import Footer from "./components/common/Footer";
-import Decadence from "./components/Decadence";
+import Decadence from "./components/Customer Flow/Decadence";
 import CardSlider from "./components/common/CardSlider";
-import Demo from "./components/Demo";
-import PartnerForm from "./components/PartnerForm";
-import ColorHighlights from "./components/ColorHighlights";
-import CuttingStyling from "./components/CuttingStyling";
-import Face from "./components/Face";
-import Feet from "./components/Feet";
-import HairExtension from "./components/HairExtension";
-import HairRemoval from "./components/HairRemoval";
-import HairTreatments from "./components/HairTreatments";
-import Hands from "./components/Hands";
-import LashesBrows from "./components/LashesBrows";
-import Massage from "./components/Massage";
-import PackagesOffers from "./components/PackagesOffers";
-import ServicesPage2 from "./components/ServicesPage2";
-import All_Login from "./components/common/All_Login";
-import LoginForm from "./components/common/Login2";
-import Signup from "./components/common/Signup";
+import Demo from "./components/Customer Flow/Demo";
+import PartnerForm from "./components/Customer Flow/PartnerForm";
+import ColorHighlights from "./components/Customer Flow/ColorHighlights";
+import CuttingStyling from "./components/Customer Flow/CuttingStyling";
+import Face from "./components/Customer Flow/Face";
+import Feet from "./components/Customer Flow/Feet";
+import HairExtension from "./components/Customer Flow/HairExtension";
+import HairRemoval from "./components/Customer Flow/HairRemoval";
+import HairTreatments from "./components/Customer Flow/HairTreatments";
+import Hands from "./components/Customer Flow/Hands";
+import LashesBrows from "./components/Customer Flow/LashesBrows";
+import Massage from "./components/Customer Flow/Massage";
+import PackagesOffers from "./components/Customer Flow/PackagesOffers";
+import ServicesPage2 from "./components/Customer Flow/ServicesPage2";
 import ServiceDisplayRightSection from "./components/common/ServiceDisplayRightSection";
-import SelectServicePage from "./components/SelectServicePage";
+import SelectServicePage from "./components/Customer Flow/SelectServicePage";
 import ServiceMenuSlider from "./components/common/ServiceMenuSlider";
-import SelectServiceContent from "./components/SelectServiceContent";
-import SelectServiceMain from "./components/SelectserviceMain";
-import RightSidepage from "./components/RightSidepage";
-import ForgetPage from "./components/common/ForgetPage";
-import ForgetPassword from "./components/common/ForgetPassword";
-import Otp from "./components/common/Otp";
-import ResetPassword from "./components/common/ResetPassword";
-import For_Business from "./components/common/For_Business";
-import SelectStaf from "./components/SelectStaf";
-import ArtistCalendar from "./components/ArtistCalendar";
-import Reviewconfirm from "./components/ReviewConfirm";
-import ReviewInconfirmation from "./components/ReviewInconfirmation";
-import Splash from "./components/Splash";
-import { useEffect, useState } from "react";
-import BookingMainPage from "./components/BookingMainPage";
-import ScrollAllImages from "./components/Scrollall_Images";
-import SeeallImagesGrid from "./components/SeeallImages";
+import SelectServiceContent from "./components/Customer Flow/SelectServiceContent";
+import SelectServiceMain from "./components/Customer Flow/SelectserviceMain";
+import RightSidepage from "./components/Customer Flow/RightSidepage";
+import SelectStaf from "./components/Customer Flow/SelectStaf";
+import ArtistCalendar from "./components/Customer Flow/ArtistCalendar";
+import Reviewconfirm from "./components/Customer Flow/ReviewConfirm";
+import ReviewInconfirmation from "./components/Customer Flow/ReviewInconfirmation";
+import Splash from "./components/common/Splash";
+import BookingMainPage from "./components/Customer Flow/BookingMainPage";
+import ScrollAllImages from "./components/Customer Flow/Scrollall_Images";
+import SeeallImagesGrid from "./components/Customer Flow/SeeallImages";
+import All_Login from "./components/Login/All_Login";
+import LoginForm from "./components/Login/Customer login/Login2";
+import Signup from "./components/Login/Customer login/Signup";
+import ForgetPage from "./components/Login/Customer login/ForgetPage";
+import ForgetPassword from "./components/Login/Customer login/ForgetPassword";
+import Otp from "./components/Login/Customer login/Otp";
+import ResetPassword from "./components/Login/Customer login/ResetPassword";
+import For_Business from "./components/Login/Business Login/For_Business";
+import Create_account from "./components/Login/Business Login/Create_account";
+import BusinessName from "./components/Login/Business Login/BusinessName";
+import BusinessServices from "./components/Login/Business Login/BusinessServices";
+import SetLocation from "./components/Login/Business Login/SetLocation";
+import MobileNumber from "./components/Login/Business Login/MobileNumber";
+import BusinessMobileVerification from "./components/Login/Business Login/BusinessMobileVerification";
+import BusinessTeamSize from "./components/Login/Business Login/BusinessTeamSize";
+import BusinessSoftware from "./components/Login/Business Login/BusinessSoftware";
+import HearFlinsta from "./components/Login/Business Login/HearFlinsta";
+import SearchBar from "./components/Customer Flow/SearchBar";
 
 function App() {
   // splash screen
@@ -58,7 +68,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000); // Adjust the delay time as needed
+    }, 2600); // Adjust the delay time as needed
   }, []);
 
   return (
@@ -75,16 +85,11 @@ function App() {
             <Route path="/recomended" element={<Recomended />}></Route>
             <Route path="/newFlinsta" element={<NewFlinsta />}></Route>
             <Route path="/review" element={<Review />}></Route>
-            <Route
-              path="/appointmentHome"
-              element={<AppointmentHome />}
-            ></Route>
+            <Route path="/appointmentHome"element={<AppointmentHome />}></Route>
+            {/* Decadence */}
             <Route path="/decadence" element={<Decadence />}>
               <Route path="" element={<ColorHighlights />}></Route>
-              <Route
-                path="colorHighlights"
-                element={<ColorHighlights />}
-              ></Route>
+              <Route path="colorHighlights"element={<ColorHighlights />}></Route>
               <Route path="cuttingStyling" element={<CuttingStyling />}></Route>
               <Route path="face" element={<Face />}></Route>
               <Route path="feet" element={<Feet />}></Route>
@@ -97,6 +102,7 @@ function App() {
               <Route path="packagesOffers" element={<PackagesOffers />}></Route>
             </Route>
             <Route path="/partnerForm" element={<PartnerForm />}></Route>
+            {/* login flow */}
             <Route path="/allLogin" element={<All_Login />}></Route>
             <Route path="/login" element={<LoginForm />}></Route>
             <Route path="/signUp" element={<Signup />}></Route>
@@ -105,23 +111,22 @@ function App() {
             <Route path="/otp" element={<Otp />}></Route>
             <Route path="/resetPassword" element={<ResetPassword />}></Route>
             <Route path="/forBusiness" element={<For_Business />}></Route>
-            <Route
-              path="/serviceDisplayRightSection"
-              element={<ServiceDisplayRightSection />}
-            ></Route>
-            <Route
-              path="/selectServicePage"
-              element={<SelectServicePage />}
-            ></Route>
+            <Route path="/createBusinessAccount" element={<Create_account />}></Route>
+            <Route path="/businessName" element={<BusinessName />}></Route>
+            <Route path="/businessServices" element={<BusinessServices />}></Route>
+            <Route path="/setLocation" element={<SetLocation />}></Route>
+            <Route path="/mobileNumber" element={<MobileNumber />}></Route>
+            <Route path="/businessMobileVerification" element={<BusinessMobileVerification />}></Route>
+            <Route path="/businessTeamSize" element={<BusinessTeamSize />}></Route>
+            <Route path="/businessSoftware" element={<BusinessSoftware />}></Route>
+            <Route path="/hearFlinsta" element={<HearFlinsta />}></Route>
+
+            {/* customer flow */}
+            <Route path="/serviceDisplayRightSection"element={<ServiceDisplayRightSection />}></Route>
+            <Route path="/selectServicePage"element={<SelectServicePage />}></Route>
             <Route path="/servicesPage2" element={<ServicesPage2 />}></Route>
-            <Route
-              path="/serviceMenuSlider"
-              element={<ServiceMenuSlider />}
-            ></Route>
-            <Route
-              path="/selectServiceContent"
-              element={<SelectServiceContent />}
-            ></Route>
+            <Route path="/serviceMenuSlider"element={<ServiceMenuSlider />}></Route>
+            <Route path="/selectServiceContent"element={<SelectServiceContent />}></Route>
             <Route
               path="/selectServiceMain"
               element={<SelectServiceMain />}
@@ -130,14 +135,12 @@ function App() {
             <Route path="/selectStaf" element={<SelectStaf />}></Route>
             <Route path="/artistCalendar" element={<ArtistCalendar />}></Route>
             <Route path="/reviewconfirm" element={<Reviewconfirm />}></Route>
-            <Route
-              path="/reviewInconfirmation"
-              element={<ReviewInconfirmation />}
-            ></Route>
+            <Route path="/reviewInconfirmation"element={<ReviewInconfirmation />}></Route>
             <Route path="/splash" element={<Splash />}></Route>
-            <Route path="/bookingMainPage" element={<BookingMainPage />}></Route>
-            <Route path="/scrollAllImages" element={<ScrollAllImages />}></Route>
-            <Route path="/seeallImagesGrid" element={<SeeallImagesGrid />}></Route>
+            <Route path="/bookingMainPage"element={<BookingMainPage />}></Route>
+            <Route path="/scrollAllImages"element={<ScrollAllImages />}></Route>
+            <Route path="/seeallImagesGrid"element={<SeeallImagesGrid />}></Route>
+            <Route path="/searchBar"element={<SearchBar />}></Route>
           </Routes>
         </BrowserRouter>
       )}
