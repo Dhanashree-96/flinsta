@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.94488b5e.css",
+    "main.css": "/flinsta/static/css/main.6a8f839e.css",
     "main.js": "/flinsta/static/js/main.020220ec.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
@@ -45,12 +45,12 @@
     "static/media/sessiontime out.jpg": "/flinsta/static/media/sessiontime out.35ca6149b1c8ce4a488d.jpg",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "index.html": "/flinsta/index.html",
-    "main.94488b5e.css.map": "/flinsta/static/css/main.94488b5e.css.map",
+    "main.6a8f839e.css.map": "/flinsta/static/css/main.6a8f839e.css.map",
     "main.020220ec.js.map": "/flinsta/static/js/main.020220ec.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94488b5e.css",
+    "static/css/main.6a8f839e.css",
     "static/js/main.020220ec.js"
   ]
 }
