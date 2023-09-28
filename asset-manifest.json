@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.6a8f839e.css",
-    "main.js": "/flinsta/static/js/main.020220ec.js",
+    "main.css": "/flinsta/static/css/main.66d1d427.css",
+    "main.js": "/flinsta/static/js/main.9547838f.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
+    "static/media/AritistAlv.jpg": "/flinsta/static/media/AritistAlv.bf96e4a5da996e68630b.jpg",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
     "static/media/Balance Massage Wellness.jpg": "/flinsta/static/media/Balance Massage Wellness.07deb135e3647e8d351f.jpg",
     "static/media/sallon image.jpg": "/flinsta/static/media/sallon image.c5040d51235458d91769.jpg",
@@ -29,12 +30,14 @@
     "static/media/Lia Aesthtics.avif": "/flinsta/static/media/Lia Aesthtics.0bc316c7851d18285a2e.avif",
     "static/media/The Fierce Lash Company.avif": "/flinsta/static/media/The Fierce Lash Company.2bd0a1b62079e336e32c.avif",
     "static/media/Selfish Shoreditch.webp": "/flinsta/static/media/Selfish Shoreditch.56a1fc01e73ce7333faf.webp",
+    "static/media/cccircleman.webp": "/flinsta/static/media/cccircleman.74f290829113a01dc72f.webp",
     "static/media/The Wild Hare.avif": "/flinsta/static/media/The Wild Hare.d1a29873289e7ba290ed.avif",
     "static/media/Sugar Cane Salon.webp": "/flinsta/static/media/Sugar Cane Salon.02afe5aac5c9f497acdc.webp",
     "static/media/AMA Brixton.avif": "/flinsta/static/media/AMA Brixton.f5d2405401dc30586e70.avif",
     "static/media/Salon No.Eight.avif": "/flinsta/static/media/Salon No.Eight.0bd2a256e4a63f463870.avif",
     "static/media/business_login.jpg": "/flinsta/static/media/business_login.fd80a798d7acedc8f466.jpg",
     "static/media/Relax.jpg": "/flinsta/static/media/Relax.b3a4512a0422d6535808.jpg",
+    "static/media/stafArtist.avif": "/flinsta/static/media/stafArtist.2bcce5051482d2da68bc.avif",
     "static/media/depositphotos_68471257-stock-photo-interior-of-empty-modern-hair.jpg": "/flinsta/static/media/depositphotos_68471257-stock-photo-interior-of-empty-modern-hair.7378bc583b48efabdc25.jpg",
     "static/media/man square  img.jpg": "/flinsta/static/media/man square  img.dd6ae7dc4eaa08561aef.jpg",
     "static/media/Huckle The Barber Lambs Conduit.avif": "/flinsta/static/media/Huckle The Barber Lambs Conduit.80da675d2e5ba651ce83.avif",
@@ -45,12 +48,12 @@
     "static/media/sessiontime out.jpg": "/flinsta/static/media/sessiontime out.35ca6149b1c8ce4a488d.jpg",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "index.html": "/flinsta/index.html",
-    "main.6a8f839e.css.map": "/flinsta/static/css/main.6a8f839e.css.map",
-    "main.020220ec.js.map": "/flinsta/static/js/main.020220ec.js.map",
+    "main.66d1d427.css.map": "/flinsta/static/css/main.66d1d427.css.map",
+    "main.9547838f.js.map": "/flinsta/static/js/main.9547838f.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a8f839e.css",
-    "static/js/main.020220ec.js"
+    "static/css/main.66d1d427.css",
+    "static/js/main.9547838f.js"
   ]
 }
