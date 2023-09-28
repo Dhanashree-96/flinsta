@@ -23,6 +23,7 @@ import Footer from "../common/Footer";
 // import GoToTop from "../components/common/GoToTop";
 import { useLocation } from "react-router-dom";
 import ServiceMenuSlider from "../common/ServiceMenuSlider";
+import SearchBar from "./SearchBar";
 
 export default function Decadence() {
   //assigning location variable
@@ -45,7 +46,7 @@ export default function Decadence() {
             <div className="Search_sec1">
               <div className="Search_sec1_outer">
                 <IoSearch className="search_ions" />
-                <div className="TreatorVenue">Treatment or venue</div>
+                <SearchBar />
               </div>
             </div>
             <div className="Search_sec2">

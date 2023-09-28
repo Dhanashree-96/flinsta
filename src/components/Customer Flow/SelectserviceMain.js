@@ -11,7 +11,6 @@ import SelectServiceContent from "./SelectServiceContent";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Carousel from "react-elastic-carousel";
 import RightSidepage from "./RightSidepage";
-import Demo from "./Demo";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
@@ -36,6 +35,8 @@ const MyArrow = ({ type, onClick, isEdge }) => {
 };
 
 export default function SelectServiceMain() {
+
+  
   // back arrow
   const navigate = useNavigate();
 

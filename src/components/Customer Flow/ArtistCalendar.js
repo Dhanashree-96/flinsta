@@ -5,10 +5,15 @@ import RightSidepage from './RightSidepage';
 import { IoIosArrowForward } from 'react-icons/io';
 import Calendar from "./Calendar";
 import Details from "./Calendardetails";
+import { useOptionContext } from './OptionContext';
 
 export default function ArtistCalendar() {
-  // back arrow
+  
+  // back arrow navigation
   const navigate = useNavigate();
+
+// Access the selectDetails function from the context
+  const { selectDetails } = useOptionContext(); 
 
   // show details on date click
   const [showDetails, setShowDetails] = useState(false);
@@ -19,12 +24,18 @@ export default function ArtistCalendar() {
     setShowDetails(true);
   };
 
+  const showDetailsOnClick  = (dayStr) => {
+    setData(dayStr);
+    setShowDetails(true);
+    selectDetails(dayStr); // Set the details data in the context
+  };
+
   return (
 
     <div className='Page1_wrapper'>
       <div className='Page1_sections'>
         <div className='Page1_Leftsection'>
-        <div className="arrow stafArrow" onClick={() => navigate(-1)}>
+          <div className="arrow stafArrow" onClick={() => navigate(-1)}>
             <BiArrowBack className="biarrowicon " />
           </div>
           <div className='All_Leftsection'>
@@ -37,30 +48,24 @@ export default function ArtistCalendar() {
 
               <div className='staff-section'>
                 <div className='selectarch-section'>
-                
-                  <Calendar showDetailsHandle={showDetailsHandle} />             
-
+                  <Calendar showDetailsHandle={showDetailsHandle} />
                 </div>
-                <Link to="/reviewconfirm" className='artistLink'>
-                <div className='TimeSelect_othersec'>
+
+                <div className='TimeSelect_othersec' onClick={() => showDetailsOnClick(data)}>
                   <text>{showDetails && <Details data={data} />}</text>
                   <IoIosArrowForward className='forwardarrow' />
                 </div>
-                </Link>
 
-                <Link to="/reviewconfirm" className='artistLink'>
-                <div className='TimeSelect_othersec'>
+                <div className='TimeSelect_othersec' onClick={() => showDetailsOnClick(data)}>
                   <text>{showDetails && <Details data={data} />}</text>
                   <IoIosArrowForward className='forwardarrow' />
                 </div>
-                </Link>
 
-                <Link to="/reviewconfirm" className='artistLink'>
-                <div className='TimeSelect_othersec'>
+                <div className='TimeSelect_othersec' onClick={() => showDetailsOnClick(data)}>
                   <text>{showDetails && <Details data={data} />}</text>
                   <IoIosArrowForward className='forwardarrow' />
                 </div>
-                </Link>
+
               </div>
             </div>
           </div>
@@ -68,6 +73,11 @@ export default function ArtistCalendar() {
         </div>
 
         <RightSidepage />
+        <div className="selectser-BOOKBUTTON">
+          <Link to="/reviewconfirm" className="Selectservice-button ">
+            <text className="hiddenselectser-Btn">Continue</text>
+          </Link>
+        </div>
       </div>
     </div >
 

@@ -7,13 +7,23 @@ import { LuStar } from "react-icons/lu";
 import RightSidepage from "./RightSidepage";
 import { BsArrowUpSquare } from "react-icons/bs";
 import SelectStafData from "../../assets/Data/SelectStafData";
+import { useOptionContext } from "./OptionContext";
 
 
 
 export default function SelectStaf() {
-   // scroll top button
-   const toTop = useRef();
-   const scrollToTop = (elmRef) => {
+  // Define state to store the selected staff
+  const { selectStaff } = useOptionContext();
+
+  // Function to handle staff selection
+  const handleStaffSelection = (staff) => {
+    selectStaff(staff); // Call the selectStaff function to update selectedStaff
+  };
+
+
+  // scroll top button
+  const toTop = useRef();
+  const scrollToTop = (elmRef) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -34,16 +44,17 @@ export default function SelectStaf() {
     };
   }, []);
 
-  const scrolHandler = (elmRef) => {
-    window.scrollTo({
-      top: elmRef.current.offsetTop,
-      behavior: "smooth",
-      Scrollmargintop: "30px",
-    });
-  };
+  // const scrolHandler = (elmRef) => {
+  //   window.scrollTo({
+  //     top: elmRef.current.offsetTop,
+  //     behavior: "smooth",
+  //     Scrollmargintop: "30px",
+  //   });
+  // };
 
   // back arrow
   const navigate = useNavigate();
+
   return (
     <div className="Page1_wrapper">
       <div className="Page1_sections">
@@ -57,30 +68,30 @@ export default function SelectStaf() {
                 <h2>Select Staff</h2>
               </div>
 
-              <div className="staff-section">  
-              {SelectStafData.map((selectstaf, index) => (
+              <div className="staff-section">
+                {SelectStafData.map((selectstaf, index) => (
 
-                <Link to={selectstaf.selectStaflink} className="stafLink" key={index}>
-                  <div className="staff_othersec">
-                    <div className="imgsecpage2">
-                      <img
-                        src={selectstaf.selectStafimg}
-                        className="staff_image1"
-                        alt="staff_image1"
-                      />
-                      <div className="staff_textbox">
-                        <text>{selectstaf.selectStafname}</text>
-                        <span>{selectstaf.selectStafdate}</span>
+                  <Link to={selectstaf.selectStaflink} className="stafLink" key={index} onClick={() => handleStaffSelection(selectstaf)}>
+                    <div className="staff_othersec">
+                      <div className="imgsecpage2">
+                        <img
+                          src={selectstaf.selectStafimg}
+                          className="staff_image1"
+                          alt="staff_image1"
+                        />
+                        <div className="staff_textbox">
+                          <text>{selectstaf.selectStafname}</text>
+                          <span>{selectstaf.selectStafdate}</span>
+                        </div>
+                      </div>
+                      <div className="staff_rating">
+                        <LuStar className="page2lustar" />
+                        <h4>5.0</h4>
+                        <IoIosArrowForward className="forwardarrow" />
                       </div>
                     </div>
-                    <div className="staff_rating">
-                      <LuStar className="page2lustar" />
-                      <h4>5.0</h4>
-                      <IoIosArrowForward className="forwardarrow" />
-                    </div>
-                  </div>
-                </Link>
-                 ))}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
@@ -88,6 +99,11 @@ export default function SelectStaf() {
         {/* //////////////// */}
 
         <RightSidepage />
+        <div className="selectser-BOOKBUTTON">
+          <Link to="/artistCalendar" className="Selectservice-button ">
+            <text className="hiddenselectser-Btn">Continue</text>
+          </Link>
+        </div>
       </div>
       <div
         onClick={() => scrollToTop(toTop)}

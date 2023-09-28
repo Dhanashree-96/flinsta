@@ -59,6 +59,7 @@ import BusinessTeamSize from "./components/Login/Business Login/BusinessTeamSize
 import BusinessSoftware from "./components/Login/Business Login/BusinessSoftware";
 import HearFlinsta from "./components/Login/Business Login/HearFlinsta";
 import SearchBar from "./components/Customer Flow/SearchBar";
+import { OptionProvider } from "./components/Customer Flow/OptionContext";
 
 function App() {
   // splash screen
@@ -73,7 +74,8 @@ function App() {
 
   return (
     <>
-      {loading ? (
+    <OptionProvider>
+            {loading ? (
         <Splash />
       ) : (
         <BrowserRouter>
@@ -126,11 +128,13 @@ function App() {
             <Route path="/selectServicePage"element={<SelectServicePage />}></Route>
             <Route path="/servicesPage2" element={<ServicesPage2 />}></Route>
             <Route path="/serviceMenuSlider"element={<ServiceMenuSlider />}></Route>
+        
             <Route path="/selectServiceContent"element={<SelectServiceContent />}></Route>
             <Route
               path="/selectServiceMain"
               element={<SelectServiceMain />}
             ></Route>
+           
             <Route path="/rightSidepage" element={<RightSidepage />}></Route>
             <Route path="/selectStaf" element={<SelectStaf />}></Route>
             <Route path="/artistCalendar" element={<ArtistCalendar />}></Route>
@@ -143,7 +147,10 @@ function App() {
             <Route path="/searchBar"element={<SearchBar />}></Route>
           </Routes>
         </BrowserRouter>
+        
       )}
+      </OptionProvider>
+
     </>
   );
 }
