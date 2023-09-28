@@ -60,6 +60,18 @@ import BusinessSoftware from "./components/Login/Business Login/BusinessSoftware
 import HearFlinsta from "./components/Login/Business Login/HearFlinsta";
 import SearchBar from "./components/Customer Flow/SearchBar";
 import { OptionProvider } from "./components/Customer Flow/OptionContext";
+import Membership from "./components/Customer Flow/Membership";
+import MembershipAddQuantity from "./components/Customer Flow/MembershipAddQuantity";
+import MembershipLogin from "./components/Customer Flow/MembershipLogin";
+import MembershipSignup from "./components/Customer Flow/MembershipSignup";
+import MembershipRightside from "./components/Customer Flow/MembershipRightside";
+import MembershipSignupEmail from "./components/Customer Flow/MembershipSignupEmail";
+import Voucher from "./components/Customer Flow/Voucher";
+import VoucherAddQuantity from "./components/Customer Flow/VoucherAddQuantity";
+import VoucherChooserecipitent from "./components/Customer Flow/VoucherChooserecipitent";
+import VoucherRightside from "./components/Customer Flow/VoucherRightside";
+import Emailasgiftvoucher from "./components/Customer Flow/Emailasgiftvoucher";
+import PrintasgiftVoucher from "./components/Customer Flow/PrintasgiftVoucher";
 
 function App() {
   // splash screen
@@ -145,6 +157,24 @@ function App() {
             <Route path="/scrollAllImages"element={<ScrollAllImages />}></Route>
             <Route path="/seeallImagesGrid"element={<SeeallImagesGrid />}></Route>
             <Route path="/searchBar"element={<SearchBar />}></Route>
+
+            {/* membership */}
+            <Route path="/membership"element={<Membership />}></Route>
+            <Route path="/membershipAddQuantity"element={<MembershipAddQuantity />}></Route>
+            <Route path="/membershipLogin"element={<MembershipLogin />}></Route>
+            <Route path="/membershipSignup"element={<MembershipSignup />}></Route>
+            <Route path="/membershipRightside"element={<MembershipRightside />}></Route>
+            <Route path="/membershipSignupEmail"element={<MembershipSignupEmail />}></Route>
+
+            {/* voucher */}
+            <Route path="/voucher"element={<Voucher />}></Route>
+            <Route path="/voucherAddQuantity"element={<VoucherAddQuantity />}></Route>
+            <Route path="/voucherChooserecipitent"element={<VoucherChooserecipitent />}></Route>
+            <Route path="/voucherRightside"element={<VoucherRightside />}></Route>
+            <Route path="/emailasgiftvoucher"element={<Emailasgiftvoucher />}></Route>
+            <Route path="/printasgiftVoucher"element={<PrintasgiftVoucher />}></Route>
+
+
           </Routes>
         </BrowserRouter>
         

@@ -2537,6 +2537,13 @@ iframe {
     flex-flow: row wrap;
     position: relative;
 }
+.Page1_Right2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    position: relative;
+}
 
 .Page1_Right {
     display: flex;
@@ -2570,6 +2577,15 @@ iframe {
     margin-top: 90px;
     height: 60vh;
     overflow-y: auto;
+}
+.Page1_RightSection2 {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 204, 204);
+    margin-top: 90px;
+    height: 60vh;
+    overflow-y: auto;
+    padding: 10px;
 }
 
 .Page1_Image {
@@ -3699,3 +3715,486 @@ select {
 .readmorediv {
     border: none;
 }
+
+/* Membership section */
+
+.membership_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: white;
+  }
+  
+  .membership_sections {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .membership_Leftsection {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    padding: 0 30px;
+  }
+  
+  .Member_Leftsection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 80px 10px 60px; */
+  }
+  .Membership-Section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 1px solid rgb(209, 204, 204);
+    padding: 30px 30px;
+    border-radius: 15px;
+    margin: 80px 0 30px 0;
+  
+  }
+  .memberbiarrowicon {
+    font-size: 35px;
+    padding: 5px;
+    margin: 18px 0px 0px 320px;
+  
+  }
+  
+  .memberbiarrowicon:hover {
+    background-color: #efeeee;
+    border-radius: 10px;
+    margin: 18px 0px 0px 320px;
+  }
+  
+  .membershipSelect_Service1 h2 {
+    background: #fff;
+    margin-top: 60px;
+    font-size: 33px;
+    font-weight: 600;
+    color: #000;
+    
+  }
+  
+  
+  .Membership-Sec1Div {
+    width: 100%;
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    background: rgb(22, 119, 221);
+    background: linear-gradient(
+      176deg,
+      rgba(22, 119, 221, 1) 92%,
+      rgba(29, 122, 225, 1) 100%,
+      rgb(234, 231, 231) 80%
+    );
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .businesstime {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .Membership-Sec1Div text,
+  .Membership-Sec1Div h3 {
+    color: #fff;
+  }
+  
+  .Membership-desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  /* voucher  */
+  .vourmaindiv {
+    width: 100%;
+  }
+  .Voucher-Sec1Div {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    color: #fff;
+    background: rgba(2, 9, 33, 1);
+    background: linear-gradient(135deg, rgba(2, 9, 33, 1), rgba(6, 34, 44, 1));
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .membershipSelect_Service {
+    background-color: #fff; /* Initial background color when not scrolled */
+    position: fixed;
+    top: 0;
+    /* left:0px; */
+    width: 50%;
+    display: flex;
+    color: #000000;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    z-index: 1000;
+    padding-top: 30px;
+  }
+  
+  .scrolled {
+    color: #000;
+    background-color: #ffffff; /* Background color when scrolled */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Optional: Add a box shadow for a subtle elevation effect */
+  }
+  .voucher_heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Voucher-desc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .Voucher-desc2 {
+    width: 100%;
+    display: flex;
+  }
+  .Voucher-desc2 text {
+    font-size: 15px;
+  }
+  .voucher_heading h3 {
+    font-weight: 550;
+    color: #ffffff;
+  }
+  .Voucher-desc h6 {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .circle-designvou {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #d25678;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 30px; /* Adjust the circle size as needed */
+    height: 30px; /* Adjust the circle size as needed */
+    background-color: rgb(
+      255,
+      255,
+      255
+    ); /* Set the background color of the circle */
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .circle.left,
+  .circle1.left {
+    left: -15px; /* Adjust the position to place it partially outside on the left */
+  }
+  
+  .circle.right,
+  .circle1.right {
+    right: -15px; /* Adjust the position to place it partially outside on the right */
+  }
+  
+  /* voucher add quantity */
+  .voucherhmain-heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .voucherhmain-heading h4 {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .voucherhmain-heading text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .voucherhmain-headsec2 {
+    padding: 10px 0;
+  }
+  .voucherhmain-headsec2,
+  .voucher-contents,
+  .voucher-minus,
+  .voucher-add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .voucher-add,
+  .voucher-minus,
+  .voucher-contents {
+    border: 1px solid rgb(203, 199, 199);
+    padding: 10px 0px;
+    border-radius: 5px;
+  }
+  .voucher-add:hover,
+  .voucher-minus:hover {
+    border: 1px solid #0c1485;
+    background-color: rgb(228, 228, 228);
+  }
+  .voucher-minus {
+    width: 10%;
+  }
+  .voucher-contents {
+    width: 25%;
+  }
+  .voucher-contents text {
+    background: #fff;
+    color: #000;
+  }
+  .voucher-add {
+    width: 10%;
+  }
+  .quantityicon {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+  }
+  .vouchhoriz-line {
+    width: 100%;
+    border: 1px solid #ffffff;
+  }
+  
+  .quantyvoucher_heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+  }
+  .quantyvoucher_heading h4 {
+    font-weight: 600;
+  }
+  
+  .quantyvoucher_heading text {
+    font-weight: 550;
+  }
+  .circle1 {
+    position: absolute;
+    width: 40px; /* Adjust the circle size as needed */
+    height: 40px; /* Adjust the circle size as needed */
+    background-color: rgb(
+      255,
+      255,
+      255
+    ); /* Set the background color of the circle */
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* bottom button section  css */
+  .voucher-bottom-content {
+    position: sticky; /* or position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #dadada;
+    color: rgb(90, 86, 86);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .voucher-bottom-content button {
+    background-color: #1b1c1c; /* Button color */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .membeBottomBtn{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .voubottomtext {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* membership add quantity */
+  .Memb-signup{
+    width:100%;
+    padding: 10px 10px;
+  }
+  .membership-businestimetext {
+    display: flex;
+  }
+  .servicelink-voucher:hover {
+    text-decoration: underline;
+    color: #e0dfdf;
+    cursor: pointer;
+  }
+  /* membership sign up to continue */
+  .scrollmemberbiarrowicon {
+    font-size: 35px;
+    padding: 5px;
+    margin: 18px 0px 0px 300px;
+  
+  }
+  .scrollmemberbiarrowicon:hover {
+    background-color: #efeeee;
+    border-radius: 10px;
+    /* margin: 18px 0px 0px 120px; */
+  }
+  .Membership-mainsignup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    border: 1px solid rgb(209, 204, 204);
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .MemSignupBtn {
+    width: 100%;
+  }
+  
+  .MemBtn {
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+  .Membershiplogtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkuderline :hover{
+    text-decoration:underline;
+  }
+   input[type=number] {
+    -moz-appearance: textfield;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Voucher choose recipitent csss */
+  .recipitent-Section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 80px 0 30px 0;
+  
+  }
+  .recipitent-bordermain{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    border: 1px solid rgb(222, 219, 219);
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  .recipitent-bordermain:hover{
+    background: #f4f4f4;
+  }
+  .choose_recipi{
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .choose_recipi text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    padding: 0 15px;
+  }
+  .recipitent_circle{
+    width: 17%;
+  }
+  .user-recipient{
+   font-size: 60px;
+   color: #474646;
+   border: 1px solid rgb(227, 225, 225);
+   background: rgb(229, 234, 237);
+   border-radius: 50%;
+   object-fit: cover;
+   padding: 15px;
+  }
+  .voucherrecipforwd{
+    width: 20%;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+  }
+  /* Print as gift */
+  .voucher-bottom-content-fixed {
+    position: fixed; /* or position: absolute; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #dadada;
+    color: rgb(90, 86, 86);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .voucher-bottom-content-fixed button {
+    background-color: #1b1c1c; /* Button color */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

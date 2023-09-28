@@ -22,11 +22,11 @@ export default function BookingMainPage() {
 
         <div className="Bookappontment_section">
           <h4>Buy</h4>
-          <Link className="Bookan_Appointment">
+          <Link to="/membership" className="Bookan_Appointment">
             <text>Membership</text>
             <span>Bundle your services in to a membersip</span>
           </Link>
-          <Link className="Bookan_Appointment">
+          <Link to="/voucher" className="Bookan_Appointment">
             <text>Voucher</text>
             <span>Treat yourself or a friend to future visits</span>
           </Link>

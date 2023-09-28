@@ -535,7 +535,7 @@ export default function Decadence() {
                     <p>Buy a bundle of appointments.</p>
                   </div>
                   <div className="BtnMembership">
-                    <Link to="" className="buy_buton">
+                    <Link to="/membership" className="buy_buton">
                       <div className="Buy_buton">Buy</div>
                     </Link>
                   </div>
@@ -549,7 +549,7 @@ export default function Decadence() {
                     </div>
                     <div className="BtnMembership">
                       <div className="membership">
-                        <Link to="" className="buy_buton">
+                        <Link to="/voucher" className="buy_buton">
                           <div className="Buy_buton">Buy</div>
                         </Link>
                       </div>
