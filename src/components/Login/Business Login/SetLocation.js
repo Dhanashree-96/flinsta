@@ -16,7 +16,7 @@ export default function SetLocation() {
           <MDBBtn className="bg-black text-capitalize">Next step</MDBBtn>
         </Link>
       </div>
-      <body class="businesnamediv   d-flex justify-content-center align-item-center">
+      <body className="businesnamediv   d-flex justify-content-center align-item-center">
         <MDBContainer className="d-flex  justify-content-center align-item-center">
           <MDBCol className="col-sm-6   d-flex  justify-content-center align-item-center">
             <div className=" d-flex flex-column   w-100 px-3 pb-5">

@@ -77,21 +77,27 @@ export default function SelectServiceContent() {
           <div className="popup-message">{popupMessage}</div>
         )}
 
-        {/* {selectedOptions.length > 0 && (
-          <Link to="" className="continue_Btn">
-            <div className="serviceContinuebtn">
-              <text className="ContinueBtn">Continue</text>
-            </div>
-          </Link>
-        )} */}
 
-        <div className="selectser-BOOKBUTTON">
-        {selectedOptions.length > 0 && (
-         <Link to="/selectStaf" className="Selectservice-button w-100">
+        {/* <div className="selectser-BOOKBUTTON">
+          {selectedOptions.length > 0 && (
+            <Link to="/selectStaf" className="Selectservice-button w-100">
               <text className="hiddenselectser-Btn">Book Now</text>
-            </Link> 
-         )} 
-         </div> 
+            </Link>
+          )}
+        </div> */}
+      </div>
+
+      {/* bottom button section */}
+      <div className="voucher-bottom-content-fixed">
+        <div className="serviceBottomBtn ">
+          <div className="voubottomtext">
+            {selectedOptions.length > 0 && (
+              <Link to="/selectStaf" className="">
+                <text className="hiddenselectser-Btn">Book now</text>
+              </Link>
+            )}
+          </div>
+        </div>
       </div>
     </>
   );

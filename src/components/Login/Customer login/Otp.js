@@ -8,7 +8,7 @@ import pic from "../../../assets/images/1234 1.png";
 
 export default function Otp() {
   return (
-    <body class="Otpmaindiv bg-light  d-flex justify-content-center align-item-center">
+    <body className="Otpmaindiv bg-light  d-flex justify-content-center align-item-center">
     <MDBContainer className="  rounded d-flex  justify-content-center align-item-center">
         <MDBCol className="col-sm-6  rounded d-flex  justify-content-center align-item-center">
             <div className=" bg-light rounded shadow  w-75 px-3 pt-4 pb-5">

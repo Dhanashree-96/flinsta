@@ -26,7 +26,7 @@ export default function Create_account() {
   const navigate = useNavigate();
 
   return (
-    <body class="loginBOdyDiv  bg-light p-0">
+    <body className="loginBOdyDiv  bg-light p-0">
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol className="forbusiness-page col-sm-6 rounded py-0">
@@ -75,7 +75,7 @@ export default function Create_account() {
                     <label>Mobile Number</label>
                     <div className="Phone_box d-flex flex-row justify-content-md-center mb-4 ">
                       <select
-                        class="form-select ps-1"
+                        className="form-select ps-1"
                         aria-label="Default select example"
                       >
                         <option selected="+1">+91 </option>

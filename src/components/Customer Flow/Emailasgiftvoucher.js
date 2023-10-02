@@ -100,8 +100,8 @@ export default function Emailasgiftvoucher() {
                     <VoucherRightside />
                 </div>
             </div>
-             {/* bottom button section */}
-             <div className="voucher-bottom-content-fixed">
+            {/* bottom button section */}
+            <div className="voucher-bottom-content-fixed">
                 <div className="membeBottomBtn">
                     <div className="voubottomtext">
                         <text>Voucher</text>

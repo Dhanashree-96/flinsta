@@ -19,7 +19,7 @@ export default function LocationAddress() {
                     </Link>
                 </MDBBtn>
             </div>
-            <body class="businesnamediv   d-flex justify-content-center align-item-center">
+            <body className="businesnamediv   d-flex justify-content-center align-item-center">
                 <MDBContainer className="d-flex  justify-content-center align-item-center">
                     <MDBCol className="col-sm-6   d-flex  justify-content-center align-item-center">
                         <div className=" d-flex flex-column   w-100 px-3 pb-5">
@@ -51,58 +51,58 @@ export default function LocationAddress() {
 
                                             <div className="w-100 border border-all rounded d-flex justify-content-between mt-3">
 
-                                                <div class="locaddresshead p-3 pe-0">
-                                                    <div class="subdivlocation ">
+                                                <div className="locaddresshead p-3 pe-0">
+                                                    <div className="subdivlocation ">
                                                         <p className="text-start mb-1">Address</p>
                                                         {/* <text className="textlocationadd">Mumbai-Nashik </text> */}
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">Apt sulte etc</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
 
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">District</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">City</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">Region</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">Region</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">PostCode</p>
                                                         <Link to="" className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">Country</p>
                                                         <Link to=" " className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>
                                                         </Link>
                                                     </div>
-                                                    <div class="subdivlocation">
+                                                    <div className="subdivlocation">
                                                         <p className="text-start mb-1">Directions</p>
                                                         <Link to=" " className="text-primary">
                                                             <text className="textlocationadd">+ Add</text>

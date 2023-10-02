@@ -10,7 +10,7 @@ import logo from "../../assets/images/1234 1.png";
 export default function All_Login() {
   const navigate = useNavigate();
   return (
-    <body class="partnerbodyDiv full-page-bg d-flex flex-column pt-0 mt-0 ">
+    <body className="partnerbodyDiv full-page-bg d-flex flex-column pt-0 mt-0 ">
       <div className="p-3 d-flex justify-content-start align-items-start bg-white">
         <img src={logo} className="loginpic " alt="logo" />
       </div>

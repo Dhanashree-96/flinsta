@@ -9,7 +9,7 @@ export default function ForgetPassword() {
   const navigate = useNavigate();
 
   return (
-    <body class="forgetpagemaindiv bg-light  d-flex justify-content-center align-item-center">
+    <body className="forgetpagemaindiv bg-light  d-flex justify-content-center align-item-center">
       <MDBContainer className="  rounded d-flex  justify-content-center align-item-center">
       <BiArrowBack
           className="backLoginForm fs-2 mt-4 ms-3 rounded  text-dark d-flex justify-content-start align-item-start"

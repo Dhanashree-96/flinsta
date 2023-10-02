@@ -56,6 +56,7 @@ export default function SelectStaf() {
   const navigate = useNavigate();
 
   return (
+    <>
     <div className="Page1_wrapper">
       <div className="Page1_sections">
         <div className="Page1_Leftsection">
@@ -99,11 +100,11 @@ export default function SelectStaf() {
         {/* //////////////// */}
 
         <RightSidepage />
-        <div className="selectser-BOOKBUTTON">
+        {/* <div className="selectser-BOOKBUTTON">
           <Link to="/artistCalendar" className="Selectservice-button ">
             <text className="hiddenselectser-Btn">Continue</text>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div
         onClick={() => scrollToTop(toTop)}
@@ -126,5 +127,17 @@ export default function SelectStaf() {
         {show && <BsArrowUpSquare />}
       </div>
     </div>
+
+       {/* bottom button section */}
+       <div className="voucher-bottom-content-fixed ">
+        <div className="serviceBottomBtn ">
+          <div className="voubottomtext">          
+              <Link to="/artistCalendar" className="">
+                <text className="hiddenselectser-Btn">Continue</text>
+              </Link>        
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

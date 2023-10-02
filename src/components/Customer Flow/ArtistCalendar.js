@@ -31,7 +31,7 @@ export default function ArtistCalendar() {
   };
 
   return (
-
+<>
     <div className='Page1_wrapper'>
       <div className='Page1_sections'>
         <div className='Page1_Leftsection'>
@@ -73,13 +73,23 @@ export default function ArtistCalendar() {
         </div>
 
         <RightSidepage />
-        <div className="selectser-BOOKBUTTON">
+        {/* <div className="selectser-BOOKBUTTON">
           <Link to="/reviewconfirm" className="Selectservice-button ">
             <text className="hiddenselectser-Btn">Continue</text>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div >
-
+     {/* bottom button section */}
+     <div className="voucher-bottom-content-fixed ">
+        <div className="serviceBottomBtn ">
+          <div className="voubottomtext">          
+              <Link to="/reviewconfirm" className="">
+                <text className="hiddenselectser-Btn">Continue</text>
+              </Link>        
+          </div>
+        </div>
+      </div>
+</>
   );
 }

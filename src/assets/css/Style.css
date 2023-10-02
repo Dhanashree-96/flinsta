@@ -2576,8 +2576,15 @@ iframe {
     border: 1px solid rgb(209, 204, 204);
     margin-top: 90px;
     height: 60vh;
+    /* overflow-y: auto; */
+}
+
+
+.scrollRightside{
+    height: 45vh;
     overflow-y: auto;
 }
+
 .Page1_RightSection2 {
     width: 100%;
     border-radius: 10px;
@@ -2603,7 +2610,6 @@ iframe {
 }
 
 
-
 .rightTopsalonName text {
     font-size: 18px;
     padding-left: 15px;
@@ -2626,6 +2632,7 @@ iframe {
     position: sticky;
     top: 0px;
     background-color: #FFF;
+    border-radius: 10px 10px 0 0;
 }
 
 .Page1_part1 text {
@@ -4036,7 +4043,7 @@ select {
     padding: 10px 20px;
     cursor: pointer;
   }
-
+ 
   .membeBottomBtn{
     display: flex;
     flex-flow: row wrap;
@@ -4046,7 +4053,7 @@ select {
   }
 
   .voubottomtext {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     flex-direction: column;
   }

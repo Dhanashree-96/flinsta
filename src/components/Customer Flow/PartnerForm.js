@@ -16,7 +16,7 @@ export default function PartnerForm() {
   const navigate = useNavigate();
   return (
     <>
-      <body class="full-page-bg justify-content-center align-items-center">
+      <body className="full-page-bg justify-content-center align-items-center">
         <div className="P-Formwidth bg-light p-2 pb-0 m-5  rounded shadow  justify-content-center align-items-center">
       
           <div className="partnerformpic p-1 ps-0 d-flex justify-content-between">
@@ -135,7 +135,7 @@ export default function PartnerForm() {
                       Hair
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -149,7 +149,7 @@ export default function PartnerForm() {
                       Makeup
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -163,7 +163,7 @@ export default function PartnerForm() {
                       Nails
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -177,7 +177,7 @@ export default function PartnerForm() {
                       Skin Care
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -220,7 +220,7 @@ export default function PartnerForm() {
                       Yes
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -234,7 +234,7 @@ export default function PartnerForm() {
                       Somewhat
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -285,7 +285,7 @@ export default function PartnerForm() {
                       ]
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -321,7 +321,7 @@ export default function PartnerForm() {
                       Social media
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -335,7 +335,7 @@ export default function PartnerForm() {
                       Email newsletters
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -349,7 +349,7 @@ export default function PartnerForm() {
                       Text messages
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -363,7 +363,7 @@ export default function PartnerForm() {
                       Phone calls
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -398,7 +398,7 @@ export default function PartnerForm() {
                       Yes
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -433,7 +433,7 @@ export default function PartnerForm() {
                       Listening to customer feedback
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -447,7 +447,7 @@ export default function PartnerForm() {
                       Tailoring services to individual needs
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -461,7 +461,7 @@ export default function PartnerForm() {
                       Providing a comfortable and welcoming atmosphere
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -504,7 +504,7 @@ export default function PartnerForm() {
                       Access to a wider customer base
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -518,7 +518,7 @@ export default function PartnerForm() {
                       Embracing technological innovation
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -554,7 +554,7 @@ export default function PartnerForm() {
                       Very excited
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -568,7 +568,7 @@ export default function PartnerForm() {
                       Somewhat excited
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -582,7 +582,7 @@ export default function PartnerForm() {
                       Neutral
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -618,7 +618,7 @@ export default function PartnerForm() {
                       Yes
                     </label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div className="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -640,7 +640,7 @@ export default function PartnerForm() {
                   us?
                 </label>
                 <MDBRow>
-                  <div class="form-outline mb-4">
+                  <div className="form-outline mb-4">
                     <MDBTextArea
                       label="Listening to customers feedback"
                       className="Ptextarea"

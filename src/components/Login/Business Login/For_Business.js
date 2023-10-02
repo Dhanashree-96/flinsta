@@ -21,7 +21,7 @@ export default function For_Business() {
   const navigate = useNavigate();
 
   return (
-    <body class="loginBOdyDiv  bg-light p-0">
+    <body className="loginBOdyDiv  bg-light p-0">
       <MDBContainer fluid>
         <MDBRow>
           <MDBCol className="forbusiness-page col-sm-6 rounded py-0">

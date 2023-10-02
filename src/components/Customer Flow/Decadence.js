@@ -79,11 +79,11 @@ export default function Decadence() {
             </div>
             <div className="Decades_logos">
               <div className="Decades_circle_icon">
-              <span class="tooltipText tw">Share</span>
+              <span className="tooltipText tw">Share</span>
                 <GoShare className="shareIcon" data-tooltip="Like this" />
               </div>
-              <div class="Decades_circle_icon">
-              <span class="tooltipText tw">Like</span>
+              <div className="Decades_circle_icon">
+              <span className="tooltipText tw">Like</span>
                 <FiHeart className="heartIon" data-tooltip="Like this" />
               </div>
             </div>

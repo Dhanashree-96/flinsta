@@ -38,7 +38,7 @@ export default function BusinessSoftware() {
           <MDBBtn className="bg-black text-capitalize">Next step</MDBBtn>
         </Link>
       </div>
-      <body class="businesnamediv w-100 d-flex justify-content-center align-item-center">
+      <body className="businesnamediv w-100 d-flex justify-content-center align-item-center">
         <MDBContainer className="w-100 d-flex  justify-content-center align-item-center">
           <MDBCol className="col-sm-6   d-flex  justify-content-center align-item-center">
             <div className="  w-100  pb-5">

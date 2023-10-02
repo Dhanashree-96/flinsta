@@ -237,7 +237,7 @@ export default function SelectServiceMain() {
         onClick={() => scrollToTop(toTop)}
         style={{
           right: 10,
-          bottom: 20,
+          bottom: 50,
         }}
         className="toarrowScrollicon"
       >

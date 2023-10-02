@@ -19,7 +19,7 @@ export default function BusinessName() {
         </Link>
 
       </div>
-      <body class="businesnamediv   d-flex justify-content-center align-item-center">
+      <body className="businesnamediv   d-flex justify-content-center align-item-center">
         <MDBContainer className="   d-flex  justify-content-center align-item-center">
           <MDBCol className="col-sm-6   d-flex  justify-content-center align-item-center">
             <div className="    w-100 px-3 pt-4 pb-5">

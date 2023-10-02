@@ -14,7 +14,7 @@ export default function BusinessMobileVerification() {
     // back arrow
     const navigate = useNavigate();
     return (
-        <body class="loginBOdyDiv  bg-light p-0">
+        <body className="loginBOdyDiv  bg-light p-0">
             <MDBContainer fluid>
                 <MDBRow>
                     <MDBCol className="forbusiness-page col-sm-6 rounded py-0">
@@ -31,14 +31,14 @@ export default function BusinessMobileVerification() {
                                     The 4-digit code has been sent to <text className="fw-bold fw-1">+91 9067935463</text>
                                 </p>
 
-                                <div class="codeboxes d-flex flex-row mt-1">
+                                <div className="codeboxes d-flex flex-row mt-1">
                                     <input type="number" className="form-control text-center" autofocus="" />
                                     <input type="number" className="form-control text-center" />
                                     <input type="number" className="form-control text-center" />
                                     <Link to="/businessName"><input type="number" className="form-control text-center" /></Link></div>
-                                <div class=" d-flex flex-row justify-content-center mt-5"><span class="d-block mobile-text">Don't receive the code?</span>
+                                <div className=" d-flex flex-row justify-content-center mt-5"><span className="d-block mobile-text">Don't receive the code?</span>
                                     <Link to="" className="resend">
-                                        <span class="font-weight-bold text-danger cursor">Resend</span>
+                                        <span className="font-weight-bold text-danger cursor">Resend</span>
                                     </Link>
                                 </div>
 

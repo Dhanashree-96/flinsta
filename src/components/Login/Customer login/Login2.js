@@ -51,7 +51,7 @@ export default function LoginForm() {
 
 
   return (
-    <body class="loginBOdyDiv bg-light p-0 m-0">
+    <body className="loginBOdyDiv bg-light p-0 m-0">
       <MDBContainer fluid className="loginBOdyDiv">
         <MDBRow>
           <MDBCol className="forbusiness-page col-sm-6 rounded py-0">

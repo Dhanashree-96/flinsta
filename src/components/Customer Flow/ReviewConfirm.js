@@ -216,18 +216,46 @@ export default function Reviewconfirm() {
 
                                     </div>
                                     <div className='confirm_pay'>
-                                        <text>Pay securely with</text>
-                                        <BiLogoVisa />
-                                    </div>
+                                        <div className='d-flex flex-wrap '>
+                                            <text>Pay securely with</text>
+                                            <BiLogoVisa />
+                                        </div>
+                                        <div className=" w-50 d-flex justify-content-end">
+                                            <MDBBtn className="voubottomtext bg-dark align-items-center" type="submit">
+                                                {/* <button type="submit"> */}
+                                                    <text className="text-white">Confirm</text>
+                                                {/* </button> */}
+                                            </MDBBtn>
+                                        </div>
 
+                                    </div>
+                                    {/* bottom button section */}
+                                    {/* <div className="voucher-bottom-content-sticky "> */}
+                                        {/* <div className="serviceBottomBtn ">
+                                            <MDBBtn className="voubottomtext bg-dark " type="submit">
+                                                    <text className="text-white">Confirm</text>
+                                            </MDBBtn>
+                                        </div> */}
+                                    {/* </div> */}
                                 </div>
                             </div>
 
-                            <div className="selectser-BOOKBUTTON">
+                            {/* <div className="selectser-BOOKBUTTON ">
                                 <button type="submit">
                                     <text className="hiddenselectser-Btn">Confirm</text>
                                 </button>
-                            </div>
+                            </div> */}
+
+                            {/* bottom button section */}
+                            {/* <div className="voucher-bottom-content ">
+                                <div className="serviceBottomBtn ">
+                                    <div className="voubottomtext">
+                                        <button type="submit">
+                                            <text className="">Confirm</text>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> */}
                         </form>
                         <div className='reviewconfirm-card2'>
                             <div className='confirm_promocode'>
@@ -250,8 +278,8 @@ export default function Reviewconfirm() {
                 <RightSidepage />
 
 
-
             </div>
         </div>
+
     );
 }

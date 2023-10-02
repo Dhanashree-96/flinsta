@@ -28,7 +28,7 @@ export default function MobileNumber() {
                                 <p>Mobile Number</p>
                                 <div className="Phone_box d-flex flex-row justify-content-md-center ">
 
-                                    <select class="form-select ps-1" aria-label="Default select example">
+                                    <select className="form-select ps-1" aria-label="Default select example">
                                         <option selected="+1">+90 </option>
                                         <option value="+44">+44</option>
                                         <option value="+91">+91 </option>
