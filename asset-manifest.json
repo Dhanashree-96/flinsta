@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flinsta/static/css/main.dc20669f.css",
-    "main.js": "/flinsta/static/js/main.9ed94cf4.js",
+    "main.js": "/flinsta/static/js/main.4d5d96af.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/AritistAlv.jpg": "/flinsta/static/media/AritistAlv.bf96e4a5da996e68630b.jpg",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
@@ -49,11 +49,11 @@
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "index.html": "/flinsta/index.html",
     "main.dc20669f.css.map": "/flinsta/static/css/main.dc20669f.css.map",
-    "main.9ed94cf4.js.map": "/flinsta/static/js/main.9ed94cf4.js.map",
+    "main.4d5d96af.js.map": "/flinsta/static/js/main.4d5d96af.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc20669f.css",
-    "static/js/main.9ed94cf4.js"
+    "static/js/main.4d5d96af.js"
   ]
 }
