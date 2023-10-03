@@ -4364,7 +4364,7 @@ select {
   /* Add form admin panel css */
   .ADD-WrapperAdmin  {
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     min-width: 100%;
     justify-content: center;
     /* background: linear-gradient(297deg, rgba(179, 37, 76, 0.37) 4.79%, #D25678 80.81%); */

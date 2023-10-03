@@ -79,6 +79,11 @@ const Header = () => {
                   <text className="menucontent">For Business</text>
                 </Link>
               </li>
+              <li>
+                <Link to="/adminPanel" className="menu_label">
+                  <text className="menucontent">Admin Login</text>
+                </Link>
+              </li>
             </div>
           </ul>
         </div>

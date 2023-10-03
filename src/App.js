@@ -215,6 +215,7 @@ function App() {
                 {selectedPage ? (
                   <Routes>
                
+                    <Route path="/adminPanel" element={<Admin />}></Route>
                     <Route path="/adminHeader" element={<AdminHeader />}></Route>
                     <Route path="/sallon" element={<Sallon />} />
                     <Route path="/adminServices" element={<AdminServices />}></Route>

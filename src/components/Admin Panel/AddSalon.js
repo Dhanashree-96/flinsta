@@ -23,7 +23,7 @@ export default function AddSalon() {
         </div>
 
 
-        <div className="  col-md-7 p-5">
+        <div className="  col-md-7 ">
           <h2 className="text-center fw-1">Add Salon</h2>
 
           <div class="back">
@@ -36,8 +36,8 @@ export default function AddSalon() {
             id="myform"
           >
 
-            <MDBRow className="row mt-4  justify-content-between align-items-center mt-5">
-              <MDBCol className="col-sm-6">
+            <div className="row mt-4  justify-content-between align-items-center mt-5 ">
+              <MDBCol className="col-sm-6 my-3">
                 <MDBInput
                   label="Card Image"
                   type="text"
@@ -46,18 +46,17 @@ export default function AddSalon() {
                 />
               </MDBCol>
 
-              <MDBCol className="col-sm-6">
+              <MDBCol className="col-sm-6 my-3">
                 <MDBInput
                   label="All Image"
                   type="text"
                   name="salonName"
                   className="partnercheckB"
                 />
-              </MDBCol>
-            </MDBRow>
+              </MDBCol>   
 
-            <MDBRow className="row mt-4  justify-content-space-between align-items-center">
-              <MDBCol className="col-sm-6">
+         
+              <MDBCol className="col-sm-6 my-2">
                 <MDBInput
                   label="Salon Name"
                   type="text"
@@ -66,7 +65,7 @@ export default function AddSalon() {
                 />
               </MDBCol>
 
-              <MDBCol className="col-sm-6">
+              <MDBCol className="col-sm-6 my-2">
                 <MDBInput
                   label="Reviews"
                   type="text"
@@ -74,9 +73,8 @@ export default function AddSalon() {
                   className="partnercheckB"
                 />
               </MDBCol>
-            </MDBRow>
-            <MDBRow className="row mt-4  justify-content-space-between align-items-center">
-              <MDBCol className="col-sm-12">
+        
+              <MDBCol className="col-sm-12 my-3">
                 <MDBInput
                   label="Address"
                   type="text"
@@ -84,7 +82,8 @@ export default function AddSalon() {
                   className="partnercheckB"
                 />
               </MDBCol>
-            </MDBRow>
+        
+            </div>
 
           </form>
 
