@@ -2581,7 +2581,7 @@ iframe {
 
 
 .scrollRightside{
-    height: 45vh;
+    height: 43vh;
     overflow-y: auto;
 }
 
@@ -4205,3 +4205,184 @@ select {
     padding: 10px 20px;
     cursor: pointer;
   }
+
+  /* =========================================================Admin panel code css ==================================================*/
+
+  .app {
+    display: flex;
+    flex-flow: row wrap;
+  }  
+
+  .sidebar {
+    width: 200px;
+    background-color: thistle;
+    padding: 20px;
+    box-sizing: border-box;   
+    height: 90vh;
+    overflow-y: auto;
+    transition: left 0.3s; 
+  }
+
+  .sidebar.closed {
+    left: -200px; /* Adjust the left value based on your sidebar width */
+  }
+  
+  /* Add styling for the toggle button */
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #323131;
+  }
+
+  /* final admin code */
+  .liItems{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .iconSidebar{
+    margin-top: 8px;
+    font-size: 25px;
+  }
+
+.MenuName{
+    margin-top: 10px;
+    color: #323131 ;
+}
+
+  .top_section{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  /* admin header */
+
+  .sidebar-header {
+    width: 100%;
+    background-color: thistle;
+    padding: 10px 0;
+   }
+
+  .sidebar-header button {
+    cursor: pointer;
+  }
+  /* .header {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  } */
+
+  .headeradmin {
+    grid-area: header;
+    background-color: #FFF;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 30px 0 30px;
+    /* gap:30px; */
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  }
+
+.adminHeadList{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+  .adminLogo img{
+    height: 35px;
+  }
+  
+  .menu-icon {
+    display: none;    
+  }
+  .header-right{
+    display: flex;
+    gap:10px;
+  }
+  .admindropdown-content {
+    margin-top: 18px;
+    list-style: none;
+    position: fixed;
+    right:30px;
+    z-index: 99;
+    visibility: hidden;
+    transform: translateY(-1em);
+    transition: transform ease 0.3s;
+  }
+  
+  .menuCheckBox:checked ~ .admindropdown-content {
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .admindropdown-content li {
+    border-radius: 5px;
+  }
+  .admindropdown-content li:hover {
+    background: #e9e9ea7f;
+  }
+  
+  .admindropdown-content li .menu_label {
+    display: block;
+    padding: 10px 50px;
+    margin: 3px;
+    text-decoration: none;
+  }
+  .adminmenucontent{
+    width:100%;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: flex-start;
+  
+  }
+    
+  
+  .iconHeader{
+    font-size: 25px;
+    margin: 0 10px;
+    color: darkslateblue;
+  }
+  
+  /* End Header  */
+
+  /* Add form admin panel css */
+  .ADD-WrapperAdmin  {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    justify-content: center;
+    /* background: linear-gradient(297deg, rgba(179, 37, 76, 0.37) 4.79%, #D25678 80.81%); */
+}
+
+.AddTrashDiv{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+}
+
+.adminformIcon{
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.dashIcon{
+    color: rgb(106, 106, 106);
+    font-size: 25px;
+    margin: 0 5px;
+}

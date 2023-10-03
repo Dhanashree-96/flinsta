@@ -216,7 +216,7 @@ export default function Reviewconfirm() {
 
                                     </div>
                                     <div className='confirm_pay'>
-                                        <div className='d-flex flex-wrap '>
+                                        <div className='d-flex flex-wrap w-50 '>
                                             <text>Pay securely with</text>
                                             <BiLogoVisa />
                                         </div>
