@@ -72,30 +72,6 @@ import VoucherChooserecipitent from "./components/Customer Flow/VoucherChooserec
 import VoucherRightside from "./components/Customer Flow/VoucherRightside";
 import Emailasgiftvoucher from "./components/Customer Flow/Emailasgiftvoucher";
 import PrintasgiftVoucher from "./components/Customer Flow/PrintasgiftVoucher";
-// Admin panel
-import AdminHeader from "./components/Admin Panel/AdminHeader";
-import Sallon from "./components/Admin Panel/Sallon";
-import AdminServices from "./components/Admin Panel/AdminServices";
-import AdminTeams from "./components/Admin Panel/AdminTeams";
-import Admincalendar from "./components/Admin Panel/Admincalendar";
-import AdminVoucher from "./components/Admin Panel/AdminVoucher";
-import AdminMembership from "./components/Admin Panel/AdminMembership";
-import Admin from "./components/Admin Panel/Sidebar";
-import AddSalon from "./components/Admin Panel/AddSalon";
-import AddServices from "./components/Admin Panel/AddServices";
-import AddTeams from "./components/Admin Panel/AddTeams";
-import AddMembership from "./components/Admin Panel/AddMembership";
-import AddVoucher from "./components/Admin Panel/AddVoucher";
-import EditSalon from "./components/Admin Panel/EditSalon";
-import EditServices from "./components/Admin Panel/EditService";
-import EditTeams from "./components/Admin Panel/EditTeam";
-import EditMembership from "./components/Admin Panel/EditMembership";
-import EditVoucher from "./components/Admin Panel/EditVoucher";
-import TrashSallon from "./components/Admin Panel/TrashSalon";
-import TrashServices from "./components/Admin Panel/TrashService";
-import TrashTeam from "./components/Admin Panel/TrashTeam";
-import TrashMembership from "./components/Admin Panel/TrashMembership";
-import TrashVoucher from "./components/Admin Panel/TrashVoucher";
 
 
 function App() {
@@ -203,49 +179,12 @@ function App() {
               <Route path="/voucherRightside" element={<VoucherRightside />}></Route>
               <Route path="/emailasgiftvoucher" element={<Emailasgiftvoucher />}></Route>
               <Route path="/printasgiftVoucher" element={<PrintasgiftVoucher />}></Route>   
+              {/* <Route path="/AllAdminPages" element={<AllAdminPages />}></Route>    */}
 
                  
               </Routes>
 
-            {/*Admin Panel */}
-            <div className="app">
-
-              <Admin onItemClick={handleSidebarItemClick} />
-              <div className="content">
-                {selectedPage ? (
-                  <Routes>
-               
-                    <Route path="/adminPanel" element={<Admin />}></Route>
-                    <Route path="/adminHeader" element={<AdminHeader />}></Route>
-                    <Route path="/sallon" element={<Sallon />} />
-                    <Route path="/adminServices" element={<AdminServices />}></Route>
-                    <Route path="/adminTeams" element={<AdminTeams />}></Route>
-                    <Route path="/admincalendar" element={<Admincalendar />}></Route>
-                    <Route path="/adminMembership" element={<AdminMembership />}></Route>
-                    <Route path="/adminVoucher" element={<AdminVoucher />}></Route>
-                    <Route path="/addSalon" element={<AddSalon />}></Route>
-                    <Route path="/addServices" element={<AddServices />}></Route>
-                    <Route path="/addTeams" element={<AddTeams />}></Route>
-                    <Route path="/addMembership" element={<AddMembership />}></Route>
-                    <Route path="/addVoucher" element={<AddVoucher />}></Route>
-                    <Route path="/editSalon" element={<EditSalon />}></Route>
-                    <Route path="/editServices" element={<EditServices />}></Route>
-                    <Route path="/editTeams" element={<EditTeams />}></Route>
-                    <Route path="/editMembership" element={<EditMembership />}></Route>
-                    <Route path="/editVoucher" element={<EditVoucher />}></Route>
-                    <Route path="/trashSallon" element={<TrashSallon />}></Route>
-                    <Route path="/trashServices" element={<TrashServices />}></Route>
-                    <Route path="/trashTeam" element={<TrashTeam />}></Route>
-                    <Route path="/trashMembership" element={<TrashMembership />}></Route>
-                    <Route path="/trashVoucher" element={<TrashVoucher />}></Route>
-                  </Routes>
-                ) : (
-                  <div>
-                    <></>
-                  </div>
-                )}
-              </div>
-            </div>
+           
 
           </BrowserRouter>
 
