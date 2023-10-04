@@ -40,30 +40,33 @@ export default function Decadence() {
       <Header />
 
       <div className="wrapper">
-        {/* search bar */}
-        <div className="Search_Section">
-          <div className="Search_bar searchBarColor2">
-            <div className="Search_sec1">
-              <div className="Search_sec1_outer">
-                <IoSearch className="search_ions" />
-                <SearchBar />
-              </div>
+      {/* search bar */}
+      <div className="Search_Section">
+            <div className="homeSearch_bar">
+                <div className="input-rowsearch">
+
+                    <div className="Search_sec">
+                        <label className="Homesearch-icon-label">
+                            <IoSearch className="Homesearch-icon" />
+                        </label>
+
+                        <SearchBar />
+
+                    </div>
+                    <div className="Search_sec2">
+                        <img src={line} className="Search_line" alt="line" />
+                    </div>
+                    <div className="Search_sec">
+                        <label className="Homesearch-icon-label">
+                            <IoLocationSharp className="Homesearch-icon" />
+                        </label>
+                        <input type="text" placeholder="Current Location" className="inputsearchdiv" />
+                        <Link to="" className="search_button">
+                            <span className="sear_button_text">Search</span>
+                        </Link>
+                    </div>
+                </div>
             </div>
-            <div className="Search_sec2">
-              <img src={line} className="Search_line" alt="line" />
-            </div>
-            <div className="Search_sec3">
-              <div className="Search_sec3_outer">
-                <IoLocationSharp className="Search_map" />
-                <div className="location">Current Location</div>
-              </div>
-              <div className="search_button">
-                <Link to="" className="sear_buton">
-                  <text className="sear_buton">Search</text>
-                </Link>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/*Decadence Hair & Beauty */}
