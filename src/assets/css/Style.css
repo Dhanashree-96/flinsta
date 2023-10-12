@@ -4567,3 +4567,32 @@ input::-webkit-inner-spin-button {
   .pmargin {
     margin-top: 30px;
   }
+
+  /* business login */
+  .businessmain-div,.business-div {
+    width:100%;
+    padding: 50px;
+  }
+  .businesssubdiv{
+      padding: 40px;
+  }
+  .businessnamediv{
+      padding: 0 30px;
+  }
+  .loginformtext{
+      font-size: 18px;
+      padding: 0px 10px;
+    }
+    .Name-businees{
+  margin-top: 40px;
+  padding: 30px 30px;
+    }
+  .b-name{
+      margin-top: 30px;
+  }
+  .B-paddinds{
+      padding-top: 5px;
+  }
+  .setloca-business{
+      font-size: 20px;
+  }

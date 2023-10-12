@@ -23,12 +23,12 @@ export default function BusinessMobileVerification() {
                             onClick={() => navigate(-1)}
                         />
                         <div className="d-flex flex-row  justify-content-md-center ">
-                            <div className="d-flex  w-75  p-5 py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
-                                <h2 className="loginformtext fs-3 fw-bold text-center">
+                            <div className="businessmain-div d-flex  py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+                                <h2 className="loginformtext  fs-3 fw-bold text-center">
                                     Enter the 4-digit code
                                 </h2>
                                 <p className="text-center pb-3">
-                                    The 4-digit code has been sent to <text className="fw-bold fw-1">+91 9067935463</text>
+                                    The 4-digit code has been sent to <p className="fw-bold fw-1">+91 9067935463</p>
                                 </p>
 
                                 <div className="codeboxes d-flex flex-row mt-1">

@@ -1,5 +1,4 @@
 import React from "react";
-// import "../../assets/css/Style.css";
 import {
   MDBContainer,
   MDBInput,
@@ -29,19 +28,20 @@ export default function For_Business() {
               className="backLoginForm fs-2 mt-4 ms-3 rounded  text-dark d-flex justify-content-start align-item-start"
               onClick={() => navigate(-1)}
             />
+
             <div className="d-flex flex-row  justify-content-md-center ">
-              <div className="d-flex  w-75  p-5 py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+              <div className="businessmain-div d-flex  py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
                 <h2 className="loginformtext fs-4 fw-bold text-center">
                   Flinsta for business
                 </h2>
-                <p className=" text-center">
+                <p className="para-login-text text-center">
                   Create an account or log in to manage your Flinsta business.
                 </p>
 
-                <div className=" px-4 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+                <div className="businesssubdiv  pb-0 d-flex  flex-column  justify-content-center align-item-center">
                   <div className="businesshr pb-0 d-flex  flex-column  justify-content-center ">
                     <MDBInput
-                      wrapperClass="px-5 mb-4 py-1"
+                      wrapperClass=" mb-4 py-1"
                       label="Email address"
                       id="form1"
                       type="email"
@@ -55,13 +55,12 @@ export default function For_Business() {
                       </Link>
                     </MDBBtn>
 
-                    <p className="hr-lines mb-4">OR </p>
-
+                    <p className="hr-lines mb-4">OR</p>
                     <MDBCol className=" login-logo-margin col-sm-12 mb-4">
                       <Link to="" className="loginfacebook ">
                         <text className="facebook_log  py-2 d-flex  align-items-center">
                           {" "}
-                          <BsFacebook className=" fs-3 mx-5 d-flex align-items-center" />{" "}
+                          <BsFacebook className="loginmargindiv fs-3  d-flex align-items-center" />{" "}
                           <span className=" ms-4 text-dark d-flex justify-content-center align-items-center">
                             continue with facebook
                           </span>
@@ -70,33 +69,35 @@ export default function For_Business() {
                     </MDBCol>
 
                     <MDBCol className="login-logo-margin col-sm-12 mb-4">
-                      <Link to="" className="logingoogle">
-                        <text className="google_log py-2 d-flex  align-items-center ">
-                          {" "}
-                          <FcGoogle className="fs-3 mx-5 d-flex align-items-center" />
+                       <Link to="" className="logingoogle">
+                        <text className="google_log py-2 d-flex  align-items-center "> 
+                      {" "}
+                     <FcGoogle className="loginmargindiv fs-3  d-flex align-items-center" />
                           <span className="ms-4 text-dark d-flex justify-content-center align-items-center">
                             continue with google
-                          </span>
-                        </text>
-                      </Link>
-                    </MDBCol>
-                    <MDBCol className="login-logo-margin col-sm-12 mb-0 pb-0">
+                          </span> 
+                      </text>
+                      </Link> 
+                      </MDBCol>
+                    
+                      <MDBCol className="login-logo-margin col-sm-12 mb-0 pb-0">
                       <Link to="" className="logingoogle">
                         <text className="apple_log py-2 d-flex  align-items-center">
                           {" "}
-                          <FaApple className="fs-3 mx-5 d-flex align-items-center text-dark" />
+                          <FaApple className="loginmargindiv fs-3  d-flex align-items-center text-dark" />
                           <span className="ms-4 text-dark d-flex justify-content-center align-items-center">
                             continue with Apple ID
                           </span>
                         </text>
                       </Link>
                     </MDBCol>
+
                     <div className="businesshr text-center">
-                      <h4 className="pt-4 pb-0 mb-0 fs-5">
+                      <h4 className="customerbusiness pt-4 pb-0 mb-0 fs-5">
                         {" "}
                         Customer booking?
                       </h4>
-                      <p className="pt-0 pb-0 mb-0 ">
+                      <p className="para-login-text pt-0 pb-0 mb-0 ">
                         If you are a customer wishing to book a service
                       </p>
 
@@ -113,7 +114,7 @@ export default function For_Business() {
 
                       <div className="listcontainer w-100 d-flex justify-content-center ">
                         <ul className="custom-list d-flex justify-content-center ">
-                          <span className="GBDiv pt-1 pe-0 me-0">GB</span>
+                        
                           <Link>
                             <li className="ps-0 ms-0 pe-2 custom-list-item list-unstyled">
                               <text>English</text>

@@ -51,7 +51,7 @@ export default function BusinessSoftware() {
                 If you're looking to switch, we can help speed up your business
                 setup and import your data into your new Flinsta account.
               </p>
-              <div className="w-100 px-5 py-2  d-flex flex-column justify-content-center align-item-center">
+              <div className="w-100 businessmain-div py-2  d-flex flex-column justify-content-center align-item-center">
                 <div className="px-5 py-3  d-flex border border-all rounded flex-column justify-content-center align-item-center">
                   {softwaredetails.map((busineSoftware, index) => (
                     <div key={index} className="py-2">

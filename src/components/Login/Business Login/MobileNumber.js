@@ -17,38 +17,40 @@ export default function MobileNumber() {
                             onClick={() => navigate(-1)}
                         />
                         <div className="d-flex flex-row justify-content-md-center ">
-                            <div className="d-flex  w-75  p-5 py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+                            <div className="businessmain-div d-flex  py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
                                 <h2 className="loginformtext fs-3 fw-bold text-center">
                                     Verify your mobile number
                                 </h2>
-                                <p className="text-center pb-3">
+                                <p className="para-login-text text-center pb-3">
                                     To protect your account, we'll send a text with a 4-digit code
                                     to the mobile number below.
                                 </p>
-                                <p>Mobile Number</p>
-                                <div className="Phone_box d-flex flex-row justify-content-md-center ">
+                                <div className="businesssubdiv">
+                                    <p>Mobile Number</p>
+                                    <div className="Phone_box d-flex flex-row justify-content-md-center ">
 
-                                    <select className="form-select ps-1" aria-label="Default select example">
-                                        <option selected="+1">+90 </option>
-                                        <option value="+44">+44</option>
-                                        <option value="+91">+91 </option>
-                                    </select>
+                                        <select className="form-select ps-1" aria-label="Default select example">
+                                            <option selected="+1">+90 </option>
+                                            <option value="+44">+44</option>
+                                            <option value="+91">+91 </option>
+                                        </select>
 
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        id="phoneNumber"
-                                        name="phoneNumber"
-                                        placeholder="Enter your phone number"
-                                    />
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                            id="phoneNumber"
+                                            name="phoneNumber"
+                                            placeholder="Enter your phone number"
+                                        />
+                                    </div>
+                                    </div>
+                                    <MDBBtn className=" bg-dark mt-4">
+                                        <Link to="/businessMobileVerification" className="mobno my-3">
+                                            <text className="mobilenumber text-light ">Send code</text>
+                                        </Link>
+                                    </MDBBtn>
                                 </div>
-                                <MDBBtn className=" bg-dark mt-4">
-                                <Link to="/businessMobileVerification" className="mobno my-3">
-                                    <text className="mobilenumber text-light ">Send code</text>
-                                </Link>
-                                </MDBBtn>
-                            </div>
-
+                           
                         </div>
                     </MDBCol>
 

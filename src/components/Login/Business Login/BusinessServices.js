@@ -25,7 +25,7 @@ export default function BusinessServices() {
               <h2 className="loginformtext fs-3 fw-bold text-center ">
                 What services do you offer?
               </h2>
-              <h2 className="loginformtext fs-6  text-center px-5">
+              <h2 className="loginformtext  text-center">
                 Choose your primary and up to 3 related service types
               </h2>
               <div className="w-100 d-flex flex-column justify-content-center align-item-center">

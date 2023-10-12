@@ -860,7 +860,7 @@
 
   /* menu */
   .dropdown-content li{
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .dropdown-backg{
@@ -868,7 +868,7 @@
   }
 
   .dropdown-content li .menu_label{
-    padding: 5px 10px;
+    padding: 5px 15px;
   }
 
   /* booking minn page css */
@@ -1392,6 +1392,65 @@ font-size: 13px;
 }
 .modal-footer>* {
   margin: 0;
+}
+
+/* business loggin */
+/* For business */
+.backLoginForm {
+  visibility: hidden;
+}
+.businessmain-div {
+  width: 100%;
+  padding: 0px;
+}
+.businesssubdiv {
+  padding: 10px;
+}
+
+
+.customerbusiness {
+  font-size: 8px;
+  font-weight: 500;
+}
+.form-outline .form-control {
+  padding: 0px 0 3px 0;
+}
+.Phone_box select {
+  width: 20%;
+  font-size: 12px;
+}
+.Phone_box input {
+  font-size: 15px;
+}
+.businessnamediv {
+  padding: 0 10px;
+}
+.loginformtext {
+  font-size: 12px;
+}
+.Name-businees {
+  margin-top: 40px;
+  padding: 20px 20px;
+}
+.b-name {
+  margin-top: 20px;
+}
+.serviceIcon {
+  width: 43%;
+  margin: 8px 10px;
+  padding: 10px;
+}
+.serviceIcon p {
+  font-size: 13px;
+}
+.business-div{
+  padding: 10px;
+}
+.setloca-business{
+  font-size: 16px;
+}
+.setloccheckbox label{
+font-size: 13px;
 }
 
 }

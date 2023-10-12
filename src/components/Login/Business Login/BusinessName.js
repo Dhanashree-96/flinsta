@@ -14,7 +14,7 @@ export default function BusinessName() {
         </Link>
         <Link to="/businessServices" className=" text-capitalize">
         <MDBBtn className="bg-black">
-            <text className=" text-white  text-capitalize">Next step</text>
+            <text className="nextbusines text-white  text-capitalize">Next step</text>
         </MDBBtn>
         </Link>
 
@@ -22,24 +22,24 @@ export default function BusinessName() {
       <body className="businesnamediv   d-flex justify-content-center align-item-center">
         <MDBContainer className="   d-flex  justify-content-center align-item-center">
           <MDBCol className="col-sm-6   d-flex  justify-content-center align-item-center">
-            <div className="    w-100 px-3 pt-4 pb-5">
+            <div className=" businessnamediv   w-100  pt-4 pb-5">
               <p className="text-center fs-7 text-muted">Account setup</p>
 
               <h2 className="loginformtext fs-3 fw-bold text-center ">
                 What's your business name?
               </h2>
-              <h2 className="loginformtext fs-6  text-center px-5">
+              <h2 className=" loginformtext   text-center ">
                 This is the brand name your clients will see. your billing and legal name can be added later.
               </h2>
-              <div className="px-5 d-flex border border-all rounded flex-column justify-content-center align-item-center">
+              <div className="Name-businees d-flex border border-all rounded flex-column justify-content-center align-item-center">
                 <MDBInput
-                  wrapperClass="px-5 my-4 "
+                  wrapperClass="B-paddinds"
                   label="Business name"
                   id=""
                   type="text"
                 />
                 <MDBInput
-                  wrapperClass="px-5 mb-4"
+                  wrapperClass="b-name B-paddinds"
                   label="Website (Optional)"
                   id=""
                   type="text"

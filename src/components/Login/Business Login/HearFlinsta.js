@@ -36,8 +36,8 @@ export default function HearFlinsta() {
             How did you hear about Flinsta?
               </h2>
   
-              <div className="w-100 px-5 py-2  d-flex flex-column justify-content-center align-item-center">
-                <div className="px-5 py-3  d-flex border border-all rounded flex-column justify-content-center align-item-center">
+              <div className="w-100 businessmain-div py-2  d-flex flex-column justify-content-center align-item-center">
+                <div className="business-div py-3  d-flex border border-all rounded flex-column justify-content-center align-item-center">
                   {aboutFlinsta.map((hearBusiness, index) => (
                     <div key={index} className="py-2">
                       <MDBRadio

@@ -35,25 +35,25 @@ export default function Create_account() {
               onClick={() => navigate(-1)}
             />
             <div className="d-flex flex-row  justify-content-md-center ">
-              <div className="d-flex  w-75  p-5 py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+              <div className="businessmain-div  d-flex  py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
                 <h2 className="loginformtext fs-4 fw-bold text-center">
                   Create a business account
                 </h2>
-                <p className="text-center mx-1 pb-4">
-                  You're almost there!create your new account abc123@flinst.com
+                <p className="para-login-text text-center mx-1 pb-4">
+                  You're almost there! create your new account abc123@Flinsta.com
                   by completing this details.
                 </p>
 
-                <div className=" px-4 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+                <div className=" businesssubdiv  pt-0 pb-0 d-flex  flex-column  justify-content-center align-item-center">
                   <div className="businesshr pb-0 d-flex  flex-column  justify-content-center ">
                     <MDBInput
-                      wrapperClass="px-5 mb-4 py-1"
+                      wrapperClass=" mb-4 py-1"
                       label="First name"
                       id="businessacoount"
                       type="text"
                     />
                     <MDBInput
-                      wrapperClass="px-5 mb-4 py-1"
+                      wrapperClass=" mb-4 py-1"
                       label="Last name"
                       id="businessacoount"
                       type="text"
@@ -123,6 +123,7 @@ export default function Create_account() {
             <div className="loginformpic  ">
               <img src={logo} className="loginpic mt-1 mb-0" alt="logo" />
             </div>
+            
           </MDBCol>
 
           <MDBCol
@@ -131,6 +132,7 @@ export default function Create_account() {
           >
             <img src={beautywomen} alt="Login image" className="loginimage" />
           </MDBCol>
+
         </MDBRow>
       </MDBContainer>
     </body>
