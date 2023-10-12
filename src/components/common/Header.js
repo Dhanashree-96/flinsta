@@ -44,6 +44,8 @@ const Header = () => {
         <div className="headerLogoDiv">
           <img src={logo} className="headerLogo" alt="Brand logo" />
         </div>
+
+        
         <div className="headerBtnDiv">
           <input type="checkbox" className="menuCheckBox" id="dropdown" />
           <label htmlFor="dropdown" className="dropdown-btn">
@@ -94,7 +96,8 @@ const Header = () => {
           <h3 className="headerpopheading">Choose a language</h3>
         </Modal.Header>
         <Modal.Body>
-          Set your preferred language for the best Fresha experience
+        <p className="modelparabody"
+          >Set your preferred language for the best Fresha experience</p>
         </Modal.Body>
         <div className="languagepopsec1">
           <p className="languageheaduingdiv">Language</p>
@@ -106,13 +109,18 @@ const Header = () => {
             />
           </div>
           <Modal.Footer>
+          <div className="Madalbutton">
             <Button
+          
               variant="dark text-capitalize"
               onClick={handleSave}
             >
-              Save
+              <h6 className="savebutton">Save</h6>
+             
             </Button>
+            </div>
           </Modal.Footer>
+        
         </div>
       </Modal>
     </>

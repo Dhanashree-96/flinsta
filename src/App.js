@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import "./assets/css/Style.css";
+import "./assets/css/MobileScreen.css"
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import "react-bootstrap";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
@@ -72,6 +73,7 @@ import VoucherChooserecipitent from "./components/Customer Flow/VoucherChooserec
 import VoucherRightside from "./components/Customer Flow/VoucherRightside";
 import Emailasgiftvoucher from "./components/Customer Flow/Emailasgiftvoucher";
 import PrintasgiftVoucher from "./components/Customer Flow/PrintasgiftVoucher";
+import SearchResult from "./components/Customer Flow/SearchResult";
 
 
 function App() {
@@ -146,6 +148,7 @@ function App() {
               <Route path="/selectServicePage" element={<SelectServicePage />}></Route>
               <Route path="/servicesPage2" element={<ServicesPage2 />}></Route>
               <Route path="/serviceMenuSlider" element={<ServiceMenuSlider />}></Route>
+              <Route path="/searchResult" element={<SearchResult />}></Route>
 
               <Route path="/selectServiceContent" element={<SelectServiceContent />}></Route>
               <Route

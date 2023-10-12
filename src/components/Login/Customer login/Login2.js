@@ -15,9 +15,10 @@ import { BiArrowBack } from "react-icons/bi";
 import { FcGoogle } from "react-icons/fc";
 import { BsFacebook } from "react-icons/bs";
 import { HiOutlineSupport } from "react-icons/hi";
-import { FaEye, FaEyeSlash, FaPlus } from "react-icons/fa";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useFormik } from "formik";
 import { loginSchema } from "../../../schemas";
+
 
 const initialValues = {
   email: "",
@@ -51,30 +52,30 @@ export default function LoginForm() {
 
 
   return (
-    <body className="loginBOdyDiv bg-light p-0 m-0">
+    <body class="loginBOdyDiv bg-light p-0 m-0">
       <MDBContainer fluid className="loginBOdyDiv">
         <MDBRow>
           <MDBCol className="forbusiness-page col-sm-6 rounded py-0">
             <BiArrowBack
-              className="backLoginForm fs-2 mt-4 ms-3 rounded  text-dark d-flex justify-content-start align-item-start"
+              className="backLoginForm    rounded  text-dark "
               onClick={() => navigate(-1)}
             />
-            <div className="d-flex flex-row  justify-content-md-center ">
-              <div className="d-flex  w-75  p-5 py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
+            <div className="hundredwidth d-flex flex-row  justify-content-md-center ">
+              <div className="paddingzero  d-flex  py-1 pb-0 d-flex  flex-column  justify-content-center align-item-center">
                 <h2 className="loginformtext fs-3 fw-bold text-center">
                   Flinsta for customer
                 </h2>
-                <p className="text-center">
+                <p className="para-login-text text-center">
                   Create an account or log in to book and manage your
                   appointments.
                 </p>
 
                 <form
-                  className=" px-4 pb-0 d-flex  flex-column  justify-content-center"
+                  className="hundredwidth px-4 pb-0 d-flex  flex-column  justify-content-center"
                   onSubmit={handleSubmit}
                 >
                   <MDBInput
-                    wrapperClass=" mb-3 py-1"
+                    wrapperClass="inputwrapdiv  py-1"
                     label="Email address"
                     id="email"
                     type="email"
@@ -84,10 +85,10 @@ export default function LoginForm() {
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
-                  {errors.email && touched.email ? <p>{errors.email}</p> : null}
+                  {errors.email && touched.email ? <p className="errormsg">{errors.email}</p> : null}
 
                   <MDBInput
-                    wrapperClass="mb-4  py-1 d-flex align-item-center "
+                    wrapperClass="mt-4  py-1 d-flex align-item-center "
                     label="Password"
                     id="password"
                     type="password"
@@ -105,10 +106,10 @@ export default function LoginForm() {
                     />
                   </MDBInput>
                   {errors.password && touched.password ? (
-                    <p>{errors.password}</p>
+                    <p className="errormsg">{errors.password}</p>
                   ) : null}
 
-                  <div className="d-flex justify-content-between  mb-4">
+                  <div className="loginchechlabel d-flex justify-content-between  mt-4">
                     <MDBCheckbox
                       className="flexCheck"
                       value=""
@@ -120,7 +121,7 @@ export default function LoginForm() {
                     </Link>
                   </div>
 
-                  <MDBBtn className="mb-2" type="submit">
+                  <MDBBtn className="mt-4 mb-2" type="submit">
                     <text className="continue pt-0 mt-0 text-dark ">
                       Log In
                     </text>
@@ -134,13 +135,13 @@ export default function LoginForm() {
                       </Link>
                     </p>
 
-                    <p className="hr-lines mb-4">OR </p>
+                    <p className="hr-lines mb-4"><p className="orparahead">OR</p> </p>
 
                     <MDBCol className=" login-logo-margin col-sm-12 mb-4">
                       <Link to="" className="loginfacebook ">
                         <text className="facebook_log  py-2 d-flex  align-items-center">
                           {" "}
-                          <BsFacebook className=" fs-3 mx-5 d-flex align-items-center" />{" "}
+                          <BsFacebook className="loginmargindiv fs-3  d-flex align-items-center" />{" "}
                           <span className=" ms-4 text-dark d-flex justify-content-center align-items-center">
                             continue with facebook
                           </span>
@@ -149,18 +150,31 @@ export default function LoginForm() {
                     </MDBCol>
 
                     <MDBCol className="login-logo-margin col-sm-12 mb-2">
-                      <Link to="" className="logingoogle">
-                        <text className="google_log py-2 d-flex  align-items-center ">
-                          {" "}
-                          <FcGoogle className="fs-3 mx-5 d-flex align-items-center" />
+                       <Link to="" className="logingoogle">
+                        <text className="google_log py-2 d-flex  align-items-center "> 
+                      {" "}
+                     <FcGoogle className="loginmargindiv fs-3  d-flex align-items-center" />
                           <span className="ms-4 text-dark d-flex justify-content-center align-items-center">
                             continue with google
-                          </span>
-                        </text>
-                      </Link>
+                          </span> 
+                      </text>
+                      </Link> 
+                     
+                    
+                      {/* <GoogleOAuthProvider clientId="<758512870222-7udpona4c9vv8pook80r1jn67p1fls0s.apps.googleusercontent.com>">
+                        <GoogleLogin
+                          onSuccess={credentialResponse => {
+                            console.log(credentialResponse);
+                          }}
+                          onError={() => {
+                            console.log('Login Failed');
+                          }}
+                        />
+                      </GoogleOAuthProvider> */}
                     </MDBCol>
+                
 
-                    <div className="loginformpic pt-5 ">
+                    <div className="loginformpic  ">
                       <img
                         src={logo}
                         className="loginpic mt-1 mb-0"
@@ -169,29 +183,29 @@ export default function LoginForm() {
                     </div>
                     {/* bottom link list */}
 
-                    <div className="listcontainer w-100 d-flex justify-content-center ">
-                      <ul className="custom-list d-flex justify-content-center ">
-                        <span className="GBDiv pt-1 pe-0 me-0">GB</span>
-                        <Link>
-                          <li className="ps-0 ms-0 pe-2 custom-list-item list-unstyled">
-                            <text>English</text>
-                          </li>
-                        </Link>
-                        <Link>
-                          <li className=" pe-2 custom-list-item  ">
-                            <text>
-                              <HiOutlineSupport className="pt-0 pb-1" />
-                              Support{" "}
-                            </text>
-                          </li>
-                        </Link>
-                        <Link>
-                          <li className="pe-2 custom-list-item ">
-                            <text>Privacy Policy</text>
-                          </li>
-                        </Link>
-                      </ul>
-                    </div>
+          <div className="listcontainer w-100 d-flex justify-content-center ">
+            <ul className="custom-list d-flex justify-content-center ">
+              {/* <span className="GBDiv pt-1 pe-0 me-0">GB</span> */}
+              <Link>
+                <li className="ps-0 ms-0 pe-2 custom-list-item list-unstyled">
+                  <text>English</text>
+                </li>
+              </Link>
+              <Link>
+                <li className=" pe-2 custom-list-item  ">
+                  <text>
+                    <HiOutlineSupport className="pt-0 pb-1" />
+                    Support{" "}
+                  </text>
+                </li>
+              </Link>
+              <Link>
+                <li className="pe-2 custom-list-item ">
+                  <text>Privacy Policy</text>
+                </li>
+              </Link>
+            </ul>
+          </div>
                   </div>
                 </form>
               </div>

@@ -14,7 +14,7 @@ import RightSidepage from "./RightSidepage";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
-  { width: 300, itemsToShow: 3, itemsToScroll: 2 },
+  { width: 330, itemsToShow: 1, itemsToScroll: 1 },
   { width: 768, itemsToShow: 5, itemsToScroll: 2 },
   { width: 1200, itemsToShow: 5, itemsToScroll: 2 },
 ];

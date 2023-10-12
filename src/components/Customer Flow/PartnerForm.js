@@ -16,8 +16,8 @@ export default function PartnerForm() {
   const navigate = useNavigate();
   return (
     <>
-      <body className="full-page-bg justify-content-center align-items-center">
-        <div className="P-Formwidth bg-light p-2 pb-0 m-5  rounded shadow  justify-content-center align-items-center">
+      <body class="full-page-bg justify-content-center align-items-center">
+        <div className="P-Formwidth bg-light p-2 pb-0  shadow  justify-content-center align-items-center">
       
           <div className="partnerformpic p-1 ps-0 d-flex justify-content-between">
             <img src={pic} className="Apppic" alt="logo" />
@@ -25,11 +25,11 @@ export default function PartnerForm() {
             <IoCloseSharp className="Close" />
           </div>
           </div>
-          <div className=" p-5  justify-content-center align-items-center">
+          <div className=" partnermaindiv  justify-content-center align-items-center">
             <h2 className=" pb-2 fs-2 text-info text-darken-xl">
               Are you interested to Partner with Flinsta ?
             </h2>
-            <p>
+            <p className="para-login-text">
               {" "}
               Elevate your business and connect with a community that values
               innovation and excellence. Join us in shaping the future of the
@@ -37,26 +37,26 @@ export default function PartnerForm() {
             </p>
 
             <form>
-              <MDBRow className="row mt-4  justify-content-space-between align-items-center">
-                <MDBCol className="col-sm-6">
+              <MDBRow className="partnerflex row mt-4  justify-content-space-between align-items-center">
+                <MDBCol className=" col-sm-6">
                   <MDBInput
                     label="Salon Name"
                     type="text"
                     name="salonName"
-                    className="partnercheckB"
+                    className="partnercheckB "
                   />
                 </MDBCol>
 
-                <MDBCol className="col-sm-6">
+                <MDBCol className=" col-sm-6">
                   <MDBInput
                     label="Contact Person"
                     type="text"
                     name="contactPerson"
-                    className="partnercheckB"
+                    className="partnercheckB partnercolumnpading"
                   />
                 </MDBCol>
               </MDBRow>
-              <MDBRow className="row mt-4  justify-content-space-between align-items-center">
+              <MDBRow className="partnerflex row mt-4  justify-content-space-between align-items-center">
                 <MDBCol className="col-sm-6">
                   <MDBInput
                     label="Contact Email"
@@ -70,11 +70,12 @@ export default function PartnerForm() {
                     label="Contact Number"
                     type="tel"
                     name="contactNumber"
-                    className="partnercheckB"
+                    className="partnercheckB partnercolumnpading"
+                    
                   />
                 </MDBCol>
               </MDBRow>
-              <MDBRow className="row mt-4  justify-content-space-between align-items-center">
+              <MDBRow className="partnerflex row mt-4  justify-content-space-between align-items-center">
                 <MDBCol className="col-sm-6">
                   <MDBInput
                     label="Location/Address"
@@ -88,11 +89,11 @@ export default function PartnerForm() {
                     label="Share the Google Maps Link"
                     type="text"
                     name="googleMapsLink"
-                    className="partnercheckB"
+                    className="partnercheckB partnercolumnpading"
                   />
                 </MDBCol>
               </MDBRow>
-              <MDBRow className="row mt-4  justify-content-space-between align-items-center">
+              <MDBRow className="partnerflex row mt-4  justify-content-space-between align-items-center">
                 <MDBCol className="col-sm-6">
                   <label>Years in Business:</label>
                   <select
@@ -106,9 +107,9 @@ export default function PartnerForm() {
                   </select>
                 </MDBCol>
                 <MDBCol className="col-sm-6">
-                  <label>Number of Stylists/Professionals:</label>
+                  <label className="partnercolumnpading">Number of Stylists/Professionals:</label>
                   <select
-                    className="browser-default custom-select"
+                    className="browser-default custom-select "
                     name="numOfStylists"
                   >
                     <option value="1-5">1-5</option>
@@ -118,8 +119,9 @@ export default function PartnerForm() {
                   </select>
                 </MDBCol>
               </MDBRow>
+              
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label pb-5>Services Offered :</label>
+                <label className="partnermain-label">Services Offered :</label>
                 <MDBCol className="col-sm-10 d-flex flex-wrap ">
                   <div className="form-check form-check-inline">
                     <input
@@ -129,13 +131,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Hair
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -143,13 +145,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Makeup
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -157,13 +159,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Nails
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -171,13 +173,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       Skin Care
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -185,7 +187,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       Other
@@ -202,7 +204,7 @@ export default function PartnerForm() {
               </MDBRow>
 
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label pb-5>
+                <label  className="partnermain-label ">
                   Are you familiar with AI and AR technologies?{" "}
                 </label>
                 <MDBCol className="col-sm-10 d-flex flex-wrap ">
@@ -214,13 +216,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Yes
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -228,13 +230,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Somewhat
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -242,7 +244,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       No
@@ -252,7 +254,7 @@ export default function PartnerForm() {
               </MDBRow>
 
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label pb-5>
+              <label  className="partnermain-label ">
                   Have you worked with online platforms before? If yes, please
                   provide details:
                 </label>
@@ -265,7 +267,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Yes, on [
@@ -285,7 +287,7 @@ export default function PartnerForm() {
                       ]
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -293,7 +295,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       No, this is our first online venture
@@ -302,7 +304,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label pb-5>
+              <label  className="partnermain-label ">
                   What is your preferred method of customer engagement and
                   communication?{" "}
                 </label>
@@ -315,13 +317,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Social media
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -329,13 +331,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Email newsletters
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -343,13 +345,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Text messages
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -357,13 +359,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       Phone calls
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -371,7 +373,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       In-salon interactions
@@ -380,7 +382,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label pb-5>
+              <label  className="partnermain-label ">
                   Are you open to offering exclusive deals through our platform?
                 </label>
                 <MDBCol className="col-sm-10 d-flex flex-wrap ">
@@ -392,13 +394,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Yes
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -406,7 +408,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       No
@@ -415,7 +417,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label>
+              <label  className="partnermain-label ">
                   How do you prioritize customer satisfaction in your salon?
                 </label>
                 <MDBCol className="col-sm-10 d-flex flex-wrap ">
@@ -427,13 +429,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Listening to customer feedback
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -441,13 +443,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Tailoring services to individual needs
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -455,13 +457,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Providing a comfortable and welcoming atmosphere
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -469,7 +471,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       Other
@@ -485,7 +487,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label>
+              <label  className="partnermain-label ">
                   What motivated you to consider joining our aggregator
                   platform?
                 </label>
@@ -498,13 +500,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Access to a wider customer base
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -512,13 +514,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Embracing technological innovation
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -526,7 +528,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Collaborating with like-minded professionals
@@ -535,7 +537,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label>
+                <label  className="partnermain-label ">
                   Are you excited about the possibility of expanding your client
                   base through technology?
                 </label>
@@ -548,13 +550,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Very excited
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -562,13 +564,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Somewhat excited
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -576,13 +578,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       Neutral
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -590,7 +592,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="flexCheckChecked"
                     >
                       Not excited
@@ -599,7 +601,7 @@ export default function PartnerForm() {
                 </MDBCol>
               </MDBRow>
               <MDBRow className=" partnerCB row mt-4 justify-content-start align-items-center">
-                <label>
+              <label  className="partnermain-label ">
                   Would you be interested in participating in promotional events
                   or collaborations?
                 </label>
@@ -612,13 +614,13 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3  fs-6 fw-normal"
+                      className="form-check-label me-3   fw-normal"
                       for="inlineCheckbox1"
                     >
                       Yes
                     </label>
                   </div>
-                  <div className="form-check form-check-inline">
+                  <div class="form-check form-check-inline">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -626,7 +628,7 @@ export default function PartnerForm() {
                       id="flexCheckChecked"
                     />
                     <label
-                      className="form-check-label me-3 fs-6 fw-normal"
+                      className="form-check-label me-3  fw-normal"
                       for="inlineCheckbox1"
                     >
                       No
@@ -634,24 +636,26 @@ export default function PartnerForm() {
                   </div>
                 </MDBCol>
               </MDBRow>
-              <MDBRow className=" row mt-4 justify-content-start align-items-center">
-                <label>
+              <MDBRow className=" pcontentdiv mt-4 ">
+              <label  className="partnermain-label ">
                   Is there any additional information you'd like to share with
                   us?
                 </label>
+                <div className="Ptextarea form-outline mb-4">
                 <MDBRow>
-                  <div className="form-outline mb-4">
+                  
                     <MDBTextArea
                       label="Listening to customers feedback"
                       className="Ptextarea"
                       id="form4Example3"
                       rows="4"
                     />
-                  </div>
+            
                 </MDBRow>
+                </div>
               </MDBRow>
 
-              <div className="mt-5 text-center">
+              <div className="pmargin  text-center">
                 <MDBBtn type="submit">Submit</MDBBtn>
               </div>
             </form>

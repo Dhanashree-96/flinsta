@@ -1,0 +1,1397 @@
+@media (min-width: 320px) and (max-width: 555px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+  }
+
+  /* header */
+  .headerLogo {
+    width: 100px;
+  }
+
+  .dropdown-btn span {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    padding-top: 10px;
+  }
+
+  /* login */
+
+  .backArrowlogin {
+    display: none;
+    top: 10%;
+    right: 70%;
+  }
+
+
+
+  .allLog {
+    margin-bottom: 0;
+  }
+
+  .alllogincontent {
+    line-height: 15px;
+
+  }
+
+  .alllogincontent h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height:0; */
+
+  }
+
+  .alllogincontent span {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .listcontainer li {
+    font-size: 12px;
+  }
+
+  .forbusiness-page {
+    width: 100%;
+  }
+
+  /* Home Page Linsta */
+
+  .headerDiv {
+    width: 100%;
+  }
+
+  .homeText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: row wrap;
+  }
+
+  .homeText h2 {
+    font-size: 30px;
+  }
+
+  .homeDiv {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .input-rowsearch {
+    flex-direction: column;
+  }
+
+  .homeSearch_bar,
+  .Search_sec {
+    width: 100%;
+    border: none;
+    background: none;
+    overflow-x: hidden;
+  }
+
+  .homeSearch_bar {
+    margin: 0;
+  }
+
+  .Search_sec {
+    border: 1px solid rgb(169, 168, 168);
+    border-radius: 5px;
+  }
+
+  .Search_sec {
+    background: #fff;
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .inputsearchdiv {
+    padding: 5px;
+    padding-left: 0;
+  }
+
+  .search_button {
+    padding: 0;
+    display: none;
+  }
+
+  .sear_button_text {
+    /* padding: 7px 18px; */
+    font-size: 15px;
+    margin: 5px 15px;
+  }
+
+  .Homesearch-icon-label,
+  .Homesearch-icon {
+    margin-right: 5px;
+    padding-right: 0;
+  }
+
+  .Search_sec2 {
+    display: none;
+  }
+
+  .scanDiv {
+    flex-direction: column;
+  }
+
+  .partnerDiv,
+  .phnScan,
+  .downloadDiv {
+    width: 100%;
+  }
+
+  .partnerH2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .partnerLink {
+    margin-top: 10px;
+  }
+
+  .partnerText {
+    font-size: 20px;
+    padding: 5px 15px;
+  }
+
+  .scanBg {
+    border-radius: 30px;
+  }
+
+  .downloadImg {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0 ;
+    margin:  0 10px;
+    justify-content: space-between;
+    /* gap: 10px; */
+  }
+
+  .downloadLogo {
+    padding: 0;
+  }
+
+  .downloadImg img {
+    width: 45%;
+    object-fit: contain;
+  }
+
+  .SaloonCards-Section {
+    width: 100%;
+  }
+
+  .glasscard_para {
+    padding-bottom: 40px;
+  }
+
+  .five_Star {
+    padding-bottom: 10px;
+  }
+
+  .arrowCustom {
+    display: none;
+    /* Hide arrow buttons */
+  }
+
+  .S_Card {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .S_Card:hover {
+    opacity: 1;
+  }
+
+  .S_logo {
+    margin: 15px;
+  }
+
+  .S_info{
+    padding-bottom: 15px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .Footer_sec {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Footer_part1,
+  .Footer_part2,
+  .Footer_part3,
+  .Footer_part4,
+  .Footer_Fac {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .Footer_part2,
+  .Footer_part3,
+  .Footer_part4 {
+    margin-top: 30px;
+  }
+
+  .Copyright,
+  .Copyright_inn {
+    flex-direction: column;
+  }
+
+  .Copyright_inn{
+    padding: 2px 20px;
+  }
+
+  .Copyright h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c4c4c4;
+  }
+
+  .Social_logo {
+    width: 30px;
+    height: auto;
+  }
+
+  /* Decadence  */
+  .Decadencesearch {
+    padding: 10px;
+  }
+
+  .Decadencesearch .Search_sec {
+    border: 1px solid #000;
+  }
+
+  .Decades_img_box {
+    padding: 15px;
+  }
+
+  .Decades_top_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Decades_title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Decades_title text {
+    display: flex;
+    flex-flow: row wrap;
+    line-height: normal;
+    padding: 5px;
+  }
+
+  .Decades_title span {
+    padding: 10px 10px;
+  }
+
+  .Decades_logos {
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 0;
+  }
+
+  .Decades_circle_icon {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .shareIcon,
+  .heartIon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+
+  .Dec_Saloon_imges {
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Dec-container1 {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .DSaloon_img1 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .Dec-container2 {
+    width: 100%;
+    height: 250px;
+    flex-direction: row;
+  }
+
+  .DSaloon_img2 {
+    padding: 5px;
+  }
+
+  .Seealldecadence {
+    position: absolute;
+    margin: 10px;
+  }
+
+  /* services */
+  .Decades_bottom_section {
+    flex-direction: column;
+  }
+
+  .Decades_bottom_left {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .DecService_color {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .service {
+    padding-right: 0;
+  }
+
+  .seeAllbtn {
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+
+  .seeall_buton {
+    font-size: 15px;
+    font-weight: 700;
+
+    margin: 0;
+  }
+
+  .SeeAll_btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .Teams_section text {
+    padding: 10px 0;
+  }
+
+  .images_sec_1 {
+    padding-left: 0;
+  }
+
+  .Con_paragraph p {
+    font-size: 10px;
+  }
+
+  .Con_head text {
+    font-size: 15px;
+  }
+
+  .Con_head span {
+    font-size: 10px;
+  }
+
+  .contentHeading text {
+    font-size: 15px;
+  }
+
+  .contentHeading p {
+    font-size: 10px;
+  }
+
+  /* teams section */
+  .Teams_images {
+    width: 33%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamImg {
+    width: 80%;
+    height: 80px;
+    object-fit: cover;
+  }
+
+  .team_smallbox {
+    -moz-appearance: textfield;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  .team_smallbox::-webkit-outer-spin-button,
+  .team_smallbox::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .Teams_section {
+    padding: 10px 0;
+  }
+
+  .Teams_section text {
+    padding: 10px 0;
+    padding-bottom: 0;
+  }
+
+  .box-body {
+    visibility: hidden;
+  }
+
+  .team_smallbox {
+    width: 40%;
+  }
+
+  .team_smallbox text {
+    font-size: 10px;
+  }
+
+  .text_Name {
+    width: 100%;
+    padding-top: 5px;
+  }
+
+  .teamPara p {
+    width: 100%;
+    line-height: none;
+  }
+
+  .teamTxt {
+    padding: 0;
+  }
+
+  .text_Name p {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .text_Name h2 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* review section */
+  .Review_sec_1 text {
+    padding-top: 10px;
+  }
+
+  .Star_review text,
+  .Star_review span {
+    font-size: 15px;
+  }
+
+  .Star_review {
+    padding: 0 10px;
+  }
+
+  .Review_images {
+    width: 100%;
+  }
+
+  .review_image1 {
+    width: 15%;
+    height: 40px;
+  }
+
+  .review_textbox span {
+    font-size: 10px;
+  }
+
+  .review_textbox text {
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .reviewstar_rating span {
+    font-size: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .review_textbox {
+    padding: 0 10px;
+  }
+
+  .reviewstar_rating p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+
+  .reviewstar_rating {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  /* map section */
+  .Map_paragraph {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .iframe_section iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  .MapAdd_Section text {
+    font-size: 15px;
+  }
+
+  .Map_paragraph p {
+    font-size: 10px;
+  }
+
+  .seeall_buton {
+    font-size: 12px;
+  }
+
+  .MapAdd_Section {
+    padding: 0;
+  }
+
+  .iframe_section {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* opening times in decade */
+  .days_head h4 {
+    font-weight: 550;
+  }
+
+  .Opening_Section {
+    flex-direction: column;
+  }
+
+  .opening_times {
+    width: 100%;
+  }
+
+  .open_days,
+  .open_timing {
+    padding: 0 20px;
+  }
+
+  .Additional_information {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  /* opening times */
+  .days_head h4 {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .open_days p,
+  .open_timing p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  /* decades footer */
+
+  .Footer_Fac_desc p {
+    font-size: 13px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .Footer_part2,
+  .Footer_part3,
+  .Footer_part4 {
+    margin-top: 10px;
+  }
+
+  .Footer_Fac_Socialions {
+    padding-top: 5px;
+  }
+
+  .Footer_sec h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .Footer_WorkingHours {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .Footer_WorkingHours h1,
+  .Footer_Contactus h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .mobFooter_WorkingHours p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  } */
+
+  .mobFooter_WorkingHours h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .Footer_WorkingHours p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .Footer_part3 {
+    margin-bottom: 10px;
+  }
+
+  .Footer_Contactus p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  /* Decades_bottom_right */
+
+  .Decades_bottom_right {
+    width: 100%;
+    padding: 0 15px;
+    /* margin-top: 25px; */
+  }
+
+  .DecadesLeft_title h1 {
+    font-size: 20px;
+  }
+
+  .DecadesLeft_content span {
+    font-size: 15px;
+  }
+
+  .SerFeatured_Buttons {
+    gap: 10px;
+    padding: 5px 0;
+  }
+
+  .bookBtn {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .dec-bottomsec {
+    padding: 10px 0;
+  }
+
+  .Decades_bottom_section3 {
+    padding: 10px;
+  }
+
+  .Decades_bottom_section3 text {
+    font-size: 15px;
+  }
+
+  .Decades_bottom_section3 p {
+    font-size: 12px;
+  }
+
+  .Buy_buton {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+
+  .buy_buton {
+    border-radius: 5px;
+  }
+
+  .featureBtn,
+  .dealsBtn {
+    font-size: 15px;
+  }
+
+  .Dec_bottom_section1 {
+    padding: 10px;
+  }
+
+  /* see all images */
+  .SeeallImages_main {
+    width: 100%;
+  }
+
+  .Dec_seeall_imges {
+    padding: 10px;
+    padding-top: 70px;
+  }
+
+  .SeeAllSallon_img1 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .SeeAllSallon_img2 {
+    height: 50vh;
+  }
+
+  .Seeallimagescloseicon {
+    right: 10px;
+    top: 10px;
+  }
+
+  .Gallary-Seeallimages p {
+    padding: 10px 0 0 20px;
+  }
+
+  .Slider_imagesAllDiv {
+    padding: 20px;
+  }
+
+  .slider-imageAll {
+    height: 80vh;
+  }
+
+  .slider_imageawrapper {
+    background: #fff;
+    padding: 50px 20px 0 20px;
+
+  }
+
+  .closeiconWhite {
+    color: #000;
+    right: 10px;
+    top: 5px;
+  }
+
+  .Slider_imagesAllDiv {
+    padding: 0;
+  }
+
+  .arrow-button {
+    position: fixed;
+    padding: 8px 9px;
+    left: 17px;
+    background: #ffffff;
+  }
+
+  .arrow-button2 {
+    position: fixed;
+    left: 300px;
+    padding: 8px 9px;
+    background: #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .Service_head1 {
+    padding-right: 0;
+  }
+
+  .Service_head1 ul li a {
+    padding: 10px 0;
+  }
+
+  .modal-content {
+    padding: 10px 30px;
+  }
+
+
+  /* Select Service Page */
+  .Page1_sections {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .Page1_Leftsection {
+    width: 100%;
+
+  }
+
+  .page_position {
+    width: 100%;
+  }
+
+  .All_Leftsection {
+    padding: 10px 0px 10px 20px;
+  }
+
+  .serviceList {
+    padding: 10px 30px 0px 0px;
+  }
+
+  .contentHeading {
+    padding: 10px 15px 20px 15px;
+  }
+
+  .Select_Service h2 {
+    font-weight: 600;
+    padding: 40px 20px 0 10px;
+  }
+
+  .arrow {
+    z-index: 99;
+  }
+
+  .serviceList ul li a {
+    padding: 10px 10px;
+  }
+
+  .Page1_Right {
+    padding: 15px;
+    width: 100%;
+  }
+
+  /* menu */
+  .dropdown-content li{
+    font-size: 12px;
+  }
+
+  .dropdown-backg{
+    background-color: #fff;
+  }
+
+  .dropdown-content li .menu_label{
+    padding: 5px 10px;
+  }
+
+  /* booking minn page css */
+  .Choose_OptionDiv {
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  .Bookan_Appointment text {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .Bookan_Appointment {
+    padding: 10px;
+  }
+
+  /* booking right side section */
+  /* .P_Right{
+  position: fixed ;
+  bottom: -60px;
+} */
+
+  .scrollRightside {
+  height: 40vh;
+
+}
+
+.stafArrow{
+  width: 100%;
+  background-color: #fff;
+}
+
+  .Page1_part2{
+  /* margin: 0 15px; */
+  padding: 10px;
+}
+
+  .closeicon {
+    display: none;
+  }
+
+  .Page1_part1 {
+    display: none;
+  }
+
+  .Page1_RightSection {
+    height: 42vh;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  /* .Page1_part3{
+   padding: 0 30px;
+} */
+
+  /* --------Select staff----------------------------- */
+  .Select_Service h2 {
+    font-size: 20px;
+  }
+
+  .staff_image1 {
+    width: 50%;
+    height: 80px;
+  }
+
+  .staff_textbox text {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .staff_textbox span {
+    font-size: 10px;
+  }
+
+  .page2lustar {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+  }
+
+  .staff_rating h4 {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  .forwardarrow {
+    font-size: 15px;
+  }
+
+  .staff_rating {
+    margin-right: 0;
+  }
+
+  .staff_textbox {
+    padding: 15px 0px;
+    width: 100%;
+  }
+
+  .staff-section {
+    margin-right: 15px;
+  }
+
+  /* calendar  */
+  .calendar .body .cell .number {
+    font-size: 15px;
+    padding: 5px 0;
+    margin: 0 5px;
+  }
+
+  .calendar .days {
+    font-size: 40%;
+    padding: 0;
+    --mdb-gutter-x: 0;
+  }
+
+  .TimeSelect_othersec text {
+    padding: 10px;
+  }
+
+  .calendar .body .cell {
+    height: 35px;
+  }
+
+  /* review in confirmation */
+  .reviewconfirm-card, .reviewconfirm-card2{
+    padding: 10px 0;
+  }
+
+  .Select_Service h2 {
+    font-size: 15px;
+  }
+
+  .reviewcon-div {
+    padding: 10px;
+  }
+
+  .reviewcon-div p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .reviewcon-div text {
+    font-size: 10px;
+    /* line-height:0; */
+  }
+
+  .confirm_form label {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+
+  .rconfirminputbox {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .rowconinputbox {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+
+  .ripple-surface {
+    padding: 5px 10px;
+  }
+
+  .confirm_promocode {
+    margin: 0 10px;
+    padding: 0;
+  }
+
+  .confirm_promocode label {
+    font-size: 12px;
+  }
+
+  .promobox {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .applyBtn {
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .Allrevconfirm_Leftsection {
+    padding: 10px;
+  }
+
+  /* membership */
+  .membership_wrapper {
+    width: 100%;
+  }
+
+  .membership_sections {
+    width: 100%;
+  }
+
+  .membership_Leftsection {
+    padding: 0 10px;
+  }
+
+  .membership_Leftsection {
+    width: 100%;
+  }
+
+  .membershipSelect_Service {
+    width: 80%;
+    margin-top: 0px;
+    background: none;
+    padding: 20px 0 10px 0;
+
+  }
+
+  .scrollmemberbiarrowicon,
+  .memberbiarrowicon {
+    /* padding: 0; */
+    margin: 18px 0px 0px 280px;
+  }
+
+  .Membership-Section {
+    padding: 10px;
+  }
+
+  .Membership-Sec1Div {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .Membership-desc {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .Membership-Sec1Div h3 {
+    font-size: 15px;
+  }
+
+  .Page1_Right2 {
+    width: 100%;
+    /* line-height:0; */
+  }
+
+  .P_Right {
+    width: 100%;
+    margin: 15px;
+    padding-right: 30px;
+  }
+
+  .Page1_RightSection2 {
+    margin: 0;
+    height: 50vh;
+  }
+
+  .stafImgright{
+    width: 100%;
+  }
+
+  .Voucher-Sec1Div {
+    padding: 10px;
+  }
+
+  .quantityicon {
+    font-size: 10px;
+  }
+
+  .voucher-contents {
+    font-size: 10px;
+  }
+
+  .quanty_heading {
+    font-size: 12px;
+  }
+
+  .voubottomtext {
+    width: 100%;
+  }
+
+  /* loggin all */
+  .loginForward {
+    display: none;
+  }
+
+  .InnerLog {
+    padding: 15px 0;
+  }
+
+  .InnerLog h2 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  /* modal form */
+  .readmorediv p {
+    font-size: 10px;
+  }
+
+  .readmorediv{
+    padding: 0 15px;
+  }
+
+  .consultations {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .consultations h1,
+  .consultations p,
+  .consultations span {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .btn-close {
+    font-size: 10px;
+  }
+
+  .Color_cons,
+  .consultation {
+    width: 90%;
+  }
+
+  .Add_Button {
+    width: 10%;
+  }
+
+  .consultation h4 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .consultation span {
+    font-size: 12px;
+  }
+
+  .consultation text {
+    font-size: 15px;
+    color: gray;
+  }
+  /* partner form */
+
+.P-Formwidth {
+  width: 100%;
+  margin: 0;
+  border-radius: 0px;
+}
+.partnermaindiv{
+  padding: 20px 10px;
+}
+.partnerflex{
+  display: flex;
+  flex-direction: column;
+}
+.partnercolumnpading{
+  margin-top: 25px;
+}
+.form-check-label{
+font-size: 13px;
+
+}
+.partnermain-label{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.Ptextarea{
+  width: 100%;
+}
+.pmargin{
+  margin: 0;
+}
+.pcontentdiv{
+  justify-content: center;
+  margin: 0;
+}
+/* Customer Login flow */
+
+  /* login page */
+  .hundredwidth {
+    width: 100%;
+    padding: 0;
+  }
+  .paddingzero {
+    padding: 0px;
+    width: 100%;
+  }
+  .loginchechlabel label {
+    font-size: 13px;
+  }
+  .forgetpasss {
+    font-size: 13px;
+  }
+  .businesshr .hr-lines {
+    max-width: 500px;
+  }
+
+  .businesshr .hr-lines:before {
+    width: 110px;
+  }
+
+  .businesshr .hr-lines:after {
+    width: 110px;
+  }
+  .orparahead{
+    font-size: 12px;
+  }
+  .loginmargindiv{
+    margin: 0 0 0 20px;
+  }
+  .loginpic {
+    width: 100px;
+    height: 20px;
+}
+
+.loginformpic{
+  padding: 15px 0;
+}
+
+.paddingzero {
+  margin-top: 15px;
+}
+
+
+/* Signup page */
+ .hr-lines:before {
+  width: 115px;
+}
+.hr-lines:after {
+  width: 115px;
+}
+.signuppaddingdiv{
+  padding: 0 15px;
+}
+.backLoginForm{
+  display: none;
+
+}
+/* forget page  */
+.forgrtwrapper{
+  width:100%;
+}
+.errormsg{
+  font-size: 15px;
+  color:red;
+  margin-bottom: 0;
+}
+.smallloginformtext{
+  padding: 40px 30px;
+}
+.resetpassclss{
+  padding: 0 20px;
+}
+
+.para-login-text{
+  font-size: 15px;
+}
+
+.custom-list{
+  padding-left: 0;
+}
+
+.splash img{
+  width: 70%;
+}
+
+/* Select Language popup */
+.headerpopheading{
+  margin-left: 0;
+}
+.modal-content {
+  padding: 5px 0px;
+}
+.btn-close{
+  top:30px ;
+  font-size: 13px;
+  right: 20px;
+  color: #000;
+}
+.modal-header {
+  margin: 0;
+  padding: 0;
+}
+.modal-footer .Madalbutton{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer{
+  margin: 0;
+}
+
+.languageheaduingdiv, .modelparabody{
+  font-size: 15px;
+}
+
+.language-select-container{
+  font-size: 12px;
+}
+
+.Madalbutton button {
+  padding: 5px 10px;
+}
+
+.Madalbutton h6{
+   padding: 0;
+   margin: 0;
+}
+.modelparabody,.headerpopheading{
+  padding: 0;
+  margin: 0;
+}
+.modal-footer>* {
+  margin: 0;
+}
+
+}

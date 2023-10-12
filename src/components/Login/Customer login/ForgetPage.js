@@ -30,27 +30,28 @@ export default function ForgetPage() {
     const navigate = useNavigate();
 
       return (
-        <body className="forgetpagemaindiv bg-light  d-flex justify-content-center align-item-center">
-            <MDBContainer className="  rounded d-flex  justify-content-center align-item-center">
+        <body class="forgetpagemaindiv bg-light">
+             
+            <MDBContainer className="rounded d-flex  justify-content-center align-item-center"> 
+                <MDBCol className="hundredwidth  rounded d-flex  justify-content-center align-item-center">
                 <BiArrowBack
-                    className="backLoginForm fs-2 mt-4 ms-3 rounded  text-dark d-flex justify-content-start align-item-start"
+                    className="forget-backLoginForm fs-2 rounded  text-dark d-flex justify-content-start align-item-start"
                     onClick={() => navigate(-1)}
                 />
-                <MDBCol className="col-sm-6  rounded d-flex  justify-content-center align-item-center">
-                    <div className=" bg-light rounded shadow  w-75 px-3 pt-4 pb-5">
+                    <div className="forgrtwrapper  bg-light rounded shadow pt-4 pb-5">
                         <div className="loginformpic float-left">
                             <img src={logo} className="loginpic float-left" alt="logo" />
                         </div>
 
-                        <h2 className="loginformtext fs-3 fw-bold text-center p-5">
+                        <h2 className="smallloginformtext fs-3 fw-bold text-center p-5">
                             Forgot Password
                         </h2>
                         <form
-                            className="px-5 d-flex flex-column justify-content-center align-item-center"
+                            className="forgetpage-paddiv d-flex flex-column justify-content-center align-item-center"
                             onSubmit={handleSubmit}
                         >
                             <MDBInput
-                                wrapperClass=" mb-4"
+                                wrapperClass=""
                                 label="Email address"
                                 id="email"
                                 type="email"
@@ -60,9 +61,9 @@ export default function ForgetPage() {
                                 onChange={handleChange}
                                 onBlur={handleBlur}
                             />
-                           {errors.email && touched.email ? <p>{errors.email}</p> : null}
+                          {errors.email && touched.email ? <p className="forgerterrormsg text-danger">{errors.email}</p> : null}
 
-                            <MDBBtn className="mb-5" type="submit">
+                            <MDBBtn className="butttonmarginbottom mt-4" type="submit">
                                 <Link to="/forgetPassword" className="Forgetdiv">
                                     <text className="forgetsubmit text-dark">Submit</text>
                                 </Link>

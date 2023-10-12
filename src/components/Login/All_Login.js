@@ -19,17 +19,17 @@ export default function All_Login() {
       </div>
 
       <MDBContainer className="alllogin-container d-flex flex-column justify-content-center align-items-center ">
-        <h1 className="text-center mb-5 text-white">Log in or Sign Up</h1>
+        <h1 className="text-center mb-5 text-white allLog">Log in or Sign Up</h1>
         <div className="rounded d-flex flex-column justify-content-center align-items-center">
           <MDBCol className="alllog-colundiv rounded px-5 mb-5 col-lg-12 bg-light shadow d-flex flex-column justify-content-center">
             <Link to="/login" className="logforaEveryone ">
               <text className="alllogincontent text-dark">
                 <MDBRow>
-                  <MDBCol className="col-lg-9 ">
+                  <MDBCol className="col-lg-9 InnerLog">
                     <h2>For Salon Customer</h2>
                     <span className="me-5 ">Book salons and spas near you</span>
                   </MDBCol>
-                  <MDBCol className="col-lg-3 ">
+                  <MDBCol className="col-lg-3 loginForward">
                     <IoIosArrowRoundForward className="mx-5  mt-3 fs-1  " />
                   </MDBCol>
                 </MDBRow>{" "}
@@ -41,11 +41,11 @@ export default function All_Login() {
             <Link to="/forBusiness" className="logforaEveryone ">
               <text className="alllogincontent text-white">
                 <MDBRow>
-                  <MDBCol className="col-lg-9 ">
+                  <MDBCol className="col-lg-9 InnerLog">
                     <h2>For Business</h2>
                     <span className="me-5 ">Manage and grow your business</span>
                   </MDBCol>
-                  <MDBCol className="col-lg-3 ">
+                  <MDBCol className="col-lg-3 loginForward">
                     <IoIosArrowRoundForward className="mx-5  mt-3 fs-1  " />
                   </MDBCol>
                 </MDBRow>
@@ -56,7 +56,7 @@ export default function All_Login() {
 
           <div className="listcontainer w-100 d-flex justify-content-center ">
             <ul className="custom-list d-flex justify-content-center ">
-              <span className="GBDiv pt-1 pe-0 me-0">GB</span>
+              {/* <span className="GBDiv pt-1 pe-0 me-0">GB</span> */}
               <Link>
                 <li className="ps-0 ms-0 pe-2 custom-list-item list-unstyled">
                   <text>English</text>

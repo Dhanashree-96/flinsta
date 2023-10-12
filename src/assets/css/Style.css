@@ -20,7 +20,7 @@
     width: 100%;
 }
 
-.error{
+.error {
     color: red;
 }
 
@@ -46,6 +46,18 @@
 /* All Loggin */
 .alllog-colundiv {
     height: 150px;
+}
+
+.loginformpic{
+    padding: 25px 0;
+}
+
+.backLoginForm{
+    font-size: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
 .alllogin-container {
@@ -220,8 +232,14 @@
 
 /* login section */
 .loginformpic {
+    padding-top: 25px;
     display: flex;
     justify-content: center;
+}
+
+.forgrtwrapper  {
+    background-color: rgba(251, 251, 251, var(--mdb--bg-opacity));
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15) !important;
 }
 
 .loginpic {
@@ -578,6 +596,20 @@
     font-weight: 400;
 }
 
+.mobFooter_WorkingHours h1,
+.Footer_Contactus h1 {
+    padding-bottom: 10px;
+}
+.mobFooter_WorkingHours p {
+    width: 100%;
+    flex-shrink: 0;
+    color: #FAFAFA;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .Footer_WorkingHours h1,
 .Footer_Contactus h1 {
     padding-bottom: 10px;
@@ -796,9 +828,10 @@
 
 
 /* search bar */
-.externalsearch{
-    width:100%;
+.externalsearch {
+    width: 100%;
 }
+
 .Search_Section {
     width: 100%;
     display: flex;
@@ -885,30 +918,32 @@
     background: #333232;
 }
 
-  .search_button:hover,
-  .partnerText:hover {
+.search_button:hover,
+.partnerText:hover {
     background: #333232;
-  }
-  
-  .suggestions-dropdown {
+}
+
+.suggestions-dropdown {
     width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px;
     position: absolute;
-   background: #fff;
+    background: #fff;
     /* border: 1px solid #cbc8c8; */
     /* border-radius: 5px; */
     z-index: 20;
-  }
-  .suggestions-dropdown li {
+}
+
+.suggestions-dropdown li {
     list-style: none;
     padding: 5px 5px;
-  }
-  .suggestions-dropdown li:hover {
+}
+
+.suggestions-dropdown li:hover {
     background: #e7dfdf;
-  }
+}
 
 /* ------------------------------------------------------------ */
 
@@ -1527,7 +1562,7 @@ s .glasscard_heading {
 
 .Teams_images {
     width: 25%;
-    height: 230px;
+    /* height: 230px; */
     /* padding-bottom: 25px; */
     padding: 25px 20px;
     /* background: #0C1485; */
@@ -1606,7 +1641,7 @@ s .glasscard_heading {
     width: 200px;
     font-size: 14px;
     color: #797878;
-    line-height: 0px;
+
     /* background-color: blueviolet; */
 
 }
@@ -1620,7 +1655,7 @@ s .glasscard_heading {
     width: 200px;
     font-size: 14px;
     color: #797878;
-    line-height: 0px;
+
 }
 
 
@@ -2450,7 +2485,7 @@ iframe {
     padding: 0 100px;
 }
 
-.selectser-BOOKBUTTON button{
+.selectser-BOOKBUTTON button {
     border: none;
 }
 
@@ -2475,6 +2510,7 @@ iframe {
     font-size: 20px;
 
 }
+
 .hiddenselectser {
     width: 100%;
     /* background: #020202; */
@@ -2518,6 +2554,7 @@ iframe {
     flex-flow: row wrap;
     position: relative;
 }
+
 .Page1_Right2 {
     width: 40%;
     display: flex;
@@ -2561,7 +2598,7 @@ iframe {
 }
 
 
-.scrollRightside{
+.scrollRightside {
     height: 43vh;
     overflow-y: auto;
 }
@@ -2811,7 +2848,7 @@ iframe {
     background-color: #FFF;
 }
 
-.rightAppointName p{
+.rightAppointName p {
     font-size: 10px;
     padding-bottom: 10px;
 }
@@ -2864,7 +2901,9 @@ select {
 }
 
 .P-Formwidth {
-    width: 60%;
+    width: 50%;
+    margin: 50px;
+    border-radius: 10px;
 }
 
 .exampleFormControlTextarea1 {
@@ -2968,19 +3007,20 @@ select {
     color: black;
     font-size: 80%;
     /* padding: 0.75em 0; */
-    padding: 10px 12px ;
+    padding: 10px 12px;
 }
 
-.detailsCalendarRight{
+.detailsCalendarRight {
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
     margin: 10px 15px;
 }
 
-.calendarIcon{
+.calendarIcon {
     font-size: 30px;
     margin: 0 18px;
 }
+
 .calendar .body .cell {
     position: relative;
     height: 4em;
@@ -3569,7 +3609,7 @@ select {
 .modal-content {
     display: flex;
     justify-content: flex-start;
-    padding: 20px 35px;
+    padding: 20px 40px;
 }
 
 .languageheaduingdiv {
@@ -3581,7 +3621,7 @@ select {
 
 .headerpopheading {
     padding-top: 5px;
-    margin-left: 100px;
+    margin-left: 0px;
     color: #000;
 }
 
@@ -3712,30 +3752,31 @@ select {
     justify-content: center;
     flex-flow: row wrap;
     background-color: white;
-  }
-  
-  .membership_sections {
+}
+
+.membership_sections {
     width: 60%;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-  }
-  
-  .membership_Leftsection {
+}
+
+.membership_Leftsection {
     width: 60%;
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
     padding: 0 30px;
-  }
-  
-  .Member_Leftsection {
+}
+
+.Member_Leftsection {
     width: 100%;
     display: flex;
     flex-direction: column;
     /* padding: 20px 80px 10px 60px; */
-  }
-  .Membership-Section {
+}
+
+.Membership-Section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -3744,71 +3785,73 @@ select {
     padding: 30px 30px;
     border-radius: 15px;
     margin: 80px 0 30px 0;
-  
-  }
-  .memberbiarrowicon {
+
+}
+
+.memberbiarrowicon {
     font-size: 35px;
     padding: 5px;
     margin: 18px 0px 0px 320px;
-  
-  }
-  
-  .memberbiarrowicon:hover {
+
+}
+
+.memberbiarrowicon:hover {
     background-color: #efeeee;
     border-radius: 10px;
     margin: 18px 0px 0px 320px;
-  }
-  
-  .membershipSelect_Service1 h2 {
+}
+
+.membershipSelect_Service1 h2 {
     background: #fff;
     margin-top: 60px;
     font-size: 33px;
     font-weight: 600;
     color: #000;
-    
-  }
-  
-  
-  .Membership-Sec1Div {
+
+}
+
+
+.Membership-Sec1Div {
     width: 100%;
     padding: 15px 35px;
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
     background: rgb(22, 119, 221);
-    background: linear-gradient(
-      176deg,
-      rgba(22, 119, 221, 1) 92%,
-      rgba(29, 122, 225, 1) 100%,
-      rgb(234, 231, 231) 80%
-    );
+    background: linear-gradient(176deg,
+            rgba(22, 119, 221, 1) 92%,
+            rgba(29, 122, 225, 1) 100%,
+            rgb(234, 231, 231) 80%);
     border: 1px solid rgb(209, 204, 204);
     border-radius: 15px;
     margin-bottom: 20px;
-  }
-  .businesstime {
+}
+
+.businesstime {
     font-size: 25px;
     color: #fff;
     margin-right: 10px;
-  }
-  .Membership-Sec1Div text,
-  .Membership-Sec1Div h3 {
+}
+
+.Membership-Sec1Div text,
+.Membership-Sec1Div h3 {
     color: #fff;
-  }
-  
-  .Membership-desc {
+}
+
+.Membership-desc {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-  }
-  
-  /* voucher  */
-  .vourmaindiv {
+}
+
+/* voucher  */
+.vourmaindiv {
     width: 100%;
-  }
-  .Voucher-Sec1Div {
+}
+
+.Voucher-Sec1Div {
     width: 100%;
     padding: 25px;
     position: relative;
@@ -3821,55 +3864,66 @@ select {
     border: 1px solid rgb(209, 204, 204);
     border-radius: 15px;
     margin-bottom: 20px;
-  }
-  .membershipSelect_Service {
-    background-color: #fff; /* Initial background color when not scrolled */
+}
+
+.membershipSelect_Service {
+    background-color: #fff;
+    /* Initial background color when not scrolled */
     position: fixed;
     top: 0;
     /* left:0px; */
     width: 50%;
     display: flex;
     color: #000000;
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
     z-index: 1000;
     padding-top: 30px;
-  }
-  
-  .scrolled {
+}
+
+.scrolled {
     color: #000;
-    background-color: #ffffff; /* Background color when scrolled */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Optional: Add a box shadow for a subtle elevation effect */
-  }
-  .voucher_heading {
+    background-color: #ffffff;
+    /* Background color when scrolled */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    /* Optional: Add a box shadow for a subtle elevation effect */
+}
+
+.voucher_heading {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .Voucher-desc {
+}
+
+.Voucher-desc {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
-  }
-  .Voucher-desc2 {
+}
+
+.Voucher-desc2 {
     width: 100%;
     display: flex;
-  }
-  .Voucher-desc2 text {
+}
+
+.Voucher-desc2 text {
     font-size: 15px;
-  }
-  .voucher_heading h3 {
+}
+
+.voucher_heading h3 {
     font-weight: 550;
     color: #ffffff;
-  }
-  .Voucher-desc h6 {
+}
+
+.Voucher-desc h6 {
     font-weight: 700;
     color: #ffffff;
-  }
-  .circle-designvou {
+}
+
+.circle-designvou {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -3878,130 +3932,149 @@ select {
     top: 0;
     bottom: 0;
     margin: auto 0;
-  }
-  
-  .circle {
+}
+
+.circle {
     position: absolute;
-    width: 30px; /* Adjust the circle size as needed */
-    height: 30px; /* Adjust the circle size as needed */
-    background-color: rgb(
-      255,
-      255,
-      255
-    ); /* Set the background color of the circle */
+    width: 30px;
+    /* Adjust the circle size as needed */
+    height: 30px;
+    /* Adjust the circle size as needed */
+    background-color: rgb(255,
+            255,
+            255);
+    /* Set the background color of the circle */
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
-  }
-  
-  .circle.left,
-  .circle1.left {
-    left: -15px; /* Adjust the position to place it partially outside on the left */
-  }
-  
-  .circle.right,
-  .circle1.right {
-    right: -15px; /* Adjust the position to place it partially outside on the right */
-  }
-  
-  /* voucher add quantity */
-  .voucherhmain-heading {
+}
+
+.circle.left,
+.circle1.left {
+    left: -15px;
+    /* Adjust the position to place it partially outside on the left */
+}
+
+.circle.right,
+.circle1.right {
+    right: -15px;
+    /* Adjust the position to place it partially outside on the right */
+}
+
+/* voucher add quantity */
+.voucherhmain-heading {
     width: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .voucherhmain-heading h4 {
+}
+
+.voucherhmain-heading h4 {
     font-weight: 600;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-  .voucherhmain-heading text {
+}
+
+.voucherhmain-heading text {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .voucherhmain-headsec2 {
+}
+
+.voucherhmain-headsec2 {
     padding: 10px 0;
-  }
-  .voucherhmain-headsec2,
-  .voucher-contents,
-  .voucher-minus,
-  .voucher-add {
+}
+
+.voucherhmain-headsec2,
+.voucher-contents,
+.voucher-minus,
+.voucher-add {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 10px 0;
-  }
-  .voucher-add,
-  .voucher-minus,
-  .voucher-contents {
+}
+
+.voucher-add,
+.voucher-minus,
+.voucher-contents {
     border: 1px solid rgb(203, 199, 199);
     padding: 10px 0px;
     border-radius: 5px;
-  }
-  .voucher-add:hover,
-  .voucher-minus:hover {
+}
+
+.voucher-add:hover,
+.voucher-minus:hover {
     border: 1px solid #0c1485;
     background-color: rgb(228, 228, 228);
-  }
-  .voucher-minus {
+}
+
+.voucher-minus {
     width: 10%;
-  }
-  .voucher-contents {
+}
+
+.voucher-contents {
     width: 25%;
-  }
-  .voucher-contents text {
+}
+
+.voucher-contents text {
     background: #fff;
     color: #000;
-  }
-  .voucher-add {
+}
+
+.voucher-add {
     width: 10%;
-  }
-  .quantityicon {
+}
+
+.quantityicon {
     font-size: 25px;
     font-weight: 700;
     color: #000;
-  }
-  .vouchhoriz-line {
+}
+
+.vouchhoriz-line {
     width: 100%;
     border: 1px solid #ffffff;
-  }
-  
-  .quantyvoucher_heading {
+}
+
+.quantyvoucher_heading {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px 5px;
-  }
-  .quantyvoucher_heading h4 {
+}
+
+.quantyvoucher_heading h4 {
     font-weight: 600;
-  }
-  
-  .quantyvoucher_heading text {
+}
+
+.quantyvoucher_heading text {
     font-weight: 550;
-  }
-  .circle1 {
+}
+
+.circle1 {
     position: absolute;
-    width: 40px; /* Adjust the circle size as needed */
-    height: 40px; /* Adjust the circle size as needed */
-    background-color: rgb(
-      255,
-      255,
-      255
-    ); /* Set the background color of the circle */
+    width: 40px;
+    /* Adjust the circle size as needed */
+    height: 40px;
+    /* Adjust the circle size as needed */
+    background-color: rgb(255,
+            255,
+            255);
+    /* Set the background color of the circle */
     border-radius: 50%;
     top: 50%;
     transform: translateY(-50%);
-  }
-  
-  /* bottom button section  css */
-  .voucher-bottom-content {
-    position: sticky; /* or position: absolute; */
+}
+
+/* bottom button section  css */
+.voucher-bottom-content {
+    position: sticky;
+    /* or position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -4014,57 +4087,63 @@ select {
     justify-content: space-evenly;
     align-items: center;
     z-index: 10;
-  }
-  
-  .voucher-bottom-content button {
-    background-color: #1b1c1c; /* Button color */
+}
+
+.voucher-bottom-content button {
+    background-color: #1b1c1c;
+    /* Button color */
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
-  }
- 
-  .membeBottomBtn{
+}
+
+.membeBottomBtn {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-  }
+}
 
-  .voubottomtext {
+.voubottomtext {
     /* width: 50%; */
     display: flex;
     flex-direction: column;
-  }
-  
-  /* membership add quantity */
-  .Memb-signup{
-    width:100%;
+}
+
+/* membership add quantity */
+.Memb-signup {
+    width: 100%;
     padding: 10px 10px;
-  }
-  .membership-businestimetext {
+}
+
+.membership-businestimetext {
     display: flex;
-  }
-  .servicelink-voucher:hover {
+}
+
+.servicelink-voucher:hover {
     text-decoration: underline;
     color: #e0dfdf;
     cursor: pointer;
-  }
-  /* membership sign up to continue */
-  .scrollmemberbiarrowicon {
+}
+
+/* membership sign up to continue */
+.scrollmemberbiarrowicon {
     font-size: 35px;
     padding: 5px;
     margin: 18px 0px 0px 300px;
-  
-  }
-  .scrollmemberbiarrowicon:hover {
+
+}
+
+.scrollmemberbiarrowicon:hover {
     background-color: #efeeee;
     border-radius: 10px;
     /* margin: 18px 0px 0px 120px; */
-  }
-  .Membership-mainsignup{
+}
+
+.Membership-mainsignup {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -4073,12 +4152,13 @@ select {
     padding: 30px 20px;
     border-radius: 15px;
     margin-top: 20px;
-  }
-  .MemSignupBtn {
+}
+
+.MemSignupBtn {
     width: 100%;
-  }
-  
-  .MemBtn {
+}
+
+.MemBtn {
     width: 100%;
     background: #000;
     display: flex;
@@ -4087,83 +4167,96 @@ select {
     color: #fff;
     padding: 10px 0;
     border-radius: 10px;
-  }
-  .Membershiplogtext{
+}
+
+.Membershiplogtext {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .linkuderline :hover{
-    text-decoration:underline;
-  }
-   input[type=number] {
+}
+
+.linkuderline :hover {
+    text-decoration: underline;
+}
+
+input[type=number] {
     -moz-appearance: textfield;
-  }
-  /* Chrome, Safari, Edge, Opera */
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  
-  /* Voucher choose recipitent csss */
-  .recipitent-Section{
+}
+
+/* Voucher choose recipitent csss */
+.recipitent-Section {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     margin: 80px 0 30px 0;
-  
-  }
-  .recipitent-bordermain{
+
+}
+
+.recipitent-bordermain {
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
     border: 1px solid rgb(222, 219, 219);
     padding: 20px 30px;
     border-radius: 15px;
     margin-bottom: 10px;
-  }
-  .recipitent-bordermain:hover{
+}
+
+.recipitent-bordermain:hover {
     background: #f4f4f4;
-  }
-  .choose_recipi{
+}
+
+.choose_recipi {
     width: 80%;
     display: flex;
     align-items: center;
-  }
-  .choose_recipi text{
+}
+
+.choose_recipi text {
     font-size: 18px;
     font-weight: 500;
     color: #000;
     padding: 0 15px;
-  }
-  .recipitent_circle{
+}
+
+.recipitent_circle {
     width: 17%;
-  }
-  .user-recipient{
-   font-size: 60px;
-   color: #474646;
-   border: 1px solid rgb(227, 225, 225);
-   background: rgb(229, 234, 237);
-   border-radius: 50%;
-   object-fit: cover;
-   padding: 15px;
-  }
-  .voucherrecipforwd{
+}
+
+.user-recipient {
+    font-size: 60px;
+    color: #474646;
+    border: 1px solid rgb(227, 225, 225);
+    background: rgb(229, 234, 237);
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+.voucherrecipforwd {
     width: 20%;
     display: flex;
-    justify-content:flex-end ;
+    justify-content: flex-end;
     align-items: center;
-  }
-  /* Print as gift */
-  .voucher-bottom-content-fixed {
-    position: fixed; /* or position: absolute; */
+}
+
+/* Print as gift */
+.voucher-bottom-content-fixed {
+    position: fixed;
+    /* or position: absolute; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -4176,90 +4269,93 @@ select {
     justify-content: space-evenly;
     align-items: center;
     z-index: 10;
-  }
-  
-  .voucher-bottom-content-fixed button {
-    background-color: #1b1c1c; /* Button color */
+}
+
+.voucher-bottom-content-fixed button {
+    background-color: #1b1c1c;
+    /* Button color */
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
-  }
+}
 
-  /* =========================================================Admin panel code css ==================================================*/
+/* =========================================================Admin panel code css ==================================================*/
 
-  .app {
+.app {
     display: flex;
     flex-flow: row wrap;
-  }  
+}
 
-  .sidebar {
+.sidebar {
     width: 200px;
     background-color: thistle;
     padding: 20px;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     height: 90vh;
     overflow-y: auto;
-    transition: left 0.3s; 
-  }
+    transition: left 0.3s;
+}
 
-  .sidebar.closed {
-    left: -200px; /* Adjust the left value based on your sidebar width */
-  }
-  
-  /* Add styling for the toggle button */
+.sidebar.closed {
+    left: -200px;
+    /* Adjust the left value based on your sidebar width */
+}
 
-  .content {
+/* Add styling for the toggle button */
+
+.content {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-   
-  }
 
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .sidebar ul li a {
-    text-decoration: none;
-    color: #323131;
-  }
-
-  /* final admin code */
-  .liItems{
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .iconSidebar{
-    margin-top: 8px;
-    font-size: 25px;
-  }
-
-.MenuName{
-    margin-top: 10px;
-    color: #323131 ;
 }
 
-  .top_section{
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #323131;
+}
+
+/* final admin code */
+.liItems {
     display: flex;
     flex-flow: row wrap;
-  }
+}
 
-  /* admin header */
+.iconSidebar {
+    margin-top: 8px;
+    font-size: 25px;
+}
 
-  .sidebar-header {
+.MenuName {
+    margin-top: 10px;
+    color: #323131;
+}
+
+.top_section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* admin header */
+
+.sidebar-header {
     width: 100%;
     background-color: thistle;
     padding: 10px 0;
-   }
+}
 
-  .sidebar-header button {
+.sidebar-header button {
     cursor: pointer;
-  }
-  /* .header {
+}
+
+/* .header {
     width: 100%;
     background: #333;
     color: #fff;
@@ -4267,83 +4363,87 @@ select {
     box-sizing: border-box;
   } */
 
-  .headeradmin {
+.headeradmin {
     grid-area: header;
     background-color: #FFF;
     height: 60px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 0 30px 0 30px;
     /* gap:30px; */
     box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
-  }
+}
 
-.adminHeadList{
+.adminHeadList {
     display: flex;
     flex-flow: row wrap;
 }
 
-  .adminLogo img{
+.adminLogo img {
     height: 35px;
-  }
-  
-  .menu-icon {
-    display: none;    
-  }
-  .header-right{
+}
+
+.menu-icon {
+    display: none;
+}
+
+.header-right {
     display: flex;
-    gap:10px;
-  }
-  .admindropdown-content {
+    gap: 10px;
+}
+
+.admindropdown-content {
     margin-top: 18px;
     list-style: none;
     position: fixed;
-    right:30px;
+    right: 30px;
     z-index: 99;
     visibility: hidden;
     transform: translateY(-1em);
     transition: transform ease 0.3s;
-  }
-  
-  .menuCheckBox:checked ~ .admindropdown-content {
+}
+
+.menuCheckBox:checked~.admindropdown-content {
     visibility: visible;
     transform: translateY(0);
-  }
-  
-  .admindropdown-content li {
+}
+
+.admindropdown-content li {
     border-radius: 5px;
-  }
-  .admindropdown-content li:hover {
+}
+
+.admindropdown-content li:hover {
     background: #e9e9ea7f;
-  }
-  
-  .admindropdown-content li .menu_label {
+}
+
+.admindropdown-content li .menu_label {
     display: block;
     padding: 10px 50px;
     margin: 3px;
     text-decoration: none;
-  }
-  .adminmenucontent{
-    width:100%;
+}
+
+.adminmenucontent {
+    width: 100%;
     display: flex;
-    justify-content:flex-start ;
+    justify-content: flex-start;
     align-items: flex-start;
-  
-  }
-    
-  
-  .iconHeader{
+
+}
+
+
+.iconHeader {
     font-size: 25px;
     margin: 0 10px;
     color: darkslateblue;
-  }
-  
-  /* End Header  */
+}
 
-  /* Add form admin panel css */
-  .ADD-WrapperAdmin  {
+/* End Header  */
+
+/* Add form admin panel css */
+.ADD-WrapperAdmin {
     display: flex;
     /* min-height: 100vh; */
     min-width: 100%;
@@ -4351,19 +4451,119 @@ select {
     /* background: linear-gradient(297deg, rgba(179, 37, 76, 0.37) 4.79%, #D25678 80.81%); */
 }
 
-.AddTrashDiv{
+.AddTrashDiv {
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
 }
 
-.adminformIcon{
+.adminformIcon {
     font-size: 30px;
     margin: 0 5px;
 }
 
-.dashIcon{
+.dashIcon {
     color: rgb(106, 106, 106);
     font-size: 25px;
     margin: 0 5px;
 }
+
+/* search result page */
+.searchCards {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 1px double rgb(214, 211, 211); */
+    padding: 15px;
+    width: 30%;
+}
+
+.searchMaindiv {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.searchMap {
+    width: 70%;
+    height: 80vh;
+    margin-top: 15px;   
+}
+
+.fixMap{
+    width: 70%;
+    height: 70vh;
+    position: fixed;
+}
+
+.searchMap iframe {
+    width: 100%;
+    height: 70vh;
+    /* position: fixed; */
+    border: 1px solid rgb(175, 172, 172);
+}
+
+.Search_SectionResult {
+    background-color: #FFF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 30;
+}
+
+/* extra changes bootstrap to css */
+.paddingzero {
+    width: 75%;
+    padding: 50px;
+  }
+  .backLoginForm {
+    margin-left: 10px;
+  }
+  .loginmargindiv {
+    margin: 0 40px 0 50px;
+  }
+  .forgrtwrapper {
+    width: 35%;
+  }
+  .forget-backLoginForm {
+    position: absolute;
+    top: 14%;
+    left: 450px;
+  }
+  .forgetpage-paddiv {
+    padding: 0 40px;
+  }
+  .smallloginformtext {
+    padding: 50px 30px;
+  }
+  .resetpassclss {
+    padding: 0 50px;
+  }
+  
+  .butttonmarginbottom {
+    margin-bottom: 30px;
+  }
+  .partnermaindiv {
+    padding: 40px 50px;
+  }
+  .form-check-label {
+    font-size: 15px;
+  }
+  .partnermain-label {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .pcontentdiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .Ptextarea {
+    margin: 0 10px;
+  }
+
+  .pmargin {
+    margin-top: 30px;
+  }
