@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flinsta/static/css/main.5ff1bc52.css",
-    "main.js": "/flinsta/static/js/main.9ec10f2e.js",
+    "main.css": "/flinsta/static/css/main.3843cc7d.css",
+    "main.js": "/flinsta/static/js/main.e42cb37a.js",
     "static/js/787.c6042f44.chunk.js": "/flinsta/static/js/787.c6042f44.chunk.js",
     "static/media/AritistAlv.jpg": "/flinsta/static/media/AritistAlv.bf96e4a5da996e68630b.jpg",
     "static/media/reviewImg.png": "/flinsta/static/media/reviewImg.e1d6c1e4fd87d26e76d8.png",
@@ -42,18 +42,19 @@
     "static/media/man square  img.jpg": "/flinsta/static/media/man square  img.dd6ae7dc4eaa08561aef.jpg",
     "static/media/Huckle The Barber Lambs Conduit.avif": "/flinsta/static/media/Huckle The Barber Lambs Conduit.80da675d2e5ba651ce83.avif",
     "static/media/ELP Barbershop.avif": "/flinsta/static/media/ELP Barbershop.62d3f61316a2dd0740e8.avif",
+    "static/media/threads-logo.jpeg": "/flinsta/static/media/threads-logo.11bd11d4bfce9fba2ad7.jpeg",
     "static/media/App Store logo.png": "/flinsta/static/media/App Store logo.dd53efd79d32f428c553.png",
     "static/media/Thai Studio High St Kensington.avif": "/flinsta/static/media/Thai Studio High St Kensington.82c347950fbc56f9e4b8.avif",
     "static/media/Google Play logo.png": "/flinsta/static/media/Google Play logo.73750c3a923126c546d5.png",
     "static/media/sessiontime out.jpg": "/flinsta/static/media/sessiontime out.35ca6149b1c8ce4a488d.jpg",
     "static/media/BarberSmiths Marylebone.avif": "/flinsta/static/media/BarberSmiths Marylebone.81128a979a66c6a09fa3.avif",
     "index.html": "/flinsta/index.html",
-    "main.5ff1bc52.css.map": "/flinsta/static/css/main.5ff1bc52.css.map",
-    "main.9ec10f2e.js.map": "/flinsta/static/js/main.9ec10f2e.js.map",
+    "main.3843cc7d.css.map": "/flinsta/static/css/main.3843cc7d.css.map",
+    "main.e42cb37a.js.map": "/flinsta/static/js/main.e42cb37a.js.map",
     "787.c6042f44.chunk.js.map": "/flinsta/static/js/787.c6042f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ff1bc52.css",
-    "static/js/main.9ec10f2e.js"
+    "static/css/main.3843cc7d.css",
+    "static/js/main.e42cb37a.js"
   ]
 }
